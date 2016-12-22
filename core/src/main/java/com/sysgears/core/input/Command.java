@@ -21,7 +21,9 @@ public enum Command {
      * Command to split file into parts.
      */
     SPLIT("split"){
-        public void apply(final InputDataHolder inputDataHolder, final ExecutorService executorService, final Controller controller) throws IOException {
+        public void apply(final InputDataHolder inputDataHolder,
+                          final ExecutorService executorService,
+                          final Controller controller) throws IOException {
             StatisticService statistic = new StatisticServiceImpl();
             Splitter splitter = new Splitter(executorService);
             File fileIn = inputDataHolder.getFile();
@@ -35,7 +37,9 @@ public enum Command {
      * Command to quit program.
      */
     EXIT("exit") {
-        public void apply(final InputDataHolder inputDataHolder, final ExecutorService executorService, final Controller controller) throws IOException {
+        public void apply(final InputDataHolder inputDataHolder,
+                          final ExecutorService executorService,
+                          final Controller controller) throws IOException {
             executorService.shutdownNow();
             controller.sendMessage("Good by!");
             controller.getWriter().close();
@@ -90,9 +94,13 @@ public enum Command {
     /**
      * @throws IOException
      */
-    public abstract void apply(final InputDataHolder inputDataHolder, final ExecutorService executorService, final Controller controller) throws IOException;
+    public abstract void apply(final InputDataHolder inputDataHolder,
+                               final ExecutorService executorService,
+                               final Controller controller) throws IOException;
 
-    protected void printStatistic(final ExecutorService executorService, final StatisticService statistic, final Controller controller){
+    protected void printStatistic(final ExecutorService executorService,
+                                  final StatisticService statistic,
+                                  final Controller controller){
         while (((ThreadPoolExecutor) executorService).getActiveCount() > 0) {
             try {
                 TimeUnit.MILLISECONDS.sleep(statistic.STATISTIC_SHOW_TIMEOUT);
