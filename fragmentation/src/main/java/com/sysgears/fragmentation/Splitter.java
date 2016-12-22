@@ -60,6 +60,7 @@ public class Splitter {
      * @param maxPartSize  size of parts that need to split a file.
      */
     public void split(final StatisticService statistic, final File originalFile, final long maxPartSize) {
+
         long fullSize = originalFile.length();
         statistic.setFullExpectedSize(fullSize);
         int partCounter = 0;

@@ -1,10 +1,13 @@
 package com.sysgears.core.input;
 
 import com.sysgears.controller.Controller;
+import com.sysgears.core.MainClass;
 import com.sysgears.core.exceptions.InputException;
 import com.sysgears.fragmentation.Splitter;
 import com.sysgears.statistic.StatisticService;
 import com.sysgears.statistic.StatisticServiceImpl;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.io.IOException;
@@ -46,6 +49,7 @@ public enum Command {
         }
     };
 
+    public static final Logger LOG = LogManager.getLogger(MainClass.class);
 
     /**
      * String value of command.
@@ -86,6 +90,7 @@ public enum Command {
             }
         }
         if (command == null) {
+            LOG.error("Command '" + value + "' is not supported");
             throw new InputException("Command '" + value + "' is not supported");
         }
         return command;
