@@ -11,6 +11,8 @@
     <modules>
         <module>controller</module>
         <module>core</module>
+        <module>statistic</module>
+        <module>fragmentation</module>
     </modules>
 
 
