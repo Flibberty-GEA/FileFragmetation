@@ -5,7 +5,7 @@ package com.sysgears.statistic;
  */
 public interface StatisticService {
 
-    long STATISTIC_SHOW_TIMEOUT = 100;
+    long STATISTIC_SHOW_TIMEOUT = 1000;
 
     /**
      * Sets expected size.

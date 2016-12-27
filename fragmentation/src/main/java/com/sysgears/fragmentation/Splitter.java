@@ -78,5 +78,6 @@ public class Splitter {
             executorService.execute(task);
             partCounter++;
         }
+//        executorService.shutdownNow();
     }
 }

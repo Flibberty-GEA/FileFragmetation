@@ -14,10 +14,11 @@ import java.io.IOException;
  * Main class of application.
  */
 public class MainClass {
+//    -c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.txt -s 100M
 //    -c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M
 //    -c exit
 
-    public static final Logger LOG = LogManager.getLogger(MainClass.class);
+    public static final Logger log = LogManager.getLogger(MainClass.class);
 
     /**
      * Main method of application.
@@ -27,14 +28,17 @@ public class MainClass {
      */
     public static void main(String[] args) throws IOException {
 
-        LOG.info("Start program.");
+        log.info("Start program.");
 
         try {
             final Controller controller = new StreamController(System.in, System.out);
             final InputDataParser inputDataParser = new ApacheCliParser();
-            new MyMainExecutor(controller, inputDataParser, 2).execute();
+
+            log.info("Initialize AppExecutor and execute it.");
+
+            new AppExecutor(controller, inputDataParser, 2).execute();
         } catch (Throwable t) {
-            LOG.fatal(t.getMessage(), t);
+            log.fatal(t.getMessage(), t);
         }
     }
 }

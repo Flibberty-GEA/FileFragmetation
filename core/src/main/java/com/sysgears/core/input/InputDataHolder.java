@@ -34,7 +34,7 @@ public class InputDataHolder {
         if (pathValue == null || !new File(pathValue).exists()) {
             file = null;
 //            throw new InputException("Incorrect path name");
-        } else this.file = new File(pathValue);
+            } else this.file = new File(pathValue);
         String sizeValue = cmd.getOptionValue("s");
 
         if (sizeValue != null){

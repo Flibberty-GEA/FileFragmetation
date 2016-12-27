@@ -27,10 +27,20 @@ public enum Command {
         public void apply(final InputDataHolder inputDataHolder,
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
+
+            LOG.info("Initialize StatisticService.");
+
             StatisticService statistic = new StatisticServiceImpl();
+
+            LOG.info("Initialize Splitter and File");
+
             Splitter splitter = new Splitter(executorService);
             File fileIn = inputDataHolder.getFile();
+
             long partSize = inputDataHolder.getSize();
+
+            LOG.info("Initialize size of parts. Size = " + partSize);
+
             splitter.split(statistic, fileIn, partSize);
             this.printStatistic(executorService, statistic, controller);
         }
@@ -44,12 +54,14 @@ public enum Command {
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
             executorService.shutdownNow();
+            LOG.info("Attempts to stop all actively executing tasks, halts the processing of waiting tasks.");
             controller.sendMessage("Good by!");
             controller.getWriter().close();
+            LOG.info("Close BufferedWriter of stream Controller.");
         }
     };
 
-    public static final Logger LOG = LogManager.getLogger(MainClass.class);
+    public static final Logger LOG = LogManager.getLogger(Command.class);
 
     /**
      * String value of command.
@@ -113,6 +125,9 @@ public enum Command {
                 e.printStackTrace();
             }
             String statisticMessage = statistic.get();
+
+            LOG.info("Send statistic message to user. Message: " + statisticMessage);
+
             controller.sendMessage(statisticMessage);
         }
     }
