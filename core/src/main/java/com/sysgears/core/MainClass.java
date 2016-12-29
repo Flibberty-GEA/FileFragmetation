@@ -14,9 +14,10 @@ import java.io.IOException;
  * Main class of application.
  */
 public class MainClass {
-//    -c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.txt -s 100M
-//    -c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M
-//    -c exit
+//        -c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.txt -s 100M
+//        -c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.txt_part_0 -s 100M
+//        -c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M
+//        -c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M
 
     public static final Logger log = LogManager.getLogger(MainClass.class);
 

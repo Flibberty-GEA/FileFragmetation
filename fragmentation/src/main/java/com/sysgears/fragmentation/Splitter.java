@@ -32,7 +32,7 @@ public class Splitter {
 
 
     /**
-     * Construct Splitter with executor service and bytes buffer.
+     * Construct Splitter with executor service and default buffer size.
      *
      * @param executorService executor that executes workers.
      */

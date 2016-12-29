@@ -3,6 +3,7 @@ package com.sysgears.core.input;
 import com.sysgears.controller.Controller;
 import com.sysgears.core.MainClass;
 import com.sysgears.core.exceptions.InputException;
+import com.sysgears.fragmentation.Joiner;
 import com.sysgears.fragmentation.Splitter;
 import com.sysgears.statistic.StatisticService;
 import com.sysgears.statistic.StatisticServiceImpl;
@@ -42,6 +43,28 @@ public enum Command {
             LOG.info("Initialize size of parts. Size = " + partSize);
 
             splitter.split(statistic, fileIn, partSize);
+            this.printStatistic(executorService, statistic, controller);
+        }
+    },
+
+    /**
+     * Command to join parts of file.
+     */
+    JOIN("join"){
+        public void apply(final InputDataHolder inputDataHolder,
+                          final ExecutorService executorService,
+                          final Controller controller) throws IOException {
+
+            LOG.info("Initialize StatisticService.");
+
+            StatisticService statistic = new StatisticServiceImpl();
+
+            LOG.info("Initialize Joiner and part of file.");
+
+            Joiner joiner = new Joiner(executorService);
+            File anyPart = inputDataHolder.getFile();
+
+            joiner.join(statistic, anyPart);
             this.printStatistic(executorService, statistic, controller);
         }
     },
