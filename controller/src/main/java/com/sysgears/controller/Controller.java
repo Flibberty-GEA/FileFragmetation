@@ -1,6 +1,7 @@
 package com.sysgears.controller;
 
 import java.io.BufferedWriter;
+import java.io.IOException;
 
 /**
  * Interface for connect with user.
@@ -23,6 +24,6 @@ public interface Controller {
      */
     void sendMessage(String message) throws ControllerException;
 
-    BufferedWriter getWriter();
+    BufferedWriter getWriter() throws IOException;
 
 }

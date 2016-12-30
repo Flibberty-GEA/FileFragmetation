@@ -1,7 +1,6 @@
 package com.sysgears.core.input;
 
 import com.sysgears.controller.Controller;
-import com.sysgears.core.MainClass;
 import com.sysgears.core.exceptions.InputException;
 import com.sysgears.fragmentation.Joiner;
 import com.sysgears.fragmentation.Splitter;
@@ -29,18 +28,18 @@ public enum Command {
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
 
-            LOG.info("Initialize StatisticService.");
+            log.info("Initialize StatisticService.");
 
             StatisticService statistic = new StatisticServiceImpl();
 
-            LOG.info("Initialize Splitter and File");
+            log.info("Initialize Splitter and File");
 
             Splitter splitter = new Splitter(executorService);
             File fileIn = inputDataHolder.getFile();
 
             long partSize = inputDataHolder.getSize();
 
-            LOG.info("Initialize size of parts. Size = " + partSize);
+            log.info("Initialize size of parts. Size = " + partSize);
 
             splitter.split(statistic, fileIn, partSize);
             this.printStatistic(executorService, statistic, controller);
@@ -55,11 +54,11 @@ public enum Command {
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
 
-            LOG.info("Initialize StatisticService.");
+            log.info("Initialize StatisticService.");
 
             StatisticService statistic = new StatisticServiceImpl();
 
-            LOG.info("Initialize Joiner and part of file.");
+            log.info("Initialize Joiner and part of file.");
 
             Joiner joiner = new Joiner(executorService);
             File anyPart = inputDataHolder.getFile();
@@ -77,14 +76,14 @@ public enum Command {
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
             executorService.shutdownNow();
-            LOG.info("Attempts to stop all actively executing tasks, halts the processing of waiting tasks.");
+            log.info("Attempts to stop all actively executing tasks, halts the processing of waiting tasks.");
             controller.sendMessage("Good by!");
             controller.getWriter().close();
-            LOG.info("Close BufferedWriter of stream Controller.");
+            log.info("Close BufferedWriter of stream Controller.");
         }
     };
 
-    public static final Logger LOG = LogManager.getLogger(Command.class);
+    public static final Logger log = LogManager.getLogger(Command.class);
 
     /**
      * String value of command.
@@ -118,14 +117,20 @@ public enum Command {
      * @throws InputException if current command doesn't exist.
      */
     public static Command getCommandByValue(final String value) throws InputException {
+        try{
+            value.toLowerCase();
+        }catch (NullPointerException e){
+            log.error("Command is null");
+            throw new InputException("Command is null");
+        }
         Command command = null;
         for (Command com : Command.values()) {
-            if (com.toString().equals(value)) {
+            if (com.toString().equals(value.toLowerCase())) {
                 command = com;
             }
         }
         if (command == null) {
-            LOG.error("Command '" + value + "' is not supported");
+            log.error("Command '" + value + "' is not supported");
             throw new InputException("Command '" + value + "' is not supported");
         }
         return command;
@@ -149,7 +154,7 @@ public enum Command {
             }
             String statisticMessage = statistic.get();
 
-            LOG.info("Send statistic message to user. Message: " + statisticMessage);
+            log.info("Send statistic message to user. Message: " + statisticMessage);
 
             controller.sendMessage(statisticMessage);
         }

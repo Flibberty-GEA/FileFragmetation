@@ -84,10 +84,7 @@ public class AppExecutor {
             } catch (InputException e) {
                 streamController.sendMessage(e.getMessage());
 
-            } /*catch (InterruptedException e) {
-                streamController.sendMessage("Program interrupted. Sorry. Try again. ");
-
-            }*/ catch (Throwable t) {
+            } catch (Throwable t) {
                 streamController.sendMessage("Critical error. " + t.getMessage());
             }
         }

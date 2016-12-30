@@ -1,0 +1,13 @@
+[ Options:
+    [ short {
+        c=[ option: c command  [ARG] :: Command :: class java.lang.String ],
+        p=[ option: p path  [ARG] :: Path to file :: class java.lang.String ],
+        s=[ option: s size  [ARG] :: Size of file part :: class java.lang.String ]
+        }
+    ]
+    [ long {
+        command=[ option: c command  [ARG] :: Command :: class java.lang.String ],
+        path=[ option: p path  [ARG] :: Path to file :: class java.lang.String ],
+        size=[ option: s size  [ARG] :: Size of file part :: class java.lang.String ]
+        }
+    ]

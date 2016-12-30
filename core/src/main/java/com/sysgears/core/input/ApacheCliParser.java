@@ -3,6 +3,8 @@ package com.sysgears.core.input;
 import com.sysgears.core.exceptions.InputException;
 import org.apache.commons.cli.*;
 
+import static org.apache.commons.cli.Option.builder;
+
 /**
  * Class that parses input arguments using Apache Commons Cli library.
  */
@@ -11,8 +13,9 @@ public class ApacheCliParser implements InputDataParser {
     /**
      * Returns CommandLine object with options.
      *
-     * @param args input arguments.
-     * @return InputDataHolder object with options.
+     * @param args input arguments
+     * @return InputDataHolder object with options
+     * @throws InputException
      */
     public InputDataHolder parse(final String[] args) {
 

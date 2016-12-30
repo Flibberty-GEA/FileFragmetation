@@ -1,0 +1,95 @@
+2016-12-30 12:28:17 ERROR main Command:getCommandByValue:128 - Command 'null' is not supported
+2016-12-30 12:28:17 ERROR main Command:getCommandByValue:128 - Command 'eXiT' is not supported
+2016-12-30 12:28:39 ERROR main Command:getCommandByValue:128 - Command 'eXiT' is not supported
+2016-12-30 12:34:28 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 12:34:53 ERROR main Command:getCommandByValue:134 - Command '' is not supported
+2016-12-30 12:35:00 ERROR main Command:getCommandByValue:134 - Command ' ' is not supported
+2016-12-30 12:35:34 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 13:10:46 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 13:10:46 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 13:10:53 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 13:10:53 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 14:32:25 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 14:32:25 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:27:50 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:27:50 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:28:47 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:28:47 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:29:38 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:29:38 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:29:59 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:29:59 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:31:55 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:31:55 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:32:23 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:32:23 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:40:25 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:40:25 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:41:36 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:41:36 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:41:58 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:41:58 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:42:09 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:42:09 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:44:31 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:44:31 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:44:47 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:44:47 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:50:46 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:50:46 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:52:01 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:52:01 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:54:04 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:54:04 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 16:54:09 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 16:54:09 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:06:49 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:06:49 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:24:56 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:24:56 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:26:00 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:26:00 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:26:33 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:26:33 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:27:05 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:27:05 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:27:44 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:27:44 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:27:44 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:27:44 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
+2016-12-30 17:28:16 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:28:16 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:28:16 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:28:16 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
+2016-12-30 17:28:41 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:28:41 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:28:42 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:28:42 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
+2016-12-30 17:30:09 ERROR main Command:getCommandByValue:124 - Command is null
+2016-12-30 17:30:09 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2016-12-30 17:30:10 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:30:10 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
+2016-12-30 17:31:24 ERROR main Command:getCommandByValue:123 - Command is null
+2016-12-30 17:31:24 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2016-12-30 17:31:24 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:31:24 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
+2016-12-30 17:33:27 ERROR main Command:getCommandByValue:123 - Command is null
+2016-12-30 17:33:27 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2016-12-30 17:33:27 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:33:27 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
+2016-12-30 17:34:58 ERROR main Command:getCommandByValue:123 - Command is null
+2016-12-30 17:34:58 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2016-12-30 17:34:58 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:34:58 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
+2016-12-30 17:36:30 ERROR main Command:getCommandByValue:123 - Command is null
+2016-12-30 17:36:30 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2016-12-30 17:36:31 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:36:31 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
+2016-12-30 17:36:36 ERROR main Command:getCommandByValue:123 - Command is null
+2016-12-30 17:36:36 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2016-12-30 17:36:37 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:36:37 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
+2016-12-30 17:37:30 ERROR main Command:getCommandByValue:123 - Command is null
+2016-12-30 17:37:30 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2016-12-30 17:37:30 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2016-12-30 17:37:30 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.

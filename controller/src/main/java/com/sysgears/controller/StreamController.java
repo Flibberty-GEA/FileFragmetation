@@ -17,7 +17,7 @@ public class StreamController implements Controller {
      */
     private final BufferedWriter writer;
 
-    public BufferedWriter getWriter() {
+    public BufferedWriter getWriter() throws IOException {
         return writer;
     }
 
