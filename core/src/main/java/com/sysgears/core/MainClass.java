@@ -36,7 +36,7 @@ public class MainClass {
             final InputDataParser inputDataParser = new ApacheCliParser();
             new AppExecutor(controller, inputDataParser, 2).execute();
         } catch (Throwable t) {
-            log.fatal(t.getMessage(), t);
+            log.error(t.getMessage(), t);
         }
     }
 }

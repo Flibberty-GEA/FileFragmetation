@@ -1,0 +1,9 @@
+2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".

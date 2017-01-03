@@ -1,0 +1,6 @@
+2017-01-03 18:07:11 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-03 18:07:12 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-03 18:07:12 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.'
+2017-01-03 18:08:04 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-03 18:08:05 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-03 18:08:05 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.'

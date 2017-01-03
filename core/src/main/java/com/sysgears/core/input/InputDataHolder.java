@@ -25,19 +25,19 @@ public class InputDataHolder {
      *                        if size has incorrect format
      */
     public InputDataHolder(final CommandLine cmd) throws InputException {
-        log.info("Create " + this.getClass().getSimpleName() + " with param " + cmd.getClass() + ".");
+        log.debug("Create " + this.getClass().getSimpleName() + " with param " + cmd.getClass() + ".");
         String inputCommand = cmd.getOptionValue("c");
         if (Command.isCommandCorrect(inputCommand)) {
             command = inputCommand.toLowerCase();
         } else {
-            log.error("Command '" + inputCommand + "' is not supported");
+            log.warn("Command '" + inputCommand + "' is not supported");
             throw new InputException("Command '" + inputCommand + "' is not supported");
         }
 
         if (!command.equals("exit")) {
             final String pathValue = cmd.getOptionValue("p");
             if (pathValue == null || !new File(pathValue).exists()) {
-                log.error("Incorrect path name \"" + pathValue + "\".");
+                log.warn("Incorrect path name \"" + pathValue + "\".");
                 throw new InputException("Incorrect path name");
             } else this.file = new File(pathValue);
 
@@ -52,19 +52,19 @@ public class InputDataHolder {
                 try {
                     size = Long.parseLong(sizeValue);
                 } catch (NumberFormatException e) {
-                    log.error("Incorrect number format \"" + sizeValue + "\".");
+                    log.warn("Incorrect number format \"" + sizeValue + "\".");
                     throw new InputException("[" + sizeValue + "] has incorrect number format. ");
                 }
                 this.size = size;
             } else this.size = 0L;
 
-            log.info("User command \"" + this.command + "\". " +
+            log.debug("User command \"" + this.command + "\". " +
                     "User's file object \"" + this.file.getName() + "\". " +
                     "Size of file part = " + this.size + " bytes.");
         } else {
             file = null;
             size = 0L;
-            log.info("User command \"" + this.command + "\".");
+            log.debug("User command \"" + this.command + "\".");
         }
     }
 
@@ -74,7 +74,7 @@ public class InputDataHolder {
      * @return string with user command
      */
     public String getCommand() {
-//        log.info("User command \"" + command + "\".");
+//        log.debug("User command \"" + command + "\".");
         return command;
     }
 
@@ -85,7 +85,7 @@ public class InputDataHolder {
      * @return the users file object
      */
     public File getFile() {
-//        log.info("Users file object \"" + file.getName() + "\".");
+//        log.debug("Users file object \"" + file.getName() + "\".");
         return file;
     }
 
@@ -95,7 +95,7 @@ public class InputDataHolder {
      * @return size of file part
      */
     public long getSize() {
-//        log.info("Size of file part = " + size + " bytes.");
+//        log.debug("Size of file part = " + size + " bytes.");
         return size;
     }
 }

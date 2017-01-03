@@ -72,11 +72,11 @@ public class Joiner {
         for (int counter = 0; new File(originalFilePath + partNamePostfix + counter).exists(); counter++) {
             File originalFile = new File(originalFilePath + partNamePostfix + counter);
             Task task = new Task(originalFile, 0, originalFile.length(), resultFile, positionReultFiel, statistic, bufferSize);
-            log.info("Initialize and execute task number " + (counter + 1));
+            log.debug("Initialize and execute task number " + (counter + 1));
             executorService.execute(task);
             positionReultFiel += anyPart.length();
         }
-        log.info("Set full size of work for statistic. Size = " + positionReultFiel);
+        log.debug("Set full size of work for statistic. Size = " + positionReultFiel);
         statistic.setFullExpectedSize(positionReultFiel);
     }
 }

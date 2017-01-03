@@ -14,10 +14,14 @@ public class StatisticServiceImpl implements StatisticService {
 
     private final StatisticRepository repository = new StatisticRepository();
 
+    public StatisticServiceImpl() {
+        log.debug("Initialize.");
+    }
+
     /**
      * Sets expected size.
      *
-     * @param expectedSize full size of work.
+     * @param expectedSize full size of work
      */
     public void setFullExpectedSize(long expectedSize) {
         repository.setFullExpectedSize(expectedSize);
@@ -26,40 +30,50 @@ public class StatisticServiceImpl implements StatisticService {
     /**
      * Sets expected size of work for current thread.
      *
-     * @param threadName   name of current thread.
-     * @param expectedSize full size of work for current thread.
+     * @param threadName   name of current thread
+     * @param expectedSize full size of work for current thread
      */
     public synchronized void setExpected(final String threadName, final Long expectedSize) {
+//        log.debug("Starts with params:\n" +
+//        "\t\t- name of current thread \"" + threadName + "\";\n" +
+//        "\t\t- full size of work for current thread = " + expectedSize + "bytes.");
         repository.setExpected(threadName, expectedSize);
     }
 
     /**
      * Sets actual size of work for current thread.
      *
-     * @param threadName name of current thread.
-     * @param actualSize size of work done for current thread.
+     * @param threadName name of current thread
+     * @param actualSize size of work done for current thread
      */
     public synchronized void setActual(final String threadName, final Long actualSize) {
+//        log.debug("Starts with params:\n" +
+//        "\t\t- name of current thread \"" + threadName + "\";\n" +
+//        "\t\t- size of work done for current thread = " + actualSize + "bytes.");
         repository.setActual(threadName, actualSize);
     }
 
     /**
      * Increments actual size of work for current thread.
      *
-     * @param threadName name of current thread.
-     * @param size       count of bytes which need to increase actual size on.
+     * @param threadName name of current thread
+     * @param size       count of bytes which need to increase actual size on
      */
     public synchronized void increaseActual(final String threadName, final long size) {
+//        log.debug("Starts with params:\n" +
+//                "\t\t- name of current thread \"" + threadName + "\";\n" +
+//                "\t\t- count of bytes which need to increase actual size on = " + size + "bytes.");
         repository.increaseActual(threadName, size);
     }
 
     /**
      * Returns string with detail statistic of work for all threads.
      *
-     * @return string with statistic for all threads.
+     * @return string with statistic for all threads
      */
     public synchronized String get() {
 
+        log.debug("call to method get()");
 
         /* Calculate total percent of work done. */
         final long totalPercent = 100 * repository.getActualSize() / repository.getExpectedSize();
@@ -87,6 +101,8 @@ public class StatisticServiceImpl implements StatisticService {
 
         /* Append time remaining into statistic string. */
         statistic.append("time remaining: ").append(timeRemainingSec).append("s.");
+
+        log.debug("Return string with statistic for all threads:\"" + statistic.toString() + "\'");
 
         return statistic.toString();
     }

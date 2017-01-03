@@ -62,7 +62,7 @@ public class AppExecutor {
      * Executes full cycle of applications work.
      */
     public void execute() {
-        log.info("Starts to execute full cycle of applications work.");
+        log.debug("Starts to execute full cycle of applications work.");
 
         while (streamController.isOpen()) {
             try {
@@ -71,14 +71,15 @@ public class AppExecutor {
                 InputDataHolder inputDataHolder = inputDataParser.parse(message.split(" "));
                 Command command = Command.getCommandByValue(inputDataHolder.getCommand());
                 command.apply(inputDataHolder, executorService, streamController);
-
-            } catch (ControllerException e) {
-                streamController.sendMessage(e.getMessage());
-
-            } catch (InputException e) {
-                streamController.sendMessage(e.getMessage());
+            } catch (ControllerException c) {
+                log.error("ControllerException "+c.toString());
+                streamController.sendMessage(c.getMessage());
+            } catch (InputException i) {
+                log.error("InputException "+i.toString());
+                streamController.sendMessage(i.getMessage());
             } catch (Throwable t) {
-                streamController.sendMessage("Critical error. " + t.getMessage());
+                log.error("Unexpected exception "+t.toString());
+                streamController.sendMessage("Unexpected exception " + t.getMessage());
             }
         }
     }

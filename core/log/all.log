@@ -432,3 +432,12 @@
 2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
 2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
 2017-01-03 15:49:05 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".

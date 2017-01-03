@@ -88,6 +88,8 @@ public class Task implements Runnable {
         /* Initialize name of current thread. */
         String threadName = Thread.currentThread().getName();
 
+//        log.debug("Starts run() in Thread " + threadName);
+
         /* Initialize size of expected work for current worker. */
         statistic.setExpected(threadName, currentPartSize);
 
@@ -112,10 +114,12 @@ public class Task implements Runnable {
                 /* Write data into destination file. */
                 fileAccessService.write(resultFile, bufferForBytes, positionIntoResultFile + doneSize, size);
             } catch (IOException ignore) {
+                log.warn("Writing error.", ignore);
             }
 
             /* Increment actual size of done work. */
             statistic.increaseActual(threadName, bufferLength);
         }
+//        log.debug("Finishes run() in Thread " + threadName);
     }
 }

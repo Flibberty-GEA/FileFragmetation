@@ -22,7 +22,7 @@ public class ApacheCliParser implements InputDataParser {
      *                        could not parse input arguments
      */
     public InputDataHolder parse(final String[] args) {
-        log.info("Starts with parameter " + args.getClass().getTypeName() +
+        log.debug("Starts with parameter " + args.getClass().getTypeName() +
                 " which includes " + Arrays.toString(args));
 
         final Options options = new Options();
@@ -41,7 +41,7 @@ public class ApacheCliParser implements InputDataParser {
             throw new InputException("Could not parse input arguments. ");
         }
         InputDataHolder result = new InputDataHolder(cmd);
-        log.info("Return " + result.getClass().getTypeName());
+        log.debug("Return " + result.getClass().getTypeName());
         return result;
     }
 }

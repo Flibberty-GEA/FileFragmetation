@@ -26,7 +26,7 @@ public enum Command {
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
 
-            log.info("Starts with parameters:\n" + "\t\t- " + inputDataHolder.getClass() +
+            log.debug("Starts with parameters:\n" + "\t\t- " + inputDataHolder.getClass() +
                     " which includes Command \"" + inputDataHolder.getCommand() +
                     "\", file object  \"" + inputDataHolder.getFile().getName() +
                     "\", size of file part " + inputDataHolder.getSize() + " bytes;\n" +
@@ -35,7 +35,7 @@ public enum Command {
                             + ((ThreadPoolExecutor)executorService).getMaximumPoolSize() : "") + "\n" +
                     "\t\t- " + controller.getClass());
 
-            log.info("Initialize StatisticService and Splitter.");
+            log.debug("Initialize StatisticService and Splitter.");
             StatisticService statistic = new StatisticServiceImpl();
             Splitter splitter = new Splitter(executorService);
             File fileIn = inputDataHolder.getFile();
@@ -52,7 +52,7 @@ public enum Command {
         public void apply(final InputDataHolder inputDataHolder,
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
-            log.info("Starts with parameters:\n" + "\t\t- " + inputDataHolder.getClass() +
+            log.debug("Starts with parameters:\n" + "\t\t- " + inputDataHolder.getClass() +
                     " which includes Command \"" + inputDataHolder.getCommand() +
                     "\", file object  \"" + inputDataHolder.getFile().getName() +
                     "\", size of file part " + inputDataHolder.getSize() + " bytes;\n" +
@@ -61,7 +61,7 @@ public enum Command {
                             + ((ThreadPoolExecutor)executorService).getMaximumPoolSize() : "") + "\n" +
                     "\t\t- " + controller.getClass());
 
-            log.info("Initialize StatisticService and Joiner.");
+            log.debug("Initialize StatisticService and Joiner.");
             StatisticService statistic = new StatisticServiceImpl();
             Joiner joiner = new Joiner(executorService);
             File anyPart = inputDataHolder.getFile();
@@ -124,7 +124,7 @@ public enum Command {
                 command = com;
             }
         }
-        log.info("Create Command \"" + value + "\".");
+        log.debug("Create Command \"" + value + "\".");
         return command;
     }
 

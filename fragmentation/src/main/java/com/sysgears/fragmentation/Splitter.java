@@ -65,6 +65,7 @@ public class Splitter {
     public void split(final StatisticService statistic, final File originalFile, final long maxPartSize) {
 
         long fullSize = originalFile.length();
+        log.debug("Set full size of work for statistic. Size = " + fullSize);
         statistic.setFullExpectedSize(fullSize);
         int partCounter = 0;
         long currentRealPartSize = maxPartSize;
@@ -78,6 +79,7 @@ public class Splitter {
 
             File resultFile = new File(originalFile.getAbsolutePath() + partNamePostfix + partCounter);
             Task task = new Task(originalFile, positionSrc, currentRealPartSize, resultFile, 0, statistic, bufferSize);
+            log.debug("Initialize and execute task number " + (partCounter + 1));
             executorService.execute(task);
             partCounter++;
         }
