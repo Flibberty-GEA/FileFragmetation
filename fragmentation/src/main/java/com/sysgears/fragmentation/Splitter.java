@@ -1,6 +1,8 @@
 package com.sysgears.fragmentation;
 
 import com.sysgears.statistic.StatisticService;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.util.concurrent.ExecutorService;
@@ -9,6 +11,7 @@ import java.util.concurrent.ExecutorService;
  * Class that splits file into parts.
  */
 public class Splitter {
+    public static final Logger log = LogManager.getLogger(Splitter.class);
 
     /**
      * Postfix in name of file parts.

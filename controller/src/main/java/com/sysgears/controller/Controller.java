@@ -11,19 +11,33 @@ public interface Controller {
     /**
      * Gets message from user.
      *
-     * @return string message from user to application.
-     * @throws ControllerException if an controller error occurs.
+     * @return string message from user to application
+     * @throws ControllerException if an controller error occurs
      */
     String getMessage() throws ControllerException;
 
     /**
      * Sends message to user.
      *
-     * @param message string message from application to user.
-     * @throws ControllerException if an controller error occurs.
+     * @param message string message from application to user
+     * @throws ControllerException if an controller error occurs
      */
     void sendMessage(String message) throws ControllerException;
 
-    BufferedWriter getWriter() throws IOException;
+    BufferedWriter getWriter();
+
+    /**
+     * Check is Controller open.
+     *
+     * @return true if controller is open
+     */
+    boolean isOpen();
+
+    /**
+     * Closes StreamController.
+     *
+     * @throws ControllerException if an controller error occurs
+     */
+    void closeController() throws IOException;
 
 }

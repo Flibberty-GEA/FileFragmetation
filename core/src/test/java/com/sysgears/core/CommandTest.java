@@ -1,10 +1,10 @@
-package com.sysgears.core.input;
+package com.sysgears.core;
 
 import com.sysgears.controller.Controller;
 import com.sysgears.controller.StreamController;
 import com.sysgears.core.exceptions.InputException;
-import com.sysgears.statistic.StatisticService;
-import com.sysgears.statistic.StatisticServiceImpl;
+import com.sysgears.core.input.Command;
+import com.sysgears.core.input.InputDataHolder;
 import org.easymock.EasyMock;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -14,10 +14,7 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.RejectedExecutionException;
 
-import static org.easymock.EasyMock.expect;
-import static org.easymock.EasyMock.find;
 
 /**
  * @author Yevgen Goliuk
@@ -54,19 +51,13 @@ public class CommandTest {
         Assert.assertEquals(actual, expected);
     }
 
-    @Test(expectedExceptions = IOException.class)
-    public void testCommandExitApply() throws IOException {
-        final InputDataHolder inputDataHolder = EasyMock.createMock(InputDataHolder.class);
-        final ExecutorService executorService = Executors.newFixedThreadPool(2);
-        final Controller controller = new StreamController(System.in, System.out);
-
-        Command.EXIT.apply(inputDataHolder, executorService, controller);
-        BufferedWriter writer = controller.getWriter();
-//        executorService.submit(new Runnable() {
-//            @Override
-//            public void run() {
+//    @Test(expectedExceptions = IOException.class)
+//    public void testCommandExitApply() throws IOException {
+//        final InputDataHolder inputDataHolder = EasyMock.createMock(InputDataHolder.class);
+//        final ExecutorService executorService = Executors.newFixedThreadPool(2);
+//        final Controller controller = new StreamController(System.in, System.out);
 //
-//            }
-//        });
-    }
+//        Command.EXIT.apply(inputDataHolder, executorService, controller);
+//        BufferedWriter writer = controller.getWriter();
+//    }
 }

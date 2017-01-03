@@ -1,493 +1,68 @@
-2016-12-23 11:02:34 INFO  main MainClass:main:30 - Start program.
-2016-12-23 11:02:34 INFO  main MainClass:main:36 - Initialize AppExecutor and execute it.
-2016-12-23 11:03:05 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M'.
-2016-12-23 11:03:05 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-23 11:03:05 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = split. Try to apply this command.
-2016-12-23 11:03:05 INFO  main Command:apply:31 - Initialize StatisticService.
-2016-12-23 11:03:05 INFO  main Command:apply:35 - Initialize Splitter and File
-2016-12-23 11:03:05 INFO  main Command:apply:42 - Initialize size of parts. Size = 1000000
-2016-12-23 11:03:05 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 23%, pool-1-thread-1: 24%, pool-1-thread-2: 51%, time remaining: 0.0s.
-2016-12-23 11:03:05 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 56%, pool-1-thread-1: 52%, pool-1-thread-2: 65%, time remaining: 0.0s.
-2016-12-23 11:03:06 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 93%, pool-1-thread-1: 41%, pool-1-thread-2: 53%, time remaining: 0.0s.
-2016-12-23 11:03:06 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2016-12-23 11:03:17 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-23 11:03:17 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-23 11:03:17 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-23 11:03:17 INFO  main Command:apply:57 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-23 11:03:17 INFO  main Command:apply:60 - Close BufferedWriter of stream Controller.
-2016-12-23 11:03:17 FATAL main MainClass:main:40 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:38)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-23 11:16:32 INFO  main MainClass:main:31 - Start program.
-2016-12-23 11:16:32 INFO  main MainClass:main:37 - Initialize AppExecutor and execute it.
-2016-12-23 11:16:34 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.txt -s 100M'.
-2016-12-23 11:16:34 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-23 11:16:34 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = split. Try to apply this command.
-2016-12-23 11:16:34 INFO  main Command:apply:31 - Initialize StatisticService.
-2016-12-23 11:16:34 INFO  main Command:apply:35 - Initialize Splitter and File
-2016-12-23 11:16:34 INFO  main Command:apply:42 - Initialize size of parts. Size = 100000000
-2016-12-23 11:16:35 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 8%, pool-1-thread-1: 42%, pool-1-thread-2: 43%, time remaining: 11.0s.
-2016-12-23 11:16:36 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 20%, pool-1-thread-1: 2%, pool-1-thread-2: 4%, time remaining: 8.0s.
-2016-12-23 11:16:37 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 33%, pool-1-thread-1: 63%, pool-1-thread-2: 66%, time remaining: 6.0s.
-2016-12-23 11:16:38 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 45%, pool-1-thread-1: 25%, pool-1-thread-2: 28%, time remaining: 5.0s.
-2016-12-23 11:16:39 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 57%, pool-1-thread-1: 86%, pool-1-thread-2: 89%, time remaining: 4.0s.
-2016-12-23 11:16:40 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 70%, pool-1-thread-1: 51%, pool-1-thread-2: 53%, time remaining: 3.0s.
-2016-12-23 11:16:41 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 83%, pool-1-thread-1: 16%, pool-1-thread-2: 19%, time remaining: 1.0s.
-2016-12-23 11:16:42 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 94%, pool-1-thread-1: 69%, pool-1-thread-2: 70%, time remaining: 1.0s.
-2016-12-23 11:16:43 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2016-12-23 11:18:09 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-23 11:18:09 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-23 11:18:09 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-23 11:18:09 INFO  main Command:apply:57 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-23 11:18:09 INFO  main Command:apply:60 - Close BufferedWriter of stream Controller.
-2016-12-23 11:18:09 FATAL main MainClass:main:41 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-27 18:10:11 INFO  main MainClass:main:31 - Start program.
-2016-12-27 18:10:11 INFO  main MainClass:main:37 - Initialize AppExecutor and execute it.
-2016-12-27 18:10:13 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.txt -s 100M'.
-2016-12-27 18:10:13 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-27 18:10:13 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = split. Try to apply this command.
-2016-12-27 18:10:13 INFO  main Command:apply:31 - Initialize StatisticService.
-2016-12-27 18:10:13 INFO  main Command:apply:35 - Initialize Splitter and File
-2016-12-27 18:10:13 INFO  main Command:apply:42 - Initialize size of parts. Size = 100000000
-2016-12-27 18:10:14 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 10%, pool-1-thread-1: 54%, pool-1-thread-2: 54%, time remaining: 8.0s.
-2016-12-27 18:10:15 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 22%, pool-1-thread-1: 10%, pool-1-thread-2: 10%, time remaining: 7.0s.
-2016-12-27 18:10:16 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 33%, pool-1-thread-1: 69%, pool-1-thread-2: 69%, time remaining: 6.0s.
-2016-12-27 18:10:17 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 45%, pool-1-thread-1: 28%, pool-1-thread-2: 29%, time remaining: 5.0s.
-2016-12-27 18:10:18 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 57%, pool-1-thread-1: 87%, pool-1-thread-2: 88%, time remaining: 4.0s.
-2016-12-27 18:10:19 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 69%, pool-1-thread-1: 45%, pool-1-thread-2: 46%, time remaining: 3.0s.
-2016-12-27 18:10:20 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 80%, pool-1-thread-1: 4%, pool-1-thread-2: 5%, time remaining: 2.0s.
-2016-12-27 18:10:21 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 92%, pool-1-thread-1: 63%, pool-1-thread-2: 64%, time remaining: 1.0s.
-2016-12-27 18:10:22 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2016-12-27 18:10:28 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-27 18:10:28 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-27 18:10:28 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-27 18:10:28 INFO  main Command:apply:57 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-27 18:10:28 INFO  main Command:apply:60 - Close BufferedWriter of stream Controller.
-2016-12-27 18:10:28 FATAL main MainClass:main:41 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-29 15:36:00 INFO  main MainClass:main:31 - Start program.
-2016-12-29 15:36:00 INFO  main MainClass:main:37 - Initialize AppExecutor and execute it.
-2016-12-29 15:36:08 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.txt -s 100M'.
-2016-12-29 15:36:08 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 15:36:08 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = split. Try to apply this command.
-2016-12-29 15:36:08 INFO  main Command:apply:31 - Initialize StatisticService.
-2016-12-29 15:36:08 INFO  main Command:apply:35 - Initialize Splitter and File
-2016-12-29 15:36:08 INFO  main Command:apply:42 - Initialize size of parts. Size = 100000000
-2016-12-29 15:36:09 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 11%, pool-1-thread-1: 59%, pool-1-thread-2: 59%, time remaining: 7.0s.
-2016-12-29 15:36:10 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 23%, pool-1-thread-1: 18%, pool-1-thread-2: 20%, time remaining: 6.0s.
-2016-12-29 15:36:11 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 35%, pool-1-thread-1: 76%, pool-1-thread-2: 81%, time remaining: 5.0s.
-2016-12-29 15:36:12 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 47%, pool-1-thread-1: 38%, pool-1-thread-2: 41%, time remaining: 4.0s.
-2016-12-29 15:36:13 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 60%, pool-1-thread-1: 1%, pool-1-thread-2: 4%, time remaining: 3.0s.
-2016-12-29 15:36:14 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 69%, pool-1-thread-1: 45%, pool-1-thread-2: 49%, time remaining: 3.0s.
-2016-12-29 15:36:15 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 82%, pool-1-thread-1: 8%, pool-1-thread-2: 11%, time remaining: 2.0s.
-2016-12-29 15:36:16 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 94%, pool-1-thread-1: 70%, pool-1-thread-2: 74%, time remaining: 0.0s.
-2016-12-29 15:36:17 INFO  main Command:printStatistic:129 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2016-12-29 15:36:27 INFO  main AppExecutor:execute:69 - Get message from user. Message: 'exit'.
-2016-12-29 15:36:27 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 15:36:27 ERROR main Command:getCommandByValue:105 - Command 'null' is not supported
-2016-12-29 15:36:37 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-29 15:36:37 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 15:36:37 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-29 15:36:37 INFO  main Command:apply:57 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-29 15:36:37 INFO  main Command:apply:60 - Close BufferedWriter of stream Controller.
-2016-12-29 15:36:37 FATAL main MainClass:main:41 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-29 16:13:52 INFO  main MainClass:main:32 - Start program.
-2016-12-29 16:13:52 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-29 16:13:54 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M'.
-2016-12-29 16:13:54 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 16:13:54 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = split. Try to apply this command.
-2016-12-29 16:13:54 INFO  main Command:apply:32 - Initialize StatisticService.
-2016-12-29 16:13:54 INFO  main Command:apply:36 - Initialize Splitter and File
-2016-12-29 16:13:54 INFO  main Command:apply:43 - Initialize size of parts. Size = 1000000
-2016-12-29 16:13:55 INFO  main Command:printStatistic:152 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2016-12-29 16:14:42 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-29 16:14:42 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 16:14:42 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-29 16:14:42 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-29 16:14:42 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-29 16:14:42 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-29 16:14:47 INFO  main MainClass:main:32 - Start program.
-2016-12-29 16:14:47 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-29 16:14:49 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M'.
-2016-12-29 16:14:49 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 16:14:49 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = join. Try to apply this command.
-2016-12-29 16:14:49 INFO  main Command:apply:58 - Initialize StatisticService.
-2016-12-29 16:14:49 INFO  main Command:apply:62 - Initialize Joiner and part of file.
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 1
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 2
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 3
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 4
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 5
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 6
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 7
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 8
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 9
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 10
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 11
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 12
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 13
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 14
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 15
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 16
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 17
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 18
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 19
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 20
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 21
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 22
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 23
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 24
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 25
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 26
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 27
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 28
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 29
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 30
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 31
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 32
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 33
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 34
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 35
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 36
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 37
-2016-12-29 16:14:49 INFO  main Joiner:join:75 - Initialize and execute task number 38
-2016-12-29 16:14:49 INFO  main Joiner:join:79 - Set full size of work for statistic. Size = 38000000
-2016-12-29 16:14:50 INFO  main Command:printStatistic:152 - Send statistic message to user. Message: Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2016-12-29 16:16:07 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-29 16:16:07 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 16:16:07 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-29 16:16:07 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-29 16:16:07 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-29 16:16:07 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-29 16:40:55 INFO  main MainClass:main:32 - Start program.
-2016-12-29 16:40:55 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-29 16:41:00 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-29 16:41:00 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 16:41:00 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-29 16:41:00 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-29 16:41:00 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-29 16:41:00 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-29 17:49:22 INFO  main MainClass:main:32 - Start program.
-2016-12-29 17:49:22 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-29 17:49:23 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M'.
-2016-12-29 17:49:23 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 17:49:23 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = split. Try to apply this command.
-2016-12-29 17:49:23 INFO  main Command:apply:32 - Initialize StatisticService.
-2016-12-29 17:49:23 INFO  main Command:apply:36 - Initialize Splitter and File
-2016-12-29 17:49:23 INFO  main Command:apply:43 - Initialize size of parts. Size = 1000000
-2016-12-29 17:49:24 INFO  main Command:printStatistic:152 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2016-12-29 17:49:36 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M'.
-2016-12-29 17:49:36 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 17:49:36 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = join. Try to apply this command.
-2016-12-29 17:49:36 INFO  main Command:apply:58 - Initialize StatisticService.
-2016-12-29 17:49:36 INFO  main Command:apply:62 - Initialize Joiner and part of file.
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 1
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 2
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 3
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 4
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 5
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 6
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 7
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 8
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 9
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 10
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 11
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 12
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 13
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 14
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 15
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 16
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 17
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 18
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 19
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 20
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 21
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 22
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 23
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 24
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 25
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 26
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 27
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 28
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 29
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 30
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 31
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 32
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 33
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 34
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 35
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 36
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 37
-2016-12-29 17:49:36 INFO  main Joiner:join:75 - Initialize and execute task number 38
-2016-12-29 17:49:36 INFO  main Joiner:join:79 - Set full size of work for statistic. Size = 38000000
-2016-12-29 17:49:37 INFO  main Command:printStatistic:152 - Send statistic message to user. Message: Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2016-12-29 17:49:49 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-29 17:49:49 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-29 17:49:49 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-29 17:49:49 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-29 17:49:49 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-29 17:49:49 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-30 10:00:03 INFO  main MainClass:main:32 - Start program.
-2016-12-30 10:00:03 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-30 10:00:09 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-30 10:00:09 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-30 10:00:09 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-30 10:00:09 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 10:00:09 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 10:00:09 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-30 10:00:33 INFO  main MainClass:main:32 - Start program.
-2016-12-30 10:00:33 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-30 10:00:54 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-30 10:01:47 INFO  main MainClass:main:32 - Start program.
-2016-12-30 10:01:47 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-30 10:01:51 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-30 10:01:51 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-30 10:01:51 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-30 10:01:51 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 10:01:51 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 10:01:51 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-30 10:02:57 INFO  main MainClass:main:32 - Start program.
-2016-12-30 10:02:57 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-30 10:03:02 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-30 10:03:02 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-30 10:03:02 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-30 10:03:02 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 10:03:02 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 10:03:02 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-30 10:05:45 INFO  main MainClass:main:32 - Start program.
-2016-12-30 10:05:45 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-30 10:05:51 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-30 10:05:51 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-30 10:05:51 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-30 10:05:51 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 10:05:51 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 10:05:51 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-30 11:23:19 INFO  main MainClass:main:32 - Start program.
-2016-12-30 11:23:19 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-30 11:23:25 INFO  main AppExecutor:execute:69 - Get message from user. Message: 'exit'.
-2016-12-30 11:23:25 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-30 11:23:25 ERROR main Command:getCommandByValue:128 - Command 'null' is not supported
-2016-12-30 11:24:55 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-30 11:24:55 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-30 11:24:55 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-30 11:24:55 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 11:24:55 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 11:24:55 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
-2016-12-30 11:38:26 INFO  main MainClass:main:32 - Start program.
-2016-12-30 11:38:26 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-30 11:38:29 INFO  main AppExecutor:execute:69 - Get message from user. Message: '- exit'.
-2016-12-30 11:40:58 INFO  main MainClass:main:32 - Start program.
-2016-12-30 11:40:58 INFO  main MainClass:main:38 - Initialize AppExecutor and execute it.
-2016-12-30 11:41:02 INFO  main AppExecutor:execute:69 - Get message from user. Message: '-c exit'.
-2016-12-30 11:41:02 INFO  main AppExecutor:execute:73 - Parse message to InputDataHolder.
-2016-12-30 11:41:02 INFO  main AppExecutor:execute:77 - Get command from CommandLine. Command = exit. Try to apply this command.
-2016-12-30 11:41:02 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 11:41:02 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 11:41:02 FATAL main MainClass:main:42 - Connection is lost. Could not write message to user. 
-com.sysgears.controller.ControllerException: Connection is lost. Could not write message to user. 
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:65)
-	at com.sysgears.core.AppExecutor.execute(AppExecutor.java:82)
-	at com.sysgears.core.MainClass.main(MainClass.java:40)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-Caused by: java.io.IOException: Stream closed
-	at java.io.BufferedWriter.ensureOpen(BufferedWriter.java:116)
-	at java.io.BufferedWriter.write(BufferedWriter.java:221)
-	at java.io.Writer.write(Writer.java:157)
-	at com.sysgears.controller.StreamController.sendMessage(StreamController.java:61)
-	... 7 more
+2017-01-03 13:23:43 INFO  main MainClass:main:33 - Start program.
+2017-01-03 13:23:43 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
+2017-01-03 13:23:43 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 13:24:06 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-03 13:24:06 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
+2017-01-03 13:24:06 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 13:24:06 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-03 13:24:06 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
+2017-01-03 13:24:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Critical error. No enum constant com.sysgears.core.input.Command.split".
+2017-01-03 13:24:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 13:25:00 INFO  main MainClass:main:33 - Start program.
+2017-01-03 13:25:00 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
+2017-01-03 13:25:00 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 13:25:01 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-03 13:25:01 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
+2017-01-03 13:25:01 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 13:25:01 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-03 13:25:01 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
+2017-01-03 13:25:01 INFO  main Command:apply:30 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController
+2017-01-03 13:25:01 INFO  main Command:apply:39 - Initialize StatisticService and Splitter.
+2017-01-03 13:25:02 INFO  main Command:printStatistic:179 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
+2017-01-03 13:25:02 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-03 13:25:02 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 13:25:06 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c fgdf".
+2017-01-03 13:25:06 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, fgdf]
+2017-01-03 13:25:06 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 13:25:06 ERROR main InputDataHolder:<init>:33 - Command 'fgdf' is not supported
+2017-01-03 13:25:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'fgdf' is not supported".
+2017-01-03 13:25:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 13:25:11 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-03 13:25:11 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-03 13:25:11 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 13:25:11 INFO  main InputDataHolder:<init>:67 - User command "exit".
+2017-01-03 13:25:11 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
+2017-01-03 13:25:11 INFO  main Command:apply:81 - Starts Command "exit"
+2017-01-03 13:25:11 INFO  main Command:apply:83 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-03 13:25:11 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-03 13:25:11 INFO  main Command:apply:86 - Close BufferedWriter of stream Controller.
+2017-01-03 13:28:18 INFO  main MainClass:main:33 - Start program.
+2017-01-03 13:28:18 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
+2017-01-03 13:28:18 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 13:28:21 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-03 13:28:21 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
+2017-01-03 13:28:21 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 13:28:21 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-03 13:28:21 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
+2017-01-03 13:28:21 INFO  main Command:getCommandByValue:129 - Create Command "split".
+2017-01-03 13:28:21 INFO  main Command:apply:30 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController
+2017-01-03 13:28:21 INFO  main Command:apply:39 - Initialize StatisticService and Splitter.
+2017-01-03 13:28:22 INFO  main Command:printStatistic:166 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
+2017-01-03 13:28:22 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-03 13:28:22 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 13:28:26 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-03 13:28:26 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-03 13:28:26 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 13:28:26 INFO  main InputDataHolder:<init>:67 - User command "exit".
+2017-01-03 13:28:26 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
+2017-01-03 13:28:26 INFO  main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-03 13:28:26 INFO  main Command:apply:81 - Starts Command "exit"
+2017-01-03 13:28:26 INFO  main Command:apply:83 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-03 13:28:26 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-03 13:28:26 INFO  main Command:apply:86 - Close BufferedWriter of stream Controller.

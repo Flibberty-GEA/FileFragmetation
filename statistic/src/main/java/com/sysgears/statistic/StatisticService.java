@@ -1,5 +1,8 @@
 package com.sysgears.statistic;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 /**
  * Class that implements StatisticService interface can store statistic.
  */

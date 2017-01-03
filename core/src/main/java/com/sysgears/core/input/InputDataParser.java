@@ -6,10 +6,10 @@ package com.sysgears.core.input;
 public interface InputDataParser {
 
     /**
-     * Returns CommandLine object with options.
+     * Returns InputDataHolder object with data from user's command.
      *
-     * @param args input arguments.
-     * @return InputDataHolder object with options.
+     * @param args input arguments
+     * @return InputDataHolder object
      */
     InputDataHolder parse(String[] args);
 

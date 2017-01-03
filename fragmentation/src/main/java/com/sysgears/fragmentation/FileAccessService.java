@@ -1,5 +1,8 @@
 package com.sysgears.fragmentation;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -8,6 +11,7 @@ import java.io.RandomAccessFile;
  * Class that reads and writes bytes into file.
  */
 public class FileAccessService {
+    public static final Logger log = LogManager.getLogger(FileAccessService.class);
 
     /**
      * Reads bytes from the source file into the buffer.

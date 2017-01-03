@@ -19,7 +19,6 @@ import java.util.concurrent.TimeUnit;
  * Enumeration of users command.
  */
 public enum Command {
-
     /**
      * Command to split file into parts.
      */
@@ -28,19 +27,20 @@ public enum Command {
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
 
-            log.info("Initialize StatisticService.");
+            log.info("Starts with parameters:\n" + "\t\t- " + inputDataHolder.getClass() +
+                    " which includes Command \"" + inputDataHolder.getCommand() +
+                    "\", file object  \"" + inputDataHolder.getFile().getName() +
+                    "\", size of file part " + inputDataHolder.getSize() + " bytes;\n" +
+                    "\t\t- " + executorService.getClass() +
+                    ((executorService instanceof ThreadPoolExecutor)? " with maximum allowed number of threads = "
+                            + ((ThreadPoolExecutor)executorService).getMaximumPoolSize() : "") + "\n" +
+                    "\t\t- " + controller.getClass());
 
+            log.info("Initialize StatisticService and Splitter.");
             StatisticService statistic = new StatisticServiceImpl();
-
-            log.info("Initialize Splitter and File");
-
             Splitter splitter = new Splitter(executorService);
             File fileIn = inputDataHolder.getFile();
-
             long partSize = inputDataHolder.getSize();
-
-            log.info("Initialize size of parts. Size = " + partSize);
-
             splitter.split(statistic, fileIn, partSize);
             this.printStatistic(executorService, statistic, controller);
         }
@@ -53,16 +53,19 @@ public enum Command {
         public void apply(final InputDataHolder inputDataHolder,
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
+            log.info("Starts with parameters:\n" + "\t\t- " + inputDataHolder.getClass() +
+                    " which includes Command \"" + inputDataHolder.getCommand() +
+                    "\", file object  \"" + inputDataHolder.getFile().getName() +
+                    "\", size of file part " + inputDataHolder.getSize() + " bytes;\n" +
+                    "\t\t- " + executorService.getClass() +
+                    ((executorService instanceof ThreadPoolExecutor)? " with maximum allowed number of threads = "
+                            + ((ThreadPoolExecutor)executorService).getMaximumPoolSize() : "") + "\n" +
+                    "\t\t- " + controller.getClass());
 
-            log.info("Initialize StatisticService.");
-
+            log.info("Initialize StatisticService and Joiner.");
             StatisticService statistic = new StatisticServiceImpl();
-
-            log.info("Initialize Joiner and part of file.");
-
             Joiner joiner = new Joiner(executorService);
             File anyPart = inputDataHolder.getFile();
-
             joiner.join(statistic, anyPart);
             this.printStatistic(executorService, statistic, controller);
         }
@@ -75,10 +78,11 @@ public enum Command {
         public void apply(final InputDataHolder inputDataHolder,
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
+            log.info("Starts Command \"" + inputDataHolder.getCommand() + "\"");
             executorService.shutdownNow();
             log.info("Attempts to stop all actively executing tasks, halts the processing of waiting tasks.");
             controller.sendMessage("Good by!");
-            controller.getWriter().close();
+            controller.closeController();
             log.info("Close BufferedWriter of stream Controller.");
         }
     };
@@ -93,7 +97,7 @@ public enum Command {
     /**
      * Constructs Command with String value.
      *
-     * @param value the String value of command.
+     * @param value the String value of command
      */
     Command(String value) {
         this.value = value;
@@ -102,7 +106,7 @@ public enum Command {
     /**
      * Returns the String value of command.
      *
-     * @return the String value of command.
+     * @return the String value of command
      */
     @Override
     public String toString() {
@@ -112,28 +116,33 @@ public enum Command {
     /**
      * Returns the command corresponding for this value.
      *
-     * @param value String value of command.
-     * @return the command corresponding for this value.
-     * @throws InputException if current command doesn't exist.
+     * @param value String value of command
+     * @return the command corresponding for this value
      */
-    public static Command getCommandByValue(final String value) throws InputException {
-        try{
-            value.toLowerCase();
-        }catch (NullPointerException e){
-            log.error("Command is null");
-            throw new InputException("Command is null");
-        }
+    public static Command getCommandByValue(final String value) {
         Command command = null;
         for (Command com : Command.values()) {
             if (com.toString().equals(value.toLowerCase())) {
                 command = com;
             }
         }
-        if (command == null) {
-            log.error("Command '" + value + "' is not supported");
-            throw new InputException("Command '" + value + "' is not supported");
-        }
+        log.info("Create Command \"" + value + "\".");
         return command;
+    }
+
+    /**
+     * Is user's command a correct command.
+     *
+     * @param inputCommand string user's command
+     * @return true if command is correct
+     */
+    public static boolean isCommandCorrect(final String inputCommand){
+        String userCommand = inputCommand.toLowerCase();
+        for (Command comm: Command.values()) {
+            if(comm.toString().equals(userCommand)){
+                return true;
+            }
+        } return false;
     }
 
     /**

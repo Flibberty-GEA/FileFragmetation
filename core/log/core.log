@@ -93,3 +93,53 @@
 2016-12-30 17:37:30 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
 2016-12-30 17:37:30 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
 2016-12-30 17:37:30 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
+2017-01-03 09:00:17 ERROR main Command:getCommandByValue:123 - Command is null
+2017-01-03 09:00:17 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2017-01-03 09:00:17 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-03 09:00:17 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
+2017-01-03 09:00:37 ERROR main Command:getCommandByValue:123 - Command is null
+2017-01-03 09:00:37 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2017-01-03 09:01:27 ERROR main Command:getCommandByValue:123 - Command is null
+2017-01-03 09:01:27 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2017-01-03 09:01:52 ERROR main Command:getCommandByValue:123 - Command is null
+2017-01-03 09:01:52 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2017-01-03 09:02:01 ERROR main Command:getCommandByValue:123 - Command is null
+2017-01-03 09:02:01 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2017-01-03 09:03:11 ERROR main Command:getCommandByValue:123 - Command is null
+2017-01-03 09:03:11 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2017-01-03 09:04:19 ERROR main Command:getCommandByValue:123 - Command is null
+2017-01-03 09:04:19 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2017-01-03 09:04:46 ERROR main Command:getCommandByValue:123 - Command is null
+2017-01-03 09:04:46 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
+2017-01-03 11:03:55 ERROR main Command:getCommandByValue:124 - Command is null
+2017-01-03 11:03:55 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:67 - User command "exit".
+2017-01-03 11:03:55 INFO  main InputDataHolder:getCommand:77 - User command "exit".
+2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:61 - User command "split". Users file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-03 11:03:55 INFO  main InputDataHolder:getCommand:77 - User command "split".
+2017-01-03 11:03:55 INFO  main InputDataHolder:getFile:88 - Users file object "file.bmp".
+2017-01-03 11:03:55 INFO  main InputDataHolder:getSize:98 - Size of file part = 1000000 bytes.
+2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 11:03:55 ERROR main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 11:03:55 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-03 11:10:02 ERROR main Command:getCommandByValue:124 - Command is null
+2017-01-03 11:10:02 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
+2017-01-03 11:10:02 INFO  main InputDataHolder:parse:23 - Starts with parameters [Ljava.lang.String;@32d992b2
+2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:67 - User command "exit".
+2017-01-03 11:10:02 INFO  main InputDataHolder:getCommand:77 - User command "exit".
+2017-01-03 11:10:02 INFO  main InputDataHolder:parse:23 - Starts with parameters [Ljava.lang.String;@4520ebad
+2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:61 - User command "split". Users file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-03 11:10:02 INFO  main InputDataHolder:getCommand:77 - User command "split".
+2017-01-03 11:10:02 INFO  main InputDataHolder:getFile:88 - Users file object "file.bmp".
+2017-01-03 11:10:02 INFO  main InputDataHolder:getSize:98 - Size of file part = 1000000 bytes.
+2017-01-03 11:10:02 INFO  main InputDataHolder:parse:23 - Starts with parameters [Ljava.lang.String;@d2cc05a
+2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 11:10:02 ERROR main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-03 11:10:02 INFO  main InputDataHolder:parse:23 - Starts with parameters [Ljava.lang.String;@1753acfe
+2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 11:10:02 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".

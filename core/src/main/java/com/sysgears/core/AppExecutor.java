@@ -14,10 +14,12 @@ import java.util.concurrent.Executors;
 
 /**
  * Class that execute full cycle of applications work.
+ *
+ * @author Yevgen Goliuk
  */
 public class AppExecutor {
 
-    public static final Logger LOG = LogManager.getLogger(AppExecutor.class);
+    public static final Logger log = LogManager.getLogger(AppExecutor.class);
 
     private final Controller streamController;
     private final InputDataParser inputDataParser;
@@ -26,11 +28,11 @@ public class AppExecutor {
 
     /**
      * Constructs AppExecutor with streamController to contact with user,
-     * inputDataParser to parse input messages from user and object with.
+     * inputDataParser to parse input messages from user and object with
      * properties in specified format.
      *
-     * @param streamController      streamController to contact with user.
-     * @param inputDataParser inputDataParser to parse input messages from user.
+     * @param streamController streamController to contact with user.
+     * @param inputDataParser  inputDataParser to parse input messages from user.
      */
     public AppExecutor(final Controller streamController,
                        final InputDataParser inputDataParser) {
@@ -41,12 +43,12 @@ public class AppExecutor {
 
     /**
      * Constructs AppExecutor with streamController to contact with user,
-     * inputDataParser to parse input messages from user and object with.
+     * inputDataParser to parse input messages from user and object with
      * properties in specified format.
      *
-     * @param streamController      streamController to contact with user.
-     * @param inputDataParser inputDataParser to parse input messages from user.
-     * @param nThreads the number of threads in the pool.
+     * @param streamController streamController to contact with user
+     * @param inputDataParser  inputDataParser to parse input messages from user
+     * @param nThreads         the number of threads in the pool
      */
     public AppExecutor(final Controller streamController,
                        final InputDataParser inputDataParser,
@@ -60,22 +62,14 @@ public class AppExecutor {
      * Executes full cycle of applications work.
      */
     public void execute() {
+        log.info("Starts to execute full cycle of applications work.");
 
-        while (true) {
+        while (streamController.isOpen()) {
             try {
                 streamController.sendMessage("Enter parameters OR 'exit' to quit program");
                 String message = streamController.getMessage();
-
-                LOG.info("Get message from user. Message: '" + message + "'.");
-
                 InputDataHolder inputDataHolder = inputDataParser.parse(message.split(" "));
-
-                LOG.info("Parse message to InputDataHolder.");
-
                 Command command = Command.getCommandByValue(inputDataHolder.getCommand());
-
-                LOG.info("Get command from CommandLine. Command = " + command + ". Try to apply this command.");
-
                 command.apply(inputDataHolder, executorService, streamController);
 
             } catch (ControllerException e) {

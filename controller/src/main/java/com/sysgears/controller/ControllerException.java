@@ -21,7 +21,7 @@ public class ControllerException extends RuntimeException {
     /**
      * Constructs ControllerException with detail message.
      *
-     * @param message the detail message.
+     * @param message the detail message
      */
     public ControllerException(final String message) {
         super(MESSEGE + message);
@@ -30,8 +30,8 @@ public class ControllerException extends RuntimeException {
     /**
      * Constructs ControllerException with detail message and specified cause.
      *
-     * @param message the detail message.
-     * @param cause   the specified cause of ControllerException.
+     * @param message the detail message
+     * @param cause   the specified cause of ControllerException
      */
     public ControllerException(final String message, final Throwable cause) {
         super(MESSEGE + message, cause);
@@ -40,7 +40,7 @@ public class ControllerException extends RuntimeException {
     /**
      * Constructs ControllerException with specified cause.
      *
-     * @param cause the specified cause of ControllerException.
+     * @param cause the specified cause of ControllerException
      */
     public ControllerException(final Throwable cause) {
         super(MESSEGE, cause);

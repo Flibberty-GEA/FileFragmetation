@@ -1,6 +1,8 @@
 package com.sysgears.statistic;
 
 import com.sysgears.statistic.repository.StatisticRepository;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.util.Date;
 
@@ -8,6 +10,7 @@ import java.util.Date;
  * Class that store the statistic of work for all threads.
  */
 public class StatisticServiceImpl implements StatisticService {
+    public static final Logger log = LogManager.getLogger(StatisticServiceImpl.class);
 
     private final StatisticRepository repository = new StatisticRepository();
 

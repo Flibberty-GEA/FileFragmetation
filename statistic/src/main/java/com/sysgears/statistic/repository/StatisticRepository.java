@@ -1,11 +1,15 @@
 package com.sysgears.statistic.repository;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
 public class StatisticRepository {
+    public static final Logger log = LogManager.getLogger(StatisticRepository.class);
 
     /**
      * Map where key is a thread name and value is expected count of

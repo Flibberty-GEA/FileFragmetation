@@ -12,6 +12,8 @@ import java.io.IOException;
 
 /**
  * Main class of application.
+ *
+ * @author Yevgen Goliuk
  */
 public class MainClass {
 //        -c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.txt -s 100M
@@ -24,19 +26,14 @@ public class MainClass {
     /**
      * Main method of application.
      *
-     * @param args input arguments from command line.
-     * @throws IOException if something is wrong with properties.
+     * @param args input arguments from command line
+     * @throws IOException if something is wrong with properties
      */
     public static void main(String[] args) throws IOException {
-
         log.info("Start program.");
-
         try {
             final Controller controller = new StreamController(System.in, System.out);
             final InputDataParser inputDataParser = new ApacheCliParser();
-
-            log.info("Initialize AppExecutor and execute it.");
-
             new AppExecutor(controller, inputDataParser, 2).execute();
         } catch (Throwable t) {
             log.fatal(t.getMessage(), t);
