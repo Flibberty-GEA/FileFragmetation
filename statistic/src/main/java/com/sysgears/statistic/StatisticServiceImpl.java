@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 import java.util.Date;
 
 /**
- * Class that store the statistic of work for all threads.
+ * Service for storages and accesses to statistical data of work for all threads.
  */
 public class StatisticServiceImpl implements StatisticService {
     public static final Logger log = LogManager.getLogger(StatisticServiceImpl.class);

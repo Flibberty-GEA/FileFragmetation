@@ -1,4 +1,4 @@
-package com.sysgears.core.exceptions;
+package com.sysgears.core.input;
 
 /**
  * InputException is a subclass of ExecutorException.

@@ -36,7 +36,7 @@ public interface Controller {
     /**
      * Closes StreamController.
      *
-     * @throws ControllerException if an controller error occurs
+     * @throws IOException if an controller error occurs
      */
     void closeController() throws IOException;
 

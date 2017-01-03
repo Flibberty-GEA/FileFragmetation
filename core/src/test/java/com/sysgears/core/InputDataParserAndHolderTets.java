@@ -1,6 +1,6 @@
 package com.sysgears.core;
 
-import com.sysgears.core.exceptions.InputException;
+import com.sysgears.core.input.InputException;
 import com.sysgears.core.input.ApacheCliParser;
 import com.sysgears.core.input.InputDataHolder;
 import com.sysgears.core.input.InputDataParser;
@@ -15,6 +15,8 @@ import org.testng.annotations.Test;
 public class InputDataParserAndHolderTets {
     String commandForExit = "-c exit";
     String correctCommandForSplitFile = "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1M";
+    String correctCommandForJoinFile = "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1K";
+    String wrongCommandWithBadCommand = "-c sffsdf -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1M";
     String wrongCommandWithBadPath = "-c split -p /wrong_file_path/file.bmp -s 1M";
     String wrongCommandWithBadSize = "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1B";
     InputDataParser apacheCliParser = new ApacheCliParser();
@@ -24,12 +26,14 @@ public class InputDataParserAndHolderTets {
         return new Object[][]{
                 {commandForExit, "exit"},
                 {correctCommandForSplitFile, "split", "/home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp", "1000000"},
+                {correctCommandForJoinFile, "join", "/home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp", "1000"},
         };
     }
 
     @DataProvider
     public Object[][] wrongInputData() {
         return new Object[][]{
+                {wrongCommandWithBadCommand, ""},
                 {wrongCommandWithBadPath, ""},
                 {wrongCommandWithBadSize, ""}
         };

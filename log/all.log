@@ -1,68 +1,48 @@
-2017-01-03 13:23:43 INFO  main MainClass:main:33 - Start program.
-2017-01-03 13:23:43 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
-2017-01-03 13:23:43 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-03 13:24:06 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-03 13:24:06 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
-2017-01-03 13:24:06 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 13:24:06 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 13:24:06 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 13:24:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Critical error. No enum constant com.sysgears.core.input.Command.split".
-2017-01-03 13:24:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-03 13:25:00 INFO  main MainClass:main:33 - Start program.
-2017-01-03 13:25:00 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
-2017-01-03 13:25:00 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-03 13:25:01 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-03 13:25:01 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
-2017-01-03 13:25:01 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 13:25:01 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 13:25:01 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 13:25:01 INFO  main Command:apply:30 - Starts with parameters:
+2017-01-03 15:20:42 INFO  main MainClass:main:33 - Start program.
+2017-01-03 15:20:42 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
+2017-01-03 15:20:42 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:20:49 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-03 15:20:49 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-03 15:20:49 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 15:20:49 INFO  main InputDataHolder:<init>:67 - User command "exit".
+2017-01-03 15:20:49 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-03 15:20:49 INFO  main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-03 15:20:49 INFO  main Command:apply:80 - Starts Command "exit"
+2017-01-03 15:20:49 INFO  main Command:apply:82 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-03 15:20:49 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-03 15:20:49 INFO  main StreamController:closeController:98 - Close BufferedWriter of stream Controller.
+2017-01-03 15:39:32 INFO  main MainClass:main:33 - Start program.
+2017-01-03 15:39:32 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
+2017-01-03 15:39:32 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:39:53 INFO  main MainClass:main:33 - Start program.
+2017-01-03 15:39:53 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
+2017-01-03 15:39:53 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:40:12 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-03 15:40:12 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
+2017-01-03 15:40:12 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 15:40:12 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-03 15:40:12 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-03 15:40:12 INFO  main Command:getCommandByValue:127 - Create Command "split".
+2017-01-03 15:40:12 INFO  main Command:apply:29 - Starts with parameters:
 		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
 		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
 		- class com.sysgears.controller.StreamController
-2017-01-03 13:25:01 INFO  main Command:apply:39 - Initialize StatisticService and Splitter.
-2017-01-03 13:25:02 INFO  main Command:printStatistic:179 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2017-01-03 13:25:02 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-03 13:25:02 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-03 13:25:06 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c fgdf".
-2017-01-03 13:25:06 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, fgdf]
-2017-01-03 13:25:06 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 13:25:06 ERROR main InputDataHolder:<init>:33 - Command 'fgdf' is not supported
-2017-01-03 13:25:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'fgdf' is not supported".
-2017-01-03 13:25:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-03 13:25:11 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
-2017-01-03 13:25:11 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 13:25:11 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 13:25:11 INFO  main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 13:25:11 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 13:25:11 INFO  main Command:apply:81 - Starts Command "exit"
-2017-01-03 13:25:11 INFO  main Command:apply:83 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2017-01-03 13:25:11 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
-2017-01-03 13:25:11 INFO  main Command:apply:86 - Close BufferedWriter of stream Controller.
-2017-01-03 13:28:18 INFO  main MainClass:main:33 - Start program.
-2017-01-03 13:28:18 INFO  main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
-2017-01-03 13:28:18 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-03 13:28:21 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-03 13:28:21 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
-2017-01-03 13:28:21 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 13:28:21 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 13:28:21 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 13:28:21 INFO  main Command:getCommandByValue:129 - Create Command "split".
-2017-01-03 13:28:21 INFO  main Command:apply:30 - Starts with parameters:
-		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
-		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
-		- class com.sysgears.controller.StreamController
-2017-01-03 13:28:21 INFO  main Command:apply:39 - Initialize StatisticService and Splitter.
-2017-01-03 13:28:22 INFO  main Command:printStatistic:166 - Send statistic message to user. Message: Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.
-2017-01-03 13:28:22 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-03 13:28:22 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-03 13:28:26 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
-2017-01-03 13:28:26 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 13:28:26 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 13:28:26 INFO  main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 13:28:26 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 13:28:26 INFO  main Command:getCommandByValue:129 - Create Command "exit".
-2017-01-03 13:28:26 INFO  main Command:apply:81 - Starts Command "exit"
-2017-01-03 13:28:26 INFO  main Command:apply:83 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2017-01-03 13:28:26 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
-2017-01-03 13:28:26 INFO  main Command:apply:86 - Close BufferedWriter of stream Controller.
+2017-01-03 15:40:12 INFO  main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-03 15:40:13 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-03 15:40:13 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:42:40 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c dfs".
+2017-01-03 15:42:40 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, dfs]
+2017-01-03 15:42:40 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 15:42:40 ERROR main InputDataHolder:<init>:33 - Command 'dfs' is not supported
+2017-01-03 15:42:40 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'dfs' is not supported".
+2017-01-03 15:42:40 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:43:14 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-03 15:43:14 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-03 15:43:14 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-03 15:43:14 INFO  main InputDataHolder:<init>:67 - User command "exit".
+2017-01-03 15:43:14 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-03 15:43:14 INFO  main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-03 15:43:14 INFO  main Command:apply:80 - Starts Command "exit"
+2017-01-03 15:43:14 INFO  main Command:apply:82 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-03 15:43:14 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-03 15:43:14 INFO  main StreamController:closeController:101 - Close BufferedWriter of stream Controller.

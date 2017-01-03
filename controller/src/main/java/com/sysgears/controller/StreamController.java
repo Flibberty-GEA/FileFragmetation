@@ -88,12 +88,16 @@ public class StreamController implements Controller {
      * @throws ControllerException if an controller error occurs
      */
     @Override
-    public void closeController() throws IOException {
+    public void closeController() throws ControllerException {
         try {
+            reader.close();
             writer.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error("Closing error.", e);
+            throw new ControllerException("Could not close input or output stream. ", e);
+        } finally {
+            isOpen = false;
         }
-        isOpen = false;
+        log.info("Close BufferedReader and BufferedWriter of stream Controller.");
     }
 }

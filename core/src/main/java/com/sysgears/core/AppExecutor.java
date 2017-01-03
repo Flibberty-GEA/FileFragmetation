@@ -2,7 +2,7 @@ package com.sysgears.core;
 
 import com.sysgears.controller.Controller;
 import com.sysgears.controller.ControllerException;
-import com.sysgears.core.exceptions.InputException;
+import com.sysgears.core.input.InputException;
 import com.sysgears.core.input.Command;
 import com.sysgears.core.input.InputDataHolder;
 import com.sysgears.core.input.InputDataParser;
@@ -77,7 +77,6 @@ public class AppExecutor {
 
             } catch (InputException e) {
                 streamController.sendMessage(e.getMessage());
-
             } catch (Throwable t) {
                 streamController.sendMessage("Critical error. " + t.getMessage());
             }

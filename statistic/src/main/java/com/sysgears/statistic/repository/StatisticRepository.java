@@ -39,9 +39,9 @@ public class StatisticRepository {
     private long actualSize = 0L;
 
     /**
-     * Sets expected size.
+     * Sets expected size of work for all threads.
      *
-     * @param expectedSize full size of work.
+     * @param expectedSize full size of work
      */
     public void setFullExpectedSize(long expectedSize) {
         this.expectedSize = expectedSize;
@@ -50,8 +50,8 @@ public class StatisticRepository {
     /**
      * Sets expected size of work for current thread.
      *
-     * @param threadName   name of current thread.
-     * @param expectedSize full size of work for current thread.
+     * @param threadName   name of current thread
+     * @param expectedSize full size of work for current thread
      */
     public synchronized void setExpected(final String threadName, final Long expectedSize) {
         expectedByThread.put(threadName, expectedSize);
@@ -60,8 +60,8 @@ public class StatisticRepository {
     /**
      * Sets actual size of work for current thread.
      *
-     * @param threadName name of current thread.
-     * @param actualSize size of work done for current thread.
+     * @param threadName name of current thread
+     * @param actualSize size of work done for current thread
      */
     public synchronized void setActual(final String threadName, final Long actualSize) {
         actualByThread.put(threadName, actualSize);
@@ -70,8 +70,8 @@ public class StatisticRepository {
     /**
      * Increments actual size of work for current thread.
      *
-     * @param threadName name of current thread.
-     * @param size       count of bytes which need to increase actual size on.
+     * @param threadName name of current thread
+     * @param size       count of bytes which need to increase actual size on
      */
     public synchronized void increaseActual(final String threadName, final long size) {
 

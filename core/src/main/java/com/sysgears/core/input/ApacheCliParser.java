@@ -1,6 +1,5 @@
 package com.sysgears.core.input;
 
-import com.sysgears.core.exceptions.InputException;
 import org.apache.commons.cli.*;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;

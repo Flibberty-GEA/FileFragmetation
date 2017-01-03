@@ -1,19 +1,9 @@
 package com.sysgears.core;
 
-import com.sysgears.controller.Controller;
-import com.sysgears.controller.StreamController;
-import com.sysgears.core.exceptions.InputException;
 import com.sysgears.core.input.Command;
-import com.sysgears.core.input.InputDataHolder;
-import org.easymock.EasyMock;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
 
 /**
@@ -45,11 +35,11 @@ public class CommandTest {
         Assert.assertEquals(actual, expected);
     }
 
-    @Test(dataProvider = "parseWrongCommand", expectedExceptions = InputException.class)
-    public void testCommandCreatorByWrongValue(String command, Command expected) {
-        final Command actual = Command.getCommandByValue(command);
-        Assert.assertEquals(actual, expected);
-    }
+//    @Test(dataProvider = "parseWrongCommand", expectedExceptions = InputException.class)
+//    public void testCommandCreatorByWrongValue(String command, Command expected) {
+//        final Command actual = Command.getCommandByValue(command);
+//        Assert.assertEquals(actual, expected);
+//    }
 
 //    @Test(expectedExceptions = IOException.class)
 //    public void testCommandExitApply() throws IOException {

@@ -322,3 +322,18 @@ java.io.IOException: Stream closed
 2017-01-03 13:28:22 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
 2017-01-03 13:28:26 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
 2017-01-03 13:28:26 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-03 15:20:42 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:20:49 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-03 15:20:49 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-03 15:20:49 INFO  main StreamController:closeController:98 - Close BufferedWriter of stream Controller.
+2017-01-03 15:39:32 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:39:53 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:40:12 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-03 15:40:13 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-03 15:40:13 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:42:40 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c dfs".
+2017-01-03 15:42:40 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'dfs' is not supported".
+2017-01-03 15:42:40 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-03 15:43:14 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-03 15:43:14 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-03 15:43:14 INFO  main StreamController:closeController:101 - Close BufferedWriter of stream Controller.

@@ -1,7 +1,6 @@
 package com.sysgears.core.input;
 
 import com.sysgears.controller.Controller;
-import com.sysgears.core.exceptions.InputException;
 import com.sysgears.fragmentation.Joiner;
 import com.sysgears.fragmentation.Splitter;
 import com.sysgears.statistic.StatisticService;
@@ -83,7 +82,6 @@ public enum Command {
             log.info("Attempts to stop all actively executing tasks, halts the processing of waiting tasks.");
             controller.sendMessage("Good by!");
             controller.closeController();
-            log.info("Close BufferedWriter of stream Controller.");
         }
     };
 
@@ -146,12 +144,25 @@ public enum Command {
     }
 
     /**
+     * Command should to do.
+     *
+     * @param inputDataHolder specified objects with data from user's command:
+     *                        command name, file for splitting or joining, size of file part
+     * @param executorService
+     * @param controller for input and output streams
      * @throws IOException
      */
     public abstract void apply(final InputDataHolder inputDataHolder,
                                final ExecutorService executorService,
                                final Controller controller) throws IOException;
 
+    /**
+     * Print statistic info.
+     *
+     * @param executorService
+     * @param statistic service for storages and accesses to statistical data
+     * @param controller for input and output streams
+     */
     protected void printStatistic(final ExecutorService executorService,
                                   final StatisticService statistic,
                                   final Controller controller){
@@ -159,12 +170,10 @@ public enum Command {
             try {
                 TimeUnit.MILLISECONDS.sleep(statistic.STATISTIC_SHOW_TIMEOUT);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                Thread.currentThread().interrupt();
+                log.error("Interrupted, closing. ", e);
             }
             String statisticMessage = statistic.get();
-
-            log.info("Send statistic message to user. Message: " + statisticMessage);
-
             controller.sendMessage(statisticMessage);
         }
     }

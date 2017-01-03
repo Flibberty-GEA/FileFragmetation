@@ -4,7 +4,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 /**
- * Class that implements StatisticService interface can store statistic.
+ * Service for storages and accesses to statistical data.
  */
 public interface StatisticService {
 

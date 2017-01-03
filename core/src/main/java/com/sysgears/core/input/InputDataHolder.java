@@ -1,6 +1,5 @@
 package com.sysgears.core.input;
 
-import com.sysgears.core.exceptions.InputException;
 import org.apache.commons.cli.CommandLine;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -8,10 +7,11 @@ import org.apache.log4j.Logger;
 import java.io.File;
 
 /**
- * Class that convert CommandLine object to specified objects.
+ * Class that convert CommandLine object to specified objects with data from user's command.
  */
 public class InputDataHolder {
     public static final Logger log = LogManager.getLogger(InputDataHolder.class);
+
     private final String command;
     private final File file;
     private final long size;
