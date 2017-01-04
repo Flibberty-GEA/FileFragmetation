@@ -167,13 +167,7 @@ public enum Command {
                                   final StatisticService statistic,
                                   final Controller controller){
         while (((ThreadPoolExecutor) executorService).getActiveCount() > 0) {
-            try {
-                TimeUnit.MILLISECONDS.sleep(statistic.STATISTIC_SHOW_TIMEOUT);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-                log.error("Interrupted, closing. ", e);
-            }
-            String statisticMessage = statistic.get();
+            String statisticMessage = statistic.getInfoByTimer(statistic.STATISTIC_SHOW_TIMEOUT);
             controller.sendMessage(statisticMessage);
         }
     }

@@ -1,6 +1,0 @@
-2017-01-04 11:47:58 WARN  main InputDataHolder:<init>:33 - Command 'rfsdf' is not supported
-2017-01-04 11:47:58 ERROR main AppExecutor:execute:78 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'rfsdf' is not supported
-2017-01-04 11:47:59 ERROR main AppExecutor:execute:81 - Unexpected exception java.lang.NullPointerException
-2017-01-04 14:17:51 WARN  main InputDataHolder:<init>:33 - Command 'dsfg' is not supported
-2017-01-04 14:17:51 ERROR main AppExecutor:execute:78 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'dsfg' is not supported
-2017-01-04 14:17:52 ERROR main AppExecutor:execute:81 - Unexpected exception java.lang.NullPointerException

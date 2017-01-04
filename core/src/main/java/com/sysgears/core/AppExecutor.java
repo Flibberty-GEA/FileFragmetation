@@ -79,7 +79,8 @@ public class AppExecutor {
                 streamController.sendMessage(i.getMessage());
             } catch (Throwable t) {
                 log.error("Unexpected exception "+t.toString());
-                streamController.sendMessage("Unexpected exception " + t.getMessage());
+                streamController.sendMessage("Unexpected exception ");
+                t.printStackTrace();
             }
         }
     }

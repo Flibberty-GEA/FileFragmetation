@@ -17,7 +17,7 @@ public class InputDataParserAndHolderTets {
     String correctCommandForSplitFile = "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1M";
     String correctCommandForJoinFile = "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1K";
     String wrongCommandWithBadCommand = "-c sffsdf -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1M";
-    String wrongCommandWithBadPath = "-c split -p /wrong_file_path/file.bmp -s 1M";
+    String wrongCommandWithBadPath = "-c split -p /wrong_file_path/testFile.bmp -s 1M";
     String wrongCommandWithBadSize = "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1B";
     InputDataParser apacheCliParser = new ApacheCliParser();
 

@@ -24,6 +24,7 @@ public class StatisticServiceImpl implements StatisticService {
      *
      * @param expectedSize full size of work
      */
+    @Override
     public void setFullExpectedSize(long expectedSize) {
         repository.setFullExpectedSize(expectedSize);
     }
@@ -34,6 +35,7 @@ public class StatisticServiceImpl implements StatisticService {
      * @param threadName   name of current thread
      * @param expectedSize full size of work for current thread
      */
+    @Override
     public synchronized void setExpected(final String threadName, final Long expectedSize) {
 //        log.debug("Starts with params:\n" +
 //        "\t\t- name of current thread \"" + threadName + "\";\n" +
@@ -47,6 +49,7 @@ public class StatisticServiceImpl implements StatisticService {
      * @param threadName name of current thread
      * @param actualSize size of work done for current thread
      */
+    @Override
     public synchronized void setActual(final String threadName, final Long actualSize) {
 //        log.debug("Starts with params:\n" +
 //        "\t\t- name of current thread \"" + threadName + "\";\n" +
@@ -60,6 +63,7 @@ public class StatisticServiceImpl implements StatisticService {
      * @param threadName name of current thread
      * @param size       count of bytes which need to increase actual size on
      */
+    @Override
     public synchronized void increaseActual(final String threadName, final long size) {
 //        log.debug("Starts with params:\n" +
 //                "\t\t- name of current thread \"" + threadName + "\";\n" +
@@ -72,6 +76,7 @@ public class StatisticServiceImpl implements StatisticService {
      *
      * @return string with statistic for all threads
      */
+    @Override
     public synchronized String get() {
 
         log.debug("call to method get()");
@@ -108,10 +113,19 @@ public class StatisticServiceImpl implements StatisticService {
         return statistic.toString();
     }
 
+    /**
+     * Returns delayed a statistic info.
+     *
+     * @param timeout for wait
+     * @return string with statistic for all threads
+     */
     @Override
     public String getInfoByTimer(final long timeout) {
+        final long correctTimeout;
+        if(timeout<STATISTIC_SHOW_TIMEOUT) correctTimeout = STATISTIC_SHOW_TIMEOUT;
+        else correctTimeout=timeout;
         try {
-            TimeUnit.MILLISECONDS.sleep(timeout);
+            TimeUnit.MILLISECONDS.sleep(correctTimeout);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
             log.error("Interrupted, closing. ", e);

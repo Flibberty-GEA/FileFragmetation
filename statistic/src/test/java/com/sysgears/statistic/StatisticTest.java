@@ -1,8 +1,8 @@
 package com.sysgears.statistic;
 
-import com.sysgears.statistic.repository.StatisticRepository;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.regex.Pattern;
@@ -11,7 +11,6 @@ import java.util.regex.Pattern;
  * @author yevgen
  */
 public class StatisticTest {
-//public static final Logger log = LogManager.getLogger(Foo.class);
 
     StatisticInfoValidator validator;
     StatisticService statisticService;
@@ -34,6 +33,30 @@ public class StatisticTest {
     @Test(groups = { "all-tests" })
     public void testStatisticInfo() {
         Assert.assertTrue(validator.validate(statisticService.get()));
+    }
+
+    @DataProvider
+    public Object[][] timeout() {
+        return new Object[][]{
+                {1000L},
+                {2000L},
+                {100L}
+        };
+    }
+
+    @Test(dataProvider = "timeout", groups = { "all-tests" })
+    public void testTimeout(final long timeout) {
+        final long start = System.currentTimeMillis();
+        statisticService.getInfoByTimer(timeout);
+        final long finish = System.currentTimeMillis();
+        double timeConsumedMillis = finish - start;
+        final long correctTimeout;
+        if(timeout<StatisticService.STATISTIC_SHOW_TIMEOUT) correctTimeout = StatisticService.STATISTIC_SHOW_TIMEOUT;
+        else correctTimeout=timeout;
+
+        final double maxError = 1d;
+        final double realError = ((timeConsumedMillis-correctTimeout)*100)/correctTimeout;
+        Assert.assertTrue(realError<=maxError);
     }
 
     class StatisticInfoValidator {

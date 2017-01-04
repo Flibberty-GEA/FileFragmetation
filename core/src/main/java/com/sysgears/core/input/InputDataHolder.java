@@ -27,6 +27,12 @@ public class InputDataHolder {
     public InputDataHolder(final CommandLine cmd) throws InputException {
         log.debug("Create " + this.getClass().getSimpleName() + " with param " + cmd.getClass() + ".");
         String inputCommand = cmd.getOptionValue("c");
+        try {
+            inputCommand.isEmpty();
+        } catch (NullPointerException n){
+            throw new InputException("Command is not supported. \nPlease enter correct command like this \"-c split -p /file_path.file_name -s size_of_part\"");
+        }
+
         if (Command.isCommandCorrect(inputCommand)) {
             command = inputCommand.toLowerCase();
         } else {

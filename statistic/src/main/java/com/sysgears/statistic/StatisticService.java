@@ -8,7 +8,7 @@ import org.apache.log4j.Logger;
  */
 public interface StatisticService {
 
-    long STATISTIC_SHOW_TIMEOUT = 1000;
+    long STATISTIC_SHOW_TIMEOUT = 1000L;
 
     /**
      * Sets expected size.
@@ -48,5 +48,11 @@ public interface StatisticService {
      */
     String get();
 
+    /**
+     * Returns delayed a statistic info.
+     *
+     * @param timeout for wait
+     * @return string with statistic for all threads
+     */
     String getInfoByTimer(final long timeout);
 }
