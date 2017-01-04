@@ -1,0 +1,294 @@
+2017-01-04 17:12:18 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 17:12:18 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 17:12:18 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 17:12:18 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 17:12:18 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:18 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:18 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 17:12:18 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 17:12:18 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 17:12:18 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 17:12:18 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 17:12:21 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:21 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:21 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1547.0s.'
+2017-01-04 17:12:21 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1547.0s.'
+2017-01-04 17:12:22 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:22 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:22 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2046.0s.'
+2017-01-04 17:12:22 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2046.0s.'
+2017-01-04 17:12:24 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:24 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:24 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3045.0s.'
+2017-01-04 17:12:24 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3045.0s.'
+2017-01-04 17:12:25 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:25 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:12:25 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3544.0s.'
+2017-01-04 17:12:25 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3544.0s.'
+2017-01-04 17:13:35 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 17:13:35 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 17:13:35 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 17:13:35 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 17:13:35 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:35 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:35 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 17:13:35 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 17:13:35 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 17:13:35 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 17:13:35 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 17:13:38 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:38 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:38 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1533.0s.'
+2017-01-04 17:13:38 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1533.0s.'
+2017-01-04 17:13:39 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:39 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:39 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2032.0s.'
+2017-01-04 17:13:39 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2032.0s.'
+2017-01-04 17:13:41 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:41 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:41 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3031.0s.'
+2017-01-04 17:13:41 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3031.0s.'
+2017-01-04 17:13:42 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:42 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 17:13:42 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3531.0s.'
+2017-01-04 17:13:42 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3531.0s.'
+2017-01-04 18:12:55 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:12:55 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:12:55 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:12:55 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:12:55 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:12:55 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:12:55 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:12:55 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:12:56 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:12:56 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:12:57 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:12:57 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:12:57 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-2-thread-1: 100%, pool-2-thread-2: 100%, time remaining: 0.0s.'
+2017-01-04 18:12:57 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-2-thread-1: 100%, pool-2-thread-2: 100%, time remaining: 0.0s.'
+2017-01-04 18:12:57 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 18:12:57 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 18:12:57 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 18:13:00 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:00 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:00 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2134.0s.'
+2017-01-04 18:13:00 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2134.0s.'
+2017-01-04 18:13:01 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:01 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:01 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2634.0s.'
+2017-01-04 18:13:01 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2634.0s.'
+2017-01-04 18:13:03 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:03 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:03 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3633.0s.'
+2017-01-04 18:13:03 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3633.0s.'
+2017-01-04 18:13:04 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:04 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:04 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4134.0s.'
+2017-01-04 18:13:04 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4134.0s.'
+2017-01-04 18:13:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:29 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:29 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:29 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:13:29 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:13:29 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 18:13:29 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 18:13:29 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 18:13:32 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:32 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:32 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1563.0s.'
+2017-01-04 18:13:32 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1563.0s.'
+2017-01-04 18:13:33 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:33 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:33 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2063.0s.'
+2017-01-04 18:13:33 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2063.0s.'
+2017-01-04 18:13:35 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:35 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:35 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3062.0s.'
+2017-01-04 18:13:35 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3062.0s.'
+2017-01-04 18:13:36 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:36 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:36 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3561.0s.'
+2017-01-04 18:13:36 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3561.0s.'
+2017-01-04 18:13:40 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:40 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:40 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:40 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:40 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:40 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:40 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:13:40 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:13:40 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 18:13:40 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 18:13:40 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 18:13:42 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:42 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:42 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:42 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:13:42 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:42 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:42 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 18:13:42 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 18:13:42 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 18:13:42 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 18:13:42 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 18:13:43 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:43 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:43 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1583.0s.'
+2017-01-04 18:13:43 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1583.0s.'
+2017-01-04 18:13:44 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:44 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:44 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2083.0s.'
+2017-01-04 18:13:44 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2083.0s.'
+2017-01-04 18:13:45 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:45 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:45 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1548.0s.'
+2017-01-04 18:13:45 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1548.0s.'
+2017-01-04 18:13:46 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:46 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:46 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3082.0s.'
+2017-01-04 18:13:46 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3082.0s.'
+2017-01-04 18:13:46 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:46 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:46 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2048.0s.'
+2017-01-04 18:13:46 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2048.0s.'
+2017-01-04 18:13:47 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:47 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:47 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3582.0s.'
+2017-01-04 18:13:47 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3582.0s.'
+2017-01-04 18:13:48 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:48 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:48 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3046.0s.'
+2017-01-04 18:13:48 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3046.0s.'
+2017-01-04 18:13:49 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:49 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:13:49 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3546.0s.'
+2017-01-04 18:13:49 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3546.0s.'
+2017-01-04 18:14:04 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:04 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:04 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:04 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:04 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:04 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:04 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:14:04 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:14:04 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 18:14:04 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 18:14:04 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 18:14:07 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:07 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:07 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1538.0s.'
+2017-01-04 18:14:07 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1538.0s.'
+2017-01-04 18:14:08 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:08 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:08 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2038.0s.'
+2017-01-04 18:14:08 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2038.0s.'
+2017-01-04 18:14:10 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:10 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:10 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3036.0s.'
+2017-01-04 18:14:10 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3036.0s.'
+2017-01-04 18:14:11 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:11 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:11 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3536.0s.'
+2017-01-04 18:14:11 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3536.0s.'
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:29 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:14:30 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:30 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:30 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-2-thread-1: 100%, pool-2-thread-2: 100%, time remaining: 0.0s.'
+2017-01-04 18:14:30 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-2-thread-1: 100%, pool-2-thread-2: 100%, time remaining: 0.0s.'
+2017-01-04 18:14:30 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 18:14:30 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 18:14:30 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 18:14:33 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:33 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:33 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2094.0s.'
+2017-01-04 18:14:33 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2094.0s.'
+2017-01-04 18:14:34 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:34 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:34 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2594.0s.'
+2017-01-04 18:14:34 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2594.0s.'
+2017-01-04 18:14:36 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:36 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:36 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3594.0s.'
+2017-01-04 18:14:36 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3594.0s.'
+2017-01-04 18:14:37 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:37 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:14:37 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4094.0s.'
+2017-01-04 18:14:37 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4094.0s.'
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 0.0s.'
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:28 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:29 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:29 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:29 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-2-thread-1: 100%, pool-2-thread-2: 100%, time remaining: 0.0s.'
+2017-01-04 18:15:29 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-2-thread-1: 100%, pool-2-thread-2: 100%, time remaining: 0.0s.'
+2017-01-04 18:15:29 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 18:15:29 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 18:15:29 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 1.0s.'
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:30 DEBUG main StatisticServiceImpl:<init>:19 - Initialize.
+2017-01-04 18:15:31 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:31 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:31 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-2-thread-1: 100%, pool-2-thread-2: 100%, time remaining: 0.0s.'
+2017-01-04 18:15:31 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-2-thread-1: 100%, pool-2-thread-2: 100%, time remaining: 0.0s.'
+2017-01-04 18:15:31 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-04 18:15:31 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-04 18:15:31 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-04 18:15:32 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:32 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:32 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2118.0s.'
+2017-01-04 18:15:32 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2118.0s.'
+2017-01-04 18:15:33 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:33 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:33 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2618.0s.'
+2017-01-04 18:15:33 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2618.0s.'
+2017-01-04 18:15:34 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:34 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:34 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2296.0s.'
+2017-01-04 18:15:34 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2296.0s.'
+2017-01-04 18:15:35 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:35 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:35 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3616.0s.'
+2017-01-04 18:15:35 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3616.0s.'
+2017-01-04 18:15:35 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:35 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:35 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2796.0s.'
+2017-01-04 18:15:35 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2796.0s.'
+2017-01-04 18:15:36 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:36 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:36 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4116.0s.'
+2017-01-04 18:15:36 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4116.0s.'
+2017-01-04 18:15:37 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:37 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:37 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3796.0s.'
+2017-01-04 18:15:37 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3796.0s.'
+2017-01-04 18:15:38 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:38 DEBUG main StatisticServiceImpl:get:82 - call to method get()
+2017-01-04 18:15:38 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4296.0s.'
+2017-01-04 18:15:38 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4296.0s.'

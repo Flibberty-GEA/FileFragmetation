@@ -1,0 +1,2 @@
+2017-01-04 17:14:39 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-04 17:14:39 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.

@@ -116,16 +116,24 @@ public enum Command {
      *
      * @param value String value of command
      * @return the command corresponding for this value
+     * @throws InputException if users command is not supported
      */
     public static Command getCommandByValue(final String value) {
         Command command = null;
-        for (Command com : Command.values()) {
-            if (com.toString().equals(value.toLowerCase())) {
-                command = com;
+        try {
+            for (Command com : Command.values()) {
+                if (com.toString().equals(value.toLowerCase())) {
+                    command = com;
+                }
             }
+            log.debug("Create Command \"" + value + "\".");
+        } catch (NullPointerException e) {
+            throw new InputException("Command is not supported.\nPlease enter correct command " +
+                    "like this \"-c split -p /file_path.file_name -s size_of_part\"");
         }
-        log.debug("Create Command \"" + value + "\".");
-        return command;
+        if (command != null) return command;
+        else throw new InputException("Command is not supported.\nPlease enter correct command " +
+                "like this \"-c split -p /file_path.file_name -s size_of_part\"");
     }
 
     /**

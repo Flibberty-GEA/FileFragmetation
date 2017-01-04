@@ -1,0 +1,282 @@
+2017-01-04 16:59:06 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 16:59:06 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 16:59:06 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 16:59:06 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 16:59:06 DEBUG main Command:getCommandByValue:127 - Create Command "x".
+2017-01-04 16:59:15 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 16:59:15 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 16:59:15 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 16:59:15 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 16:59:15 DEBUG main Command:getCommandByValue:127 - Create Command "x".
+2017-01-04 17:00:35 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 17:00:35 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 17:00:35 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 17:00:35 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 17:00:45 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 17:00:45 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 17:00:45 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 17:00:45 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 17:07:32 DEBUG main Command:getCommandByValue:128 - Create Command "exit".
+2017-01-04 17:07:32 DEBUG main Command:getCommandByValue:128 - Create Command "eXiT".
+2017-01-04 17:07:32 DEBUG main Command:getCommandByValue:128 - Create Command "split".
+2017-01-04 17:07:32 DEBUG main Command:getCommandByValue:128 - Create Command "join".
+2017-01-04 17:07:53 DEBUG main Command:getCommandByValue:128 - Create Command "exit".
+2017-01-04 17:07:53 DEBUG main Command:getCommandByValue:128 - Create Command "eXiT".
+2017-01-04 17:07:53 DEBUG main Command:getCommandByValue:128 - Create Command "split".
+2017-01-04 17:07:53 DEBUG main Command:getCommandByValue:128 - Create Command "join".
+2017-01-04 17:09:40 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:09:40 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:09:40 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:09:40 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:09:56 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:09:56 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:09:56 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:09:56 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:09:56 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:12:00 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:12:00 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:12:00 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:12:00 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:12:00 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:14:39 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:14:39 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:14:39 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:14:39 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:14:39 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:14:39 INFO  main Command:apply:80 - Starts Command "null"
+2017-01-04 17:14:39 INFO  main Command:apply:82 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-04 17:54:39 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:54:39 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:54:39 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:54:39 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:54:39 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:54:39 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$e0f72ecd which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$f1e33b6c
+2017-01-04 17:54:39 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 17:55:51 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:55:51 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:55:51 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:55:51 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:55:51 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:55:51 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$706123c4 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$814d3063
+2017-01-04 17:55:51 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 17:56:09 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:56:09 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:56:09 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:56:09 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:56:09 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:56:09 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$5a2a7d75 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$6b168a14
+2017-01-04 17:56:09 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 17:56:40 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:56:40 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:56:40 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:56:40 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:56:40 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:56:58 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:56:58 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:56:58 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:56:58 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:56:58 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:57:06 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:57:06 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:57:06 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:57:06 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:57:06 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:57:16 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:57:16 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:57:16 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:57:16 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:57:16 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:57:16 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$e0f72ecd which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$f1e33b6c
+2017-01-04 17:57:16 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 17:57:37 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:57:37 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:57:37 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:57:37 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:57:37 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:57:48 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:57:48 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:57:48 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:57:48 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:57:48 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:57:48 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$2c643154 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$3d503df3
+2017-01-04 17:57:48 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 17:58:14 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:58:14 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:58:14 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:58:14 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:58:14 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:58:15 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$5a2a7d75 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$6b168a14
+2017-01-04 17:58:15 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 17:59:14 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:59:14 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:59:14 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:59:14 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:59:14 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:59:14 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$706123c4 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$814d3063
+2017-01-04 17:59:14 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 17:59:43 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:59:43 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:59:43 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:59:43 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:59:43 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 17:59:43 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$5a2a7d75 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$6b168a14
+2017-01-04 17:59:43 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 17:59:51 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 17:59:51 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 17:59:51 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 17:59:51 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 17:59:51 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:00:35 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:00:35 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:00:35 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:00:35 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:00:35 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:01:47 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:01:47 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:01:47 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:01:47 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:01:47 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:03:53 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:03:53 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:03:53 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:03:53 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:03:53 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:03:53 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$2c643154 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$3d503df3
+2017-01-04 18:03:53 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:06:14 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:06:14 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:06:14 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:06:14 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:06:14 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:06:14 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$2c643154 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$3d503df3
+2017-01-04 18:06:14 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:06:24 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:06:24 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:06:24 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:06:24 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:06:24 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:06:24 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$ab991cbb which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$bc85295a
+2017-01-04 18:06:24 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:07:02 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:07:02 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:07:02 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:07:02 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:07:02 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:07:02 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$2c643154 which includes Command "splitTest", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$3d503df3
+2017-01-04 18:07:02 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:08:35 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:08:35 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:08:35 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:08:35 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:08:35 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:08:56 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:08:56 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:08:56 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:08:56 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:08:56 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:09:23 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:09:23 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:09:23 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:09:23 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:09:23 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:10:13 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:10:13 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:10:13 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:10:13 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:10:13 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:10:32 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:10:32 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:10:32 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:10:32 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:10:32 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:10:32 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$ab991cbb which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$bc85295a
+2017-01-04 18:10:32 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:10:42 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:10:42 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:10:42 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:10:42 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:10:42 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:10:43 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$ab991cbb which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$bc85295a
+2017-01-04 18:10:43 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:10:55 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:10:55 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:10:55 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:10:55 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:10:55 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:10:55 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$e0f72ecd which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$f1e33b6c
+2017-01-04 18:10:55 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:11:07 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:11:07 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:11:07 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:11:07 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:11:07 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:11:07 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$ab991cbb which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$bc85295a
+2017-01-04 18:11:07 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:11:45 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:11:45 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:11:45 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:11:45 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:11:45 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:11:45 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$e0f72ecd which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$f1e33b6c
+2017-01-04 18:11:45 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 18:12:48 DEBUG main Command:getCommandByValue:129 - Create Command "exit".
+2017-01-04 18:12:48 DEBUG main Command:getCommandByValue:129 - Create Command "eXiT".
+2017-01-04 18:12:48 DEBUG main Command:getCommandByValue:129 - Create Command "split".
+2017-01-04 18:12:48 DEBUG main Command:getCommandByValue:129 - Create Command "join".
+2017-01-04 18:12:48 DEBUG main Command:getCommandByValue:129 - Create Command "x".
+2017-01-04 18:12:48 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$706123c4 which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$814d3063
+2017-01-04 18:12:48 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
