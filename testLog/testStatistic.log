@@ -53,3 +53,81 @@
 2017-01-04 11:47:05 DEBUG main StatisticServiceImpl:get:76 - call to method get()
 2017-01-04 11:47:05 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 23.0s.'
 2017-01-04 11:47:05 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 23.0s.'
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2.0s.'
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2.0s.'
+2017-01-04 12:15:18 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 12:15:18 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 12:15:18 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 21.0s.'
+2017-01-04 12:15:18 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 21.0s.'
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2.0s.'
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2.0s.'
+2017-01-04 12:16:48 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 12:16:48 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 12:16:48 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 24.0s.'
+2017-01-04 12:16:48 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 24.0s.'
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2.0s.'
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2.0s.'
+2017-01-04 12:18:42 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 12:18:42 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 12:18:42 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 44.0s.'
+2017-01-04 12:18:42 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 44.0s.'
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2.0s.'
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 2.0s.'
+2017-01-04 12:19:27 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 12:19:27 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 12:19:27 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 21.0s.'
+2017-01-04 12:19:27 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 21.0s.'
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4.0s.'
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 4.0s.'
+2017-01-04 12:19:59 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 12:19:59 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 12:19:59 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 41.0s.'
+2017-01-04 12:19:59 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 41.0s.'
+2017-01-04 12:20:02 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:20:02 DEBUG main StatisticServiceImpl:<init>:18 - Initialize.
+2017-01-04 12:20:02 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:20:02 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:20:02 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3.0s.'
+2017-01-04 12:20:02 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 3.0s.'
+2017-01-04 12:20:03 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 12:20:03 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 12:20:03 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 12:20:03 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:20:03 DEBUG main StatisticServiceImpl:get:76 - call to method get()
+2017-01-04 12:20:03 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 24.0s.'
+2017-01-04 12:20:03 DEBUG main StatisticServiceImpl:get:105 - Return string with statistic for all threads:"Total progress: 0%, pool-1-thread-1: 50%, pool-1-thread-2: 50%, time remaining: 24.0s.'

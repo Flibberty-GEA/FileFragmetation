@@ -8,3 +8,4 @@
 2017-01-04 11:48:03 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exIt".
 2017-01-04 11:48:03 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
 2017-01-04 11:48:03 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
+2017-01-04 12:15:11 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".

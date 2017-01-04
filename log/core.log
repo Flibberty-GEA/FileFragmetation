@@ -14,3 +14,5 @@
 2017-01-04 11:48:03 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
 2017-01-04 11:48:03 INFO  main Command:apply:80 - Starts Command "exit"
 2017-01-04 11:48:03 INFO  main Command:apply:82 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-04 12:15:11 INFO  main MainClass:main:33 - Start program.
+2017-01-04 12:15:11 DEBUG main AppExecutor:execute:65 - Starts to execute full cycle of applications work.

@@ -37,10 +37,10 @@ public class StatisticTest {
     }
 
     class StatisticInfoValidator {
-        private static final String STATISTIC_PATTERN = "Total progress: 1?[0-9]{1,2}%, " +
-                "pool-[0-9]+-thread-[12]: 1?[0-9]{1,2}%, " +
-                "pool-[0-9]+-thread-[12]: 1?[0-9]{1,2}%, " +
-                "time remaining: [0-9]+[.][0-9]s[.]";
+        private static final String STATISTIC_PATTERN = "Total progress: (100|[1-9]?[0-9]{1})%, " +
+                "pool-\\d+-thread-[12]: (100|[1-9]?[0-9]{1})%, " +
+                "pool-\\d+-thread-[12]: (100|[1-9]?[0-9]{1})%, " +
+                "time remaining: \\d+\\.\\d+s\\.";
         private final Pattern pattern;
 
         public StatisticInfoValidator() {

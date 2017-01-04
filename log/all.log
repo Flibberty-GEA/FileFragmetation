@@ -14,3 +14,5 @@
 2017-01-04 11:48:03 INFO  main Command:apply:82 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
 2017-01-04 11:48:03 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
 2017-01-04 11:48:03 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
+2017-01-04 12:15:11 INFO  main MainClass:main:33 - Start program.
+2017-01-04 12:15:11 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
