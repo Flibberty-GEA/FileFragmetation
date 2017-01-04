@@ -16,3 +16,22 @@
 2017-01-04 11:48:03 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
 2017-01-04 12:15:11 INFO  main MainClass:main:33 - Start program.
 2017-01-04 12:15:11 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-04 14:17:44 INFO  main MainClass:main:33 - Start program.
+2017-01-04 14:17:44 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-04 14:17:47 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-04 14:17:48 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-04 14:17:48 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-04 14:17:51 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c dsfg".
+2017-01-04 14:17:51 WARN  main InputDataHolder:<init>:33 - Command 'dsfg' is not supported
+2017-01-04 14:17:51 ERROR main AppExecutor:execute:78 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'dsfg' is not supported
+2017-01-04 14:17:51 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'dsfg' is not supported".
+2017-01-04 14:17:51 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-04 14:17:52 INFO  main StreamController:getMessage:52 - Get message from user. Message: "sdf".
+2017-01-04 14:17:52 ERROR main AppExecutor:execute:81 - Unexpected exception java.lang.NullPointerException
+2017-01-04 14:17:52 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Unexpected exception null".
+2017-01-04 14:17:52 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-04 14:17:57 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-04 14:17:57 INFO  main Command:apply:80 - Starts Command "exit"
+2017-01-04 14:17:57 INFO  main Command:apply:82 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-04 14:17:57 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-04 14:17:57 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.

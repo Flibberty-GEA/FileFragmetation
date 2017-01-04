@@ -5,6 +5,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Service for storages and accesses to statistical data of work for all threads.
@@ -105,5 +106,17 @@ public class StatisticServiceImpl implements StatisticService {
         log.debug("Return string with statistic for all threads:\"" + statistic.toString() + "\'");
 
         return statistic.toString();
+    }
+
+    @Override
+    public String getInfoByTimer(final long timeout) {
+        try {
+            TimeUnit.MILLISECONDS.sleep(timeout);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            log.error("Interrupted, closing. ", e);
+        }
+        String statisticMessage = this.get();
+        return statisticMessage;
     }
 }

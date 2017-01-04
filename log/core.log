@@ -16,3 +16,29 @@
 2017-01-04 11:48:03 INFO  main Command:apply:82 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
 2017-01-04 12:15:11 INFO  main MainClass:main:33 - Start program.
 2017-01-04 12:15:11 DEBUG main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
+2017-01-04 14:17:44 INFO  main MainClass:main:33 - Start program.
+2017-01-04 14:17:44 DEBUG main AppExecutor:execute:65 - Starts to execute full cycle of applications work.
+2017-01-04 14:17:47 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
+2017-01-04 14:17:47 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 14:17:47 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-04 14:17:47 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 14:17:47 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 14:17:47 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController
+2017-01-04 14:17:47 DEBUG main Command:apply:38 - Initialize StatisticService and Splitter.
+2017-01-04 14:17:51 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, dsfg]
+2017-01-04 14:17:51 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 14:17:51 WARN  main InputDataHolder:<init>:33 - Command 'dsfg' is not supported
+2017-01-04 14:17:51 ERROR main AppExecutor:execute:78 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'dsfg' is not supported
+2017-01-04 14:17:52 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [sdf]
+2017-01-04 14:17:52 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 14:17:52 ERROR main AppExecutor:execute:81 - Unexpected exception java.lang.NullPointerException
+2017-01-04 14:17:57 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-04 14:17:57 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 14:17:57 DEBUG main InputDataHolder:<init>:67 - User command "exit".
+2017-01-04 14:17:57 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 14:17:57 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 14:17:57 INFO  main Command:apply:80 - Starts Command "exit"
+2017-01-04 14:17:57 INFO  main Command:apply:82 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.

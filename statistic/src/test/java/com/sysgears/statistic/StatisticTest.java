@@ -51,5 +51,4 @@ public class StatisticTest {
             return pattern.matcher(statisticInfo).matches();
         }
     }
-
 }

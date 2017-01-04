@@ -41,7 +41,7 @@ public class StreamController implements Controller {
      * @throws ControllerException if an controller error occurs
      */
     @Override
-    public String getMessage() throws ControllerException {
+    public String getMessage() {
         String message;
         try {
             message = reader.readLine();
@@ -60,7 +60,7 @@ public class StreamController implements Controller {
      * @throws ControllerException if an controller error occurs
      */
     @Override
-    public void sendMessage(final String message) throws ControllerException {
+    public void sendMessage(final String message) {
         try {
             writer.write(message);
             writer.newLine();
@@ -88,7 +88,7 @@ public class StreamController implements Controller {
      * @throws ControllerException if an controller error occurs
      */
     @Override
-    public void closeController() throws ControllerException {
+    public void closeController() {
         try {
             reader.close();
             writer.close();

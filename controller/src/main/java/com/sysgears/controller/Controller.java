@@ -14,7 +14,7 @@ public interface Controller {
      * @return string message from user to application
      * @throws ControllerException if an controller error occurs
      */
-    String getMessage() throws ControllerException;
+    String getMessage();
 
     /**
      * Sends message to user.
@@ -22,7 +22,7 @@ public interface Controller {
      * @param message string message from application to user
      * @throws ControllerException if an controller error occurs
      */
-    void sendMessage(String message) throws ControllerException;
+    void sendMessage(String message) ;
 
     BufferedWriter getWriter();
 
@@ -36,8 +36,8 @@ public interface Controller {
     /**
      * Closes StreamController.
      *
-     * @throws IOException if an controller error occurs
+     * @throws ControllerException if an controller error occurs
      */
-    void closeController() throws IOException;
+    void closeController() ;
 
 }

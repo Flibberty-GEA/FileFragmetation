@@ -47,4 +47,6 @@ public interface StatisticService {
      * @return string with statistic for all threads
      */
     String get();
+
+    String getInfoByTimer(final long timeout);
 }

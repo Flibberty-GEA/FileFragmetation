@@ -15,9 +15,9 @@
     <bytecodeTargetLevel>
       <module name="controller" target="1.8" />
       <module name="core" target="1.8" />
-      <module name="file-fragmentation" target="1.5" />
-      <module name="fragmentation" target="1.5" />
-      <module name="statistic" target="1.5" />
+      <module name="file-fragmentation" target="1.8" />
+      <module name="fragmentation" target="1.8" />
+      <module name="statistic" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

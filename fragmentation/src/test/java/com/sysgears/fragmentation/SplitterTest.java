@@ -5,8 +5,6 @@ package com.sysgears.fragmentation;
  */
 public class SplitterTest {
 
-
-
     //    InputDataHolder inputExit;
 //    InputDataHolder inputSplit;
 //
