@@ -39,7 +39,7 @@ public class InputDataParserAndHolderTets {
         };
     }
 
-    @Test(dataProvider = "correctInputData")
+    @Test(dataProvider = "correctInputData", groups = { "all-tests" })
     public void testCorrectCommand(final String command, final String... expected) {
         final String[] commands = command.split(" ");
         final InputDataHolder inputDataHolder = apacheCliParser.parse(commands);
@@ -50,7 +50,7 @@ public class InputDataParserAndHolderTets {
         }
     }
 
-    @Test(dataProvider = "wrongInputData", expectedExceptions = InputException.class)
+    @Test(dataProvider = "wrongInputData", expectedExceptions = InputException.class, groups = { "all-tests" })
     public void testWrongCommand(final String command, final String... expected) {
         apacheCliParser.parse(command.split(" "));
     }

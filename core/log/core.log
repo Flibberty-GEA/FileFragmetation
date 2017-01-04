@@ -1,513 +1,125 @@
-2016-12-30 12:28:17 ERROR main Command:getCommandByValue:128 - Command 'null' is not supported
-2016-12-30 12:28:17 ERROR main Command:getCommandByValue:128 - Command 'eXiT' is not supported
-2016-12-30 12:28:39 ERROR main Command:getCommandByValue:128 - Command 'eXiT' is not supported
-2016-12-30 12:34:28 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 12:34:53 ERROR main Command:getCommandByValue:134 - Command '' is not supported
-2016-12-30 12:35:00 ERROR main Command:getCommandByValue:134 - Command ' ' is not supported
-2016-12-30 12:35:34 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 13:10:46 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 13:10:46 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 13:10:53 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 13:10:53 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 14:32:25 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 14:32:25 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:27:50 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:27:50 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:28:47 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:28:47 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:29:38 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:29:38 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:29:59 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:29:59 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:31:55 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:31:55 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:32:23 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:32:23 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:40:25 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:40:25 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:41:36 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:41:36 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:41:58 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:41:58 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:42:09 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:42:09 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:44:31 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:44:31 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:44:47 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:44:47 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:50:46 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:50:46 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:52:01 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:52:01 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:54:04 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:54:04 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 16:54:09 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 16:54:09 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:06:49 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:06:49 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:24:56 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:24:56 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:26:00 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:26:00 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:26:33 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:26:33 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:27:05 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:27:05 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:27:44 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:27:44 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:27:44 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:27:44 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 17:28:16 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:28:16 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:28:16 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:28:16 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 17:28:41 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:28:41 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:28:42 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:28:42 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 17:30:09 ERROR main Command:getCommandByValue:124 - Command is null
-2016-12-30 17:30:09 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2016-12-30 17:30:10 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:30:10 INFO  main Command:apply:83 - Close BufferedWriter of stream Controller.
-2016-12-30 17:31:24 ERROR main Command:getCommandByValue:123 - Command is null
-2016-12-30 17:31:24 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2016-12-30 17:31:24 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:31:24 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
-2016-12-30 17:33:27 ERROR main Command:getCommandByValue:123 - Command is null
-2016-12-30 17:33:27 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2016-12-30 17:33:27 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:33:27 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
-2016-12-30 17:34:58 ERROR main Command:getCommandByValue:123 - Command is null
-2016-12-30 17:34:58 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2016-12-30 17:34:58 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:34:58 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
-2016-12-30 17:36:30 ERROR main Command:getCommandByValue:123 - Command is null
-2016-12-30 17:36:30 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2016-12-30 17:36:31 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:36:31 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
-2016-12-30 17:36:36 ERROR main Command:getCommandByValue:123 - Command is null
-2016-12-30 17:36:36 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2016-12-30 17:36:37 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:36:37 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
-2016-12-30 17:37:30 ERROR main Command:getCommandByValue:123 - Command is null
-2016-12-30 17:37:30 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2016-12-30 17:37:30 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2016-12-30 17:37:30 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
-2017-01-03 09:00:17 ERROR main Command:getCommandByValue:123 - Command is null
-2017-01-03 09:00:17 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2017-01-03 09:00:17 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2017-01-03 09:00:17 INFO  main Command:apply:82 - Close BufferedWriter of stream Controller.
-2017-01-03 09:00:37 ERROR main Command:getCommandByValue:123 - Command is null
-2017-01-03 09:00:37 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2017-01-03 09:01:27 ERROR main Command:getCommandByValue:123 - Command is null
-2017-01-03 09:01:27 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2017-01-03 09:01:52 ERROR main Command:getCommandByValue:123 - Command is null
-2017-01-03 09:01:52 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2017-01-03 09:02:01 ERROR main Command:getCommandByValue:123 - Command is null
-2017-01-03 09:02:01 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2017-01-03 09:03:11 ERROR main Command:getCommandByValue:123 - Command is null
-2017-01-03 09:03:11 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2017-01-03 09:04:19 ERROR main Command:getCommandByValue:123 - Command is null
-2017-01-03 09:04:19 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2017-01-03 09:04:46 ERROR main Command:getCommandByValue:123 - Command is null
-2017-01-03 09:04:46 ERROR main Command:getCommandByValue:133 - Command 'x' is not supported
-2017-01-03 11:03:55 ERROR main Command:getCommandByValue:124 - Command is null
-2017-01-03 11:03:55 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 11:03:55 INFO  main InputDataHolder:getCommand:77 - User command "exit".
-2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:61 - User command "split". Users file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 11:03:55 INFO  main InputDataHolder:getCommand:77 - User command "split".
-2017-01-03 11:03:55 INFO  main InputDataHolder:getFile:88 - Users file object "file.bmp".
-2017-01-03 11:03:55 INFO  main InputDataHolder:getSize:98 - Size of file part = 1000000 bytes.
-2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 11:03:55 ERROR main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 11:03:55 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 11:03:55 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 11:10:02 ERROR main Command:getCommandByValue:124 - Command is null
-2017-01-03 11:10:02 ERROR main Command:getCommandByValue:134 - Command 'x' is not supported
-2017-01-03 11:10:02 INFO  main InputDataHolder:parse:23 - Starts with parameters [Ljava.lang.String;@32d992b2
-2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 11:10:02 INFO  main InputDataHolder:getCommand:77 - User command "exit".
-2017-01-03 11:10:02 INFO  main InputDataHolder:parse:23 - Starts with parameters [Ljava.lang.String;@4520ebad
-2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:61 - User command "split". Users file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 11:10:02 INFO  main InputDataHolder:getCommand:77 - User command "split".
-2017-01-03 11:10:02 INFO  main InputDataHolder:getFile:88 - Users file object "file.bmp".
-2017-01-03 11:10:02 INFO  main InputDataHolder:getSize:98 - Size of file part = 1000000 bytes.
-2017-01-03 11:10:02 INFO  main InputDataHolder:parse:23 - Starts with parameters [Ljava.lang.String;@d2cc05a
-2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 11:10:02 ERROR main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 11:10:02 INFO  main InputDataHolder:parse:23 - Starts with parameters [Ljava.lang.String;@1753acfe
-2017-01-03 11:10:02 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 11:10:02 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 15:06:27 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:06:27 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:06:27 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:06:27 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:06:27 INFO  main Command:getCommandByValue:128 - Create Command "x".
-2017-01-03 15:06:27 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:06:27 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:06:27 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:06:27 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:06:27 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:06:27 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:06:27 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:06:27 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:06:27 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:06:27 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:06:27 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:06:27 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:06:27 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:06:27 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:07:39 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:07:39 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:07:39 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:07:39 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:07:39 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:07:39 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:07:39 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:07:39 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:07:39 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:07:39 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:07:39 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:07:39 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:07:39 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:07:39 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:07:39 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:07:39 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:07:39 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:07:39 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:07:43 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:07:43 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:07:43 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:07:43 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:07:43 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:07:43 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:07:43 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:07:43 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:07:43 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:07:43 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:07:43 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:07:43 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:07:43 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:07:43 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:07:43 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:07:43 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:07:43 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:07:43 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:09:55 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:09:55 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:09:55 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:09:55 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:09:55 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:09:55 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:09:55 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:09:55 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:09:55 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:09:55 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:09:55 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:09:55 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:09:55 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:09:55 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:09:55 ERROR main InputDataHolder:<init>:34 - Command 'sffsdf' is not supported
-2017-01-03 15:09:55 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:09:55 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:09:55 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:09:55 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:09:55 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:09:55 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:10:03 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:10:03 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:10:03 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:10:03 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:10:03 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:10:03 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:10:03 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:10:03 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:10:03 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:10:03 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:10:03 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:10:03 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:10:03 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:10:03 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:10:03 ERROR main InputDataHolder:<init>:34 - Command 'sffsdf' is not supported
-2017-01-03 15:10:03 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:10:03 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:10:03 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:10:03 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:10:03 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:10:03 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:12:45 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:12:45 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:12:45 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:12:45 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:12:45 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:12:45 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:45 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:12:45 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:12:45 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:12:45 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:45 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:12:45 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:12:45 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:12:45 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:45 ERROR main InputDataHolder:<init>:34 - Command 'sffsdf' is not supported
-2017-01-03 15:12:45 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:12:45 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:45 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:12:45 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:12:45 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:45 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:12:50 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:12:50 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:12:50 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:12:50 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:12:50 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:12:50 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:50 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:12:50 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:12:50 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:12:50 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:50 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:12:50 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:12:50 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:12:50 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:50 ERROR main InputDataHolder:<init>:34 - Command 'sffsdf' is not supported
-2017-01-03 15:12:50 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:12:50 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:50 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:12:50 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:12:50 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:12:50 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:13:59 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:13:59 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:13:59 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:13:59 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:62 - User command "join". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:13:59 ERROR main InputDataHolder:<init>:34 - Command 'sffsdf' is not supported
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:13:59 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:13:59 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:13:59 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:13:59 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:14:05 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:14:05 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:14:05 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:14:05 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:68 - User command "exit".
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:62 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:62 - User command "join". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:45 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:14:05 ERROR main InputDataHolder:<init>:34 - Command 'sffsdf' is not supported
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:14:05 ERROR main InputDataHolder:<init>:41 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:14:05 INFO  main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:14:05 INFO  main InputDataHolder:<init>:29 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:14:05 ERROR main InputDataHolder:<init>:56 - Incorrect number format "1B".
-2017-01-03 15:15:24 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:15:24 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:15:24 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:15:24 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:15:24 ERROR main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:15:24 ERROR main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:15:24 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:15:24 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:15:24 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 15:16:17 INFO  main Command:getCommandByValue:128 - Create Command "exit".
-2017-01-03 15:16:17 INFO  main Command:getCommandByValue:128 - Create Command "eXiT".
-2017-01-03 15:16:17 INFO  main Command:getCommandByValue:128 - Create Command "split".
-2017-01-03 15:16:17 INFO  main Command:getCommandByValue:128 - Create Command "join".
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:16:17 ERROR main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:16:17 ERROR main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:16:17 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:16:17 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:16:17 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 15:20:31 INFO  main Command:getCommandByValue:127 - Create Command "exit".
-2017-01-03 15:20:31 INFO  main Command:getCommandByValue:127 - Create Command "eXiT".
-2017-01-03 15:20:31 INFO  main Command:getCommandByValue:127 - Create Command "split".
-2017-01-03 15:20:31 INFO  main Command:getCommandByValue:127 - Create Command "join".
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:20:32 ERROR main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:20:32 ERROR main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:20:32 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:20:32 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:20:32 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 15:49:05 INFO  main Command:getCommandByValue:127 - Create Command "exit".
-2017-01-03 15:49:05 INFO  main Command:getCommandByValue:127 - Create Command "eXiT".
-2017-01-03 15:49:05 INFO  main Command:getCommandByValue:127 - Create Command "split".
-2017-01-03 15:49:05 INFO  main Command:getCommandByValue:127 - Create Command "join".
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:49:05 ERROR main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:49:05 ERROR main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 15:49:05 INFO  main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 15:49:05 INFO  main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 15:49:05 ERROR main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 17:50:46 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
-2017-01-03 17:50:46 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
-2017-01-03 17:50:46 DEBUG main Command:getCommandByValue:127 - Create Command "split".
-2017-01-03 17:50:46 DEBUG main Command:getCommandByValue:127 - Create Command "join".
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 17:50:46 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 17:50:46 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 17:50:46 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 18:05:51 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
-2017-01-03 18:05:51 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
-2017-01-03 18:05:51 DEBUG main Command:getCommandByValue:127 - Create Command "split".
-2017-01-03 18:05:51 DEBUG main Command:getCommandByValue:127 - Create Command "join".
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 18:05:51 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 18:05:51 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:05:51 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 18:06:23 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
-2017-01-03 18:06:23 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
-2017-01-03 18:06:23 DEBUG main Command:getCommandByValue:127 - Create Command "split".
-2017-01-03 18:06:23 DEBUG main Command:getCommandByValue:127 - Create Command "join".
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:67 - User command "exit".
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
-2017-01-03 18:06:23 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
-2017-01-03 18:06:23 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-03 18:06:23 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
-2017-01-03 18:13:15 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
-2017-01-03 18:13:15 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
-2017-01-03 18:13:15 DEBUG main Command:getCommandByValue:127 - Create Command "split".
-2017-01-03 18:13:15 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 11:37:40 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 11:37:40 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 11:37:40 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 11:37:40 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:67 - User command "exit".
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:37:40 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:37:40 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 11:37:40 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
+2017-01-04 11:37:40 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:37:40 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 11:38:48 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 11:38:48 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 11:38:48 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 11:38:48 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:67 - User command "exit".
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:38:48 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:38:48 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 11:38:48 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
+2017-01-04 11:38:48 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:38:48 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 11:39:15 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 11:39:15 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 11:39:15 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 11:39:15 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:67 - User command "exit".
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:39:15 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:39:15 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 11:39:15 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
+2017-01-04 11:39:15 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:39:15 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 11:42:30 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 11:42:30 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 11:42:30 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 11:42:30 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:67 - User command "exit".
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:42:30 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:42:30 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 11:42:30 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
+2017-01-04 11:42:30 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:42:30 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".
+2017-01-04 11:43:03 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-04 11:43:03 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-04 11:43:03 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-04 11:43:03 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:67 - User command "exit".
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:61 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:61 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:44 - Return com.sysgears.core.input.InputDataHolder
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:43:03 WARN  main InputDataHolder:<init>:33 - Command 'sffsdf' is not supported
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/file.bmp, -s, 1M]
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:43:03 WARN  main InputDataHolder:<init>:40 - Incorrect path name "/wrong_file_path/file.bmp".
+2017-01-04 11:43:03 DEBUG main ApacheCliParser:parse:25 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
+2017-01-04 11:43:03 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-04 11:43:03 WARN  main InputDataHolder:<init>:55 - Incorrect number format "1B".

@@ -1,3 +1,3 @@
-2017-01-03 18:08:50 ERROR main AppExecutor:execute:81 - Unexpected exception java.lang.NullPointerException
-2017-01-03 18:09:19 WARN  main InputDataHolder:<init>:33 - Command 'fsd' is not supported
-2017-01-03 18:09:19 ERROR main AppExecutor:execute:78 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'fsd' is not supported
+2017-01-04 11:47:58 WARN  main InputDataHolder:<init>:33 - Command 'rfsdf' is not supported
+2017-01-04 11:47:58 ERROR main AppExecutor:execute:78 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'rfsdf' is not supported
+2017-01-04 11:47:59 ERROR main AppExecutor:execute:81 - Unexpected exception java.lang.NullPointerException

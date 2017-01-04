@@ -29,7 +29,7 @@ public class CommandTest {
         };
     }
 
-    @Test(dataProvider = "parseCommand")
+    @Test(dataProvider = "parseCommand", groups = { "all-tests" })
     public void testCommandCreatorByCorrectValue(String command, Command expected) {
         final Command actual = Command.getCommandByValue(command);
         Assert.assertEquals(actual, expected);
