@@ -1,4 +1,4 @@
-package com.sysgears.core;
+package com.sysgears.core.integratively;
 
 import com.sysgears.core.input.InputException;
 import com.sysgears.core.input.ApacheCliParser;

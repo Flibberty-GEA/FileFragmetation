@@ -1,4 +1,4 @@
-package com.sysgears.core;
+package com.sysgears.core.unit;
 
 import com.sysgears.controller.Controller;
 import com.sysgears.controller.StreamController;
@@ -60,15 +60,6 @@ public class CommandTest {
         Assert.assertEquals(actual, expected);
     }
 
-//    @Test(expectedExceptions = IOException.class)
-//    public void testCommandExitApply() throws IOException {
-//        final InputDataHolder inputDataHolder = EasyMock.createMock(InputDataHolder.class);
-//        final ExecutorService executorService = Executors.newFixedThreadPool(2);
-//        final Controller controller = new StreamController(System.in, System.out);
-//
-//        Command.EXIT.apply(inputDataHolder, executorService, controller);
-//        BufferedWriter writer = controller.getWriter();
-//    }
 
     @Test(/*expectedExceptions = IOException.class, */groups = { "all-tests" })
     public void testCommandSplitApply() throws IOException {
@@ -88,5 +79,18 @@ public class CommandTest {
         EasyMock.replay(controller);
 
         Command.SPLIT.apply(inputDataHolder, executorService, controller);
+        EasyMock.verify(inputDataHolder);
+        EasyMock.verify(controller);
     }
+
+
+//    @Test(expectedExceptions = IOException.class)
+//    public void testCommandExitApply() throws IOException {
+//        final InputDataHolder inputDataHolder = EasyMock.createMock(InputDataHolder.class);
+//        final ExecutorService executorService = Executors.newFixedThreadPool(2);
+//        final Controller controller = new StreamController(System.in, System.out);
+//
+//        Command.EXIT.apply(inputDataHolder, executorService, controller);
+//        BufferedWriter writer = controller.getWriter();
+//    }
 }

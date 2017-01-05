@@ -27,7 +27,7 @@ public class StatisticTest {
         statisticService.setExpected("pool-1-thread-2", 2000L);
         statisticService.setActual("pool-1-thread-2", 0L);
         statisticService.increaseActual("pool-1-thread-2", 1000L);
-        result = statisticService.get();
+//        result = statisticService.get();
     }
 
     @Test(groups = { "all-tests" })

@@ -37,7 +37,7 @@ public class ApacheCliParser implements InputDataParser {
         try {
             cmd = parser.parse(options, args);
         } catch (ParseException e) {
-            log.error("Could not parse input arguments.");
+            log.error("Could not parse input arguments."+e); // add info param
             throw new InputException("Could not parse input arguments. ");
         }
         InputDataHolder result = new InputDataHolder(cmd);

@@ -35,7 +35,7 @@ public enum Command {
                             + ((ThreadPoolExecutor)executorService).getMaximumPoolSize() : "") + "\n" +
                     "\t\t- " + controller.getClass());
 
-            log.debug("Initialize StatisticService and Splitter.");
+//            log.debug("Initialize StatisticService and Splitter.");
             StatisticService statistic = new StatisticServiceImpl();
             Splitter splitter = new Splitter(executorService);
             File fileIn = inputDataHolder.getFile();
