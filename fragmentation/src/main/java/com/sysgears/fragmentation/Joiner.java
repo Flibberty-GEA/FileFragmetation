@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * @author Yevgen Goliuk
@@ -42,6 +43,10 @@ public class Joiner {
     public Joiner(final ExecutorService executorService) {
         this.executorService = executorService;
         this.bufferSize = DEFAULT_BUFFER_SIZE;
+        log.debug("Initialize Joiner with next params:\n" +
+                "\t\t- executorService with " + this.executorService.getClass().getSimpleName() +
+                " with maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + ";\n" +
+                "\t\t- size of buffer for reading and writing is default = " + this.bufferSize + " bytes.");
     }
 
     /**
@@ -53,6 +58,10 @@ public class Joiner {
     public Joiner(final ExecutorService executorService, final int bufferSize) {
         this.executorService = executorService;
         this.bufferSize = bufferSize;
+        log.debug("Initialize Joiner with next params:\n" +
+                "\t\t- executorService with " + this.executorService.getClass().getSimpleName() +
+                " with maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + ";\n" +
+                "\t\t- size of buffer for reading and writing = " + this.bufferSize + " bytes.");
     }
 
 

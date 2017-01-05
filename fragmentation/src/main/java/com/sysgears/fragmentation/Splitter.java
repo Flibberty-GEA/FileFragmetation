@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 
 import java.io.File;
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.ThreadPoolExecutor;
 
 /**
  * Class that splits file into parts.
@@ -37,30 +38,38 @@ public class Splitter {
     /**
      * Construct Splitter with executor service and default buffer size.
      *
-     * @param executorService executor that executes workers.
+     * @param executorService executor that executes workers
      */
     public Splitter(final ExecutorService executorService) {
         this.executorService = executorService;
         this.bufferSize = DEFAULT_BUFFER_SIZE;
+        log.debug("Initialize Splitter with next params:\n" +
+                "\t\t- executorService with " + this.executorService.getClass().getSimpleName() +
+                " with maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + ";\n" +
+                "\t\t- size of buffer for reading and writing is default = " + this.bufferSize + " bytes.");
     }
 
     /**
      * Construct Splitter with executor service and bytes buffer.
      *
-     * @param executorService executor that executes workers.
-     * @param bufferSize      size of buffer for reading and writing bytes.
+     * @param executorService executor that executes workers
+     * @param bufferSize      size of buffer for reading and writing bytes
      */
     public Splitter(final ExecutorService executorService, final int bufferSize) {
         this.executorService = executorService;
         this.bufferSize = bufferSize;
+        log.debug("Initialize Splitter with next params:\n" +
+                "\t\t- executorService with " + this.executorService.getClass().getSimpleName() +
+                " with maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + ";\n" +
+                "\t\t- size of buffer for reading and writing = " + this.bufferSize + " bytes.");
     }
 
     /**
      * Splits file into parts.
      *
      * @param statistic statistic object.
-     * @param originalFile       source file than need to split.
-     * @param maxPartSize  size of parts that need to split a file.
+     * @param originalFile       source file than need to split
+     * @param maxPartSize  size of parts that need to split a file
      */
     public void split(final StatisticService statistic, final File originalFile, final long maxPartSize) {
 

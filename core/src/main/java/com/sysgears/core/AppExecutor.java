@@ -31,14 +31,18 @@ public class AppExecutor {
      * inputDataParser to parse input messages from user and object with
      * properties in specified format.
      *
-     * @param streamController streamController to contact with user.
-     * @param inputDataParser  inputDataParser to parse input messages from user.
+     * @param streamController streamController to contact with user
+     * @param inputDataParser  inputDataParser to parse input messages from user
      */
     public AppExecutor(final Controller streamController,
                        final InputDataParser inputDataParser) {
         this.streamController = streamController;
         this.inputDataParser = inputDataParser;
         this.executorService = Executors.newFixedThreadPool(threadPoolSize);
+        log.debug("Initialize AppExecutor with next params:\n" +
+                "\t\t- streamController to contact with user;\n" +
+                "\t\t- inputDataParser to parse input messages from user;\n" +
+                "\t\t- executorService with ThreadPoolExecutor with default thread pool size = " + threadPoolSize);
     }
 
     /**
@@ -56,6 +60,10 @@ public class AppExecutor {
         this.streamController = streamController;
         this.inputDataParser = inputDataParser;
         this.executorService = Executors.newFixedThreadPool(nThreads);
+        log.debug("Initialize AppExecutor with next params:\n" +
+                "\t\t- streamController to contact with user;\n" +
+                "\t\t- inputDataParser to parse input messages from user;\n" +
+                "\t\t- executorService with ThreadPoolExecutor with users thread pool size = " + nThreads);
     }
 
     /**
@@ -72,15 +80,14 @@ public class AppExecutor {
                 Command command = Command.getCommandByValue(inputDataHolder.getCommand());
                 command.apply(inputDataHolder, executorService, streamController);
             } catch (ControllerException c) {
-                log.error("ControllerException "+c.toString());
+                log.warn("ControllerException "+c.toString());
                 streamController.sendMessage(c.getMessage());
             } catch (InputException i) {
-                log.error("InputException "+i.toString());
+                log.warn("InputException "+i.toString());
                 streamController.sendMessage(i.getMessage());
             } catch (Throwable t) {
                 log.error("Unexpected exception "+t.toString());
                 streamController.sendMessage("Unexpected exception ");
-                t.printStackTrace();
             }
         }
     }

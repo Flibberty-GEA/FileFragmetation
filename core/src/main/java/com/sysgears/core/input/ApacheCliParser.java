@@ -5,6 +5,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 
 /**
@@ -24,20 +25,22 @@ public class ApacheCliParser implements InputDataParser {
     public InputDataHolder parse(final String[] args) {
         log.debug("Starts with parameter " + args.getClass().getTypeName() +
                 " which includes " + Arrays.toString(args));
-
         final Options options = new Options();
 
-        options.addOption("c", "command", true, "Command");
-        options.addOption("p", "path", true, "Path to file");
-        options.addOption("s", "size", true, "Size of file part");
+        options.addOption("c", "command", true, "It's a user command");
+        options.addOption("p", "path", true, "It's a path to file");
+        options.addOption("s", "size", true, "It's a size of file part");
 
         final CommandLineParser parser = new DefaultParser();
         final CommandLine cmd;
-
         try {
             cmd = parser.parse(options, args);
         } catch (ParseException e) {
-            log.error("Could not parse input arguments."+e); // add info param
+            log.warn("CommandLineParser could not parse input arguments. \n" +
+                    "Method parse(options, args) takes next params:\n" +
+                    "\t\t- options (org.apache.commons.cli.Options): " +
+                    Arrays.toString(new Object[]{options.getOptions()}) + "\n" +
+                    "\t\t- String[] args: " + Arrays.toString(args)); // add info param
             throw new InputException("Could not parse input arguments. ");
         }
         InputDataHolder result = new InputDataHolder(cmd);

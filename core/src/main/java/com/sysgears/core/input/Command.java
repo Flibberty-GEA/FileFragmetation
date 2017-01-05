@@ -34,8 +34,6 @@ public enum Command {
                     ((executorService instanceof ThreadPoolExecutor)? " with maximum allowed number of threads = "
                             + ((ThreadPoolExecutor)executorService).getMaximumPoolSize() : "") + "\n" +
                     "\t\t- " + controller.getClass());
-
-//            log.debug("Initialize StatisticService and Splitter.");
             StatisticService statistic = new StatisticServiceImpl();
             Splitter splitter = new Splitter(executorService);
             File fileIn = inputDataHolder.getFile();

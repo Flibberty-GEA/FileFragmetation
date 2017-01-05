@@ -16,7 +16,7 @@ public class StatisticServiceImpl implements StatisticService {
     private final StatisticRepository repository = new StatisticRepository();
 
     public StatisticServiceImpl() {
-        log.debug("Initialize.");
+        log.debug("Initialize without params.");
     }
 
     /**
