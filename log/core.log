@@ -42,3 +42,31 @@ Please enter correct command like this "-c split -p /file_path.file_name -s size
 2017-01-06 17:59:46 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
 2017-01-06 17:59:46 INFO  main Command:apply:78 - Starts Command "exit"
 2017-01-06 17:59:46 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-06 18:26:12 INFO  main MainClass:main:33 - Start program.
+2017-01-06 18:26:12 DEBUG main AppExecutor:<init>:63 - Initialize AppExecutor with next params:
+		- streamController to contact with user;
+		- inputDataParser to parse input messages from user;
+		- executorService with ThreadPoolExecutor with users thread pool size = 2
+2017-01-06 18:26:12 DEBUG main AppExecutor:execute:73 - Starts to execute full cycle of applications work.
+2017-01-06 18:26:30 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
+2017-01-06 18:26:30 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 18:26:30 DEBUG main InputDataHolder:<init>:67 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-06 18:26:30 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-06 18:26:30 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-06 18:26:30 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController
+2017-01-06 18:32:06 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-с, учше]
+2017-01-06 18:32:06 WARN  main ApacheCliParser:parse:39 - CommandLineParser could not parse input arguments. 
+Method parse(options, args) takes next params:
+		- options (org.apache.commons.cli.Options): [[[ option: c command  [ARG] :: It's a user command :: class java.lang.String ], [ option: p path  [ARG] :: It's a path to file :: class java.lang.String ], [ option: s size  [ARG] :: It's a size of file part :: class java.lang.String ]]]
+		- String[] args: [-с, учше]
+2017-01-06 18:32:06 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Could not parse input arguments. 
+2017-01-06 18:32:13 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-06 18:32:13 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 18:32:13 DEBUG main InputDataHolder:<init>:73 - User command "exit".
+2017-01-06 18:32:13 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-06 18:32:13 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-06 18:32:13 INFO  main Command:apply:78 - Starts Command "exit"
+2017-01-06 18:32:13 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.

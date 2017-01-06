@@ -322,3 +322,975 @@
 2017-01-06 18:00:57 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@28ac3dc3 in Thread pool-1-thread-1
 2017-01-06 18:00:57 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@32eebfca in Thread pool-1-thread-2
 2017-01-06 18:00:57 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4e718207 in Thread pool-1-thread-1
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@87f383f with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 0;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_0;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@eafc191 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 1000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_1;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@87f383f in Thread pool-1-thread-1
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@1060b431 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 2000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_2;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@eafc191 in Thread pool-1-thread-2
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@612679d6 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 3000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_3;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@11758f2a with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 4000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_4;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@e720b71 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 5000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_5;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@1b26f7b2 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 6000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_6;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@69b0fd6f with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 7000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_7;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@757942a1 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 8000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_8;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4a87761d with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 9000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_9;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@66d1af89 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 10000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_10;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@8646db9 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 11000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_11;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@37374a5e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 12000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_12;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4671e53b with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 13000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_13;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@2db7a79b with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 14000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_14;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@6950e31 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 15000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_15;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@b7dd107 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 16000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_16;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@42eca56e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 17000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_17;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@52f759d7 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 18000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_18;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@7cbd213e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 19000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_19;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@192d3247 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 20000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_20;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@3ecd23d9 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 21000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_21;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@569cfc36 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 22000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_22;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@43bd930a with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 23000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_23;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@33723e30 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 24000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_24;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@64f6106c with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 25000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_25;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@553a3d88 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 26000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_26;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@7a30d1e6 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 27000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_27;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@5891e32e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 28000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_28;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@cb0ed20 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 29000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_29;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@8e24743 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 30000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_30;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@74a10858 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 31000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_31;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@23fe1d71 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 32000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_32;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@28ac3dc3 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 33000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_33;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@32eebfca with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 34000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_34;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:16 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4e718207 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 35000000;
+		- length of bytes which need to read in source file 700034;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_35;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@1060b431 in Thread pool-1-thread-2
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@612679d6 in Thread pool-1-thread-1
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@e720b71 in Thread pool-1-thread-2
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@11758f2a in Thread pool-1-thread-1
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@1b26f7b2 in Thread pool-1-thread-2
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@69b0fd6f in Thread pool-1-thread-1
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@757942a1 in Thread pool-1-thread-2
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4a87761d in Thread pool-1-thread-1
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@66d1af89 in Thread pool-1-thread-2
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@8646db9 in Thread pool-1-thread-1
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@37374a5e in Thread pool-1-thread-2
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4671e53b in Thread pool-1-thread-1
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@2db7a79b in Thread pool-1-thread-2
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@6950e31 in Thread pool-1-thread-1
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@b7dd107 in Thread pool-1-thread-2
+2017-01-06 18:11:17 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@42eca56e in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@52f759d7 in Thread pool-1-thread-2
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@7cbd213e in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@192d3247 in Thread pool-1-thread-2
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@3ecd23d9 in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@569cfc36 in Thread pool-1-thread-2
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@43bd930a in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@33723e30 in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@64f6106c in Thread pool-1-thread-2
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@553a3d88 in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@7a30d1e6 in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@5891e32e in Thread pool-1-thread-2
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@cb0ed20 in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@8e24743 in Thread pool-1-thread-2
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@74a10858 in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@23fe1d71 in Thread pool-1-thread-2
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@28ac3dc3 in Thread pool-1-thread-1
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@32eebfca in Thread pool-1-thread-2
+2017-01-06 18:11:18 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4e718207 in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@87f383f with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 0;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_0;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@eafc191 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 1000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_1;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@87f383f in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@1060b431 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 2000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_2;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@eafc191 in Thread pool-1-thread-2
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@612679d6 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 3000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_3;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@11758f2a with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 4000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_4;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@e720b71 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 5000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_5;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@1b26f7b2 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 6000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_6;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@69b0fd6f with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 7000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_7;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@757942a1 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 8000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_8;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4a87761d with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 9000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_9;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@66d1af89 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 10000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_10;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@8646db9 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 11000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_11;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@37374a5e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 12000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_12;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4671e53b with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 13000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_13;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@2db7a79b with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 14000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_14;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@6950e31 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 15000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_15;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@b7dd107 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 16000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_16;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@42eca56e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 17000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_17;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@52f759d7 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 18000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_18;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@7cbd213e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 19000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_19;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@192d3247 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 20000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_20;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@3ecd23d9 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 21000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_21;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@569cfc36 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 22000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_22;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@43bd930a with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 23000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_23;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@33723e30 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 24000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_24;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@64f6106c with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 25000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_25;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@553a3d88 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 26000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_26;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@7a30d1e6 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 27000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_27;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@5891e32e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 28000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_28;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@cb0ed20 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 29000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_29;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@8e24743 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 30000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_30;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@74a10858 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 31000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_31;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@23fe1d71 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 32000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_32;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@28ac3dc3 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 33000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_33;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@32eebfca with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 34000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_34;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4e718207 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 35000000;
+		- length of bytes which need to read in source file 700034;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_35;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@1060b431 in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@612679d6 in Thread pool-1-thread-2
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@11758f2a in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@e720b71 in Thread pool-1-thread-2
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@1b26f7b2 in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@69b0fd6f in Thread pool-1-thread-2
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@757942a1 in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4a87761d in Thread pool-1-thread-2
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@66d1af89 in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@8646db9 in Thread pool-1-thread-2
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@37374a5e in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4671e53b in Thread pool-1-thread-2
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@2db7a79b in Thread pool-1-thread-2
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@6950e31 in Thread pool-1-thread-1
+2017-01-06 18:23:14 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@b7dd107 in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@42eca56e in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@52f759d7 in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@7cbd213e in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@192d3247 in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@3ecd23d9 in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@569cfc36 in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@43bd930a in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@33723e30 in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@64f6106c in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@553a3d88 in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@7a30d1e6 in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@5891e32e in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@cb0ed20 in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@8e24743 in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@74a10858 in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@23fe1d71 in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@28ac3dc3 in Thread pool-1-thread-1
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@32eebfca in Thread pool-1-thread-2
+2017-01-06 18:23:15 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4e718207 in Thread pool-1-thread-1
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@87f383f with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 0;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_0;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@eafc191 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 1000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_1;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@87f383f in Thread pool-1-thread-1
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@1060b431 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 2000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_2;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@612679d6 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 3000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_3;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@11758f2a with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 4000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_4;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@e720b71 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 5000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_5;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@1b26f7b2 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 6000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_6;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@69b0fd6f with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 7000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_7;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@757942a1 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 8000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_8;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4a87761d with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 9000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_9;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@66d1af89 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 10000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_10;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@8646db9 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 11000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_11;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@37374a5e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 12000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_12;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4671e53b with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 13000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_13;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@2db7a79b with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 14000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_14;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@6950e31 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 15000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_15;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@b7dd107 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 16000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_16;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@42eca56e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 17000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_17;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:50 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@52f759d7 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 18000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_18;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@7cbd213e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 19000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_19;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@192d3247 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 20000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_20;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@3ecd23d9 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 21000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_21;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@569cfc36 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 22000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_22;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@43bd930a with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 23000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_23;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@33723e30 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 24000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_24;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@64f6106c with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 25000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_25;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@553a3d88 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 26000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_26;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@eafc191 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@7a30d1e6 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 27000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_27;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@5891e32e with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 28000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_28;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@cb0ed20 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 29000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_29;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@8e24743 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 30000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_30;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@74a10858 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 31000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_31;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@23fe1d71 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 32000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_32;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@28ac3dc3 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 33000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_33;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@32eebfca with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 34000000;
+		- length of bytes which need to read in source file 1000000;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_34;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Initialize Task com.sysgears.fragmentation.Task@4e718207 with next param:
+		- file from which need to read bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt;
+		- position of bytes which need to read in source file 35000000;
+		- length of bytes which need to read in source file 700034;
+		- file into which need to write bytes /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/commandTest.txt_part_35;
+		- position in file destination where need to write bytes 0;
+		- object which stored statistic of work class com.sysgears.statistic.StatisticServiceImpl;
+		- buffer for reading and writing bytes with size 1000.
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@1060b431 in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@612679d6 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@11758f2a in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@e720b71 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@1b26f7b2 in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@69b0fd6f in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@757942a1 in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4a87761d in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@66d1af89 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@8646db9 in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@37374a5e in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4671e53b in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@2db7a79b in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@6950e31 in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@b7dd107 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@42eca56e in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@52f759d7 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@7cbd213e in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@192d3247 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@3ecd23d9 in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@569cfc36 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@43bd930a in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@33723e30 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@64f6106c in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@553a3d88 in Thread pool-1-thread-2
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@7a30d1e6 in Thread pool-1-thread-1
+2017-01-06 18:23:51 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@5891e32e in Thread pool-1-thread-2
+2017-01-06 18:23:52 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@cb0ed20 in Thread pool-1-thread-1
+2017-01-06 18:23:52 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@8e24743 in Thread pool-1-thread-2
+2017-01-06 18:23:52 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@74a10858 in Thread pool-1-thread-2
+2017-01-06 18:23:52 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@23fe1d71 in Thread pool-1-thread-1
+2017-01-06 18:23:52 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@28ac3dc3 in Thread pool-1-thread-2
+2017-01-06 18:23:52 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@32eebfca in Thread pool-1-thread-1
+2017-01-06 18:23:52 TRACE Task - Starts run() for Task com.sysgears.fragmentation.Task@4e718207 in Thread pool-1-thread-2

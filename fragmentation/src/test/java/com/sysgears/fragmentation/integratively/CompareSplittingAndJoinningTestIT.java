@@ -87,11 +87,11 @@ public class CompareSplittingAndJoinningTestIT {
 
         firstFile.delete();
         secondFile.delete();
-        wrongFile.delete();
     }
 
     @AfterTest(groups = { "all-tests" })
     public void deleteFiles(){
+        wrongFile.delete();
         File deleteFile;
         for (int index = 0; index <=count; index++ ){
             deleteFile = new File(testFileName+prefix+index);

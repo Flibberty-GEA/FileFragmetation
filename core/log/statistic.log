@@ -73,3 +73,18 @@
 2017-01-06 18:00:56 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 48%, pool-1-thread-1: 64%, pool-1-thread-2: 51%, time remaining: 1.0s.'
 2017-01-06 18:00:57 DEBUG main StatisticServiceImpl:get:83 - call to method get()
 2017-01-06 18:00:57 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.'
+2017-01-06 18:11:16 DEBUG main StatisticServiceImpl:<init>:20 - Initialize without params.
+2017-01-06 18:11:18 DEBUG main StatisticServiceImpl:get:83 - call to method get()
+2017-01-06 18:11:18 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 47%, pool-1-thread-1: 43%, pool-1-thread-2: 68%, time remaining: 1.0s.'
+2017-01-06 18:11:19 DEBUG main StatisticServiceImpl:get:83 - call to method get()
+2017-01-06 18:11:19 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.'
+2017-01-06 18:23:14 DEBUG main StatisticServiceImpl:<init>:20 - Initialize without params.
+2017-01-06 18:23:15 DEBUG main StatisticServiceImpl:get:83 - call to method get()
+2017-01-06 18:23:15 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 53%, pool-1-thread-1: 26%, pool-1-thread-2: 67%, time remaining: 1.0s.'
+2017-01-06 18:23:16 DEBUG main StatisticServiceImpl:get:83 - call to method get()
+2017-01-06 18:23:16 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.'
+2017-01-06 18:23:50 DEBUG main StatisticServiceImpl:<init>:20 - Initialize without params.
+2017-01-06 18:23:52 DEBUG main StatisticServiceImpl:get:83 - call to method get()
+2017-01-06 18:23:52 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 77%, pool-1-thread-1: 53%, pool-1-thread-2: 31%, time remaining: 0.0s.'
+2017-01-06 18:23:53 DEBUG main StatisticServiceImpl:get:83 - call to method get()
+2017-01-06 18:23:53 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.'

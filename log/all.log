@@ -29,3 +29,22 @@ Please enter correct command like this "-c split -p /file_path.file_name -s size
 2017-01-06 17:59:46 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
 2017-01-06 17:59:46 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
 2017-01-06 17:59:46 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
+2017-01-06 18:26:12 INFO  main MainClass:main:33 - Start program.
+2017-01-06 18:26:12 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 18:26:30 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-06 18:26:31 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 93%, pool-1-thread-1: 20%, pool-1-thread-2: 65%, time remaining: 0.0s.".
+2017-01-06 18:26:32 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-06 18:26:32 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 18:32:06 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-с учше".
+2017-01-06 18:32:06 WARN  main ApacheCliParser:parse:39 - CommandLineParser could not parse input arguments. 
+Method parse(options, args) takes next params:
+		- options (org.apache.commons.cli.Options): [[[ option: c command  [ARG] :: It's a user command :: class java.lang.String ], [ option: p path  [ARG] :: It's a path to file :: class java.lang.String ], [ option: s size  [ARG] :: It's a size of file part :: class java.lang.String ]]]
+		- String[] args: [-с, учше]
+2017-01-06 18:32:06 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Could not parse input arguments. 
+2017-01-06 18:32:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Could not parse input arguments. ".
+2017-01-06 18:32:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 18:32:13 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-06 18:32:13 INFO  main Command:apply:78 - Starts Command "exit"
+2017-01-06 18:32:13 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-06 18:32:13 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-06 18:32:13 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
