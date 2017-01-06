@@ -5,28 +5,34 @@ import com.sysgears.core.input.ApacheCliParser;
 import com.sysgears.core.input.InputDataHolder;
 import com.sysgears.core.input.InputDataParser;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import java.io.File;
 
 
 /**
  * @author Yevgen Goliuk
  */
 public class InputDataParserAndHolderTetsIT {
+    FileUtil fileUtil = new FileUtil();
+    File file = fileUtil.createFile("parseAndHolderTest.txt", 35700034);
+
     String commandForExit = "-c exit";
-    String correctCommandForSplitFile = "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1M";
-    String correctCommandForJoinFile = "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1K";
-    String wrongCommandWithBadCommand = "-c sffsdf -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1M";
+    String correctCommandForSplitFile = "-c split -p "+file.getPath()+" -s 1M";
+    String correctCommandForJoinFile = "-c join -p "+file.getPath()+" -s 1K";
+    String wrongCommandWithBadCommand = "-c lol -p "+file.getPath()+" -s 1M";
     String wrongCommandWithBadPath = "-c split -p /wrong_file_path/testFile.bmp -s 1M";
-    String wrongCommandWithBadSize = "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1B";
+    String wrongCommandWithBadSize = "-c split -p "+file.getPath()+" -s 1B";
     InputDataParser apacheCliParser = new ApacheCliParser();
 
     @DataProvider
     public Object[][] correctInputData() {
         return new Object[][]{
                 {commandForExit, "exit"},
-                {correctCommandForSplitFile, "split", "/home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp", "1000000"},
-                {correctCommandForJoinFile, "join", "/home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp", "1000"},
+                {correctCommandForSplitFile, "split", file.getPath(), "1000000"},
+                {correctCommandForJoinFile, "join", file.getPath(), "1000"},
         };
     }
 
@@ -55,4 +61,8 @@ public class InputDataParserAndHolderTetsIT {
         apacheCliParser.parse(command.split(" "));
     }
 
+    @AfterTest(groups = { "all-tests" })
+    public void deleteFiles(){
+        file.delete();
+    }
 }

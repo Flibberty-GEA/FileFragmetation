@@ -9,6 +9,7 @@ import jdk.nashorn.internal.runtime.regexp.RegExp;
 import jdk.nashorn.internal.runtime.regexp.RegExpMatcher;
 import org.easymock.EasyMock;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -29,6 +30,9 @@ public class CommandTestIT {
             "pool-\\d+-thread-[12]: (100|[1-9]?[0-9]{1})%, " +
             "pool-\\d+-thread-[12]: (100|[1-9]?[0-9]{1})%, " +
             "time remaining: \\d+\\.\\d+s\\.";
+    final FileUtil fileUtil = new FileUtil();
+    File file;
+    String prefix = "_part_";
 
     @DataProvider
     public Object[][] parseCommand() {
@@ -64,7 +68,7 @@ public class CommandTestIT {
     @Test(/*expectedExceptions = IOException.class, */groups = { "all-tests" })
     public void testCommandSplitApply() throws IOException {
         final InputDataHolder inputDataHolder = EasyMock.createMock(InputDataHolder.class);
-        File file = new File("/home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp");
+        file = fileUtil.createFile("commandTest.txt", 35700034);
 
         expect(inputDataHolder.getCommand()).andReturn("split").anyTimes();
         expect(inputDataHolder.getSize()).andReturn(1000000L).anyTimes();
@@ -83,14 +87,14 @@ public class CommandTestIT {
         EasyMock.verify(controller);
     }
 
-
-//    @Test(expectedExceptions = IOException.class)
-//    public void testCommandExitApply() throws IOException {
-//        final InputDataHolder inputDataHolder = EasyMock.createMock(InputDataHolder.class);
-//        final ExecutorService executorService = Executors.newFixedThreadPool(2);
-//        final Controller controller = new StreamController(System.in, System.out);
-//
-//        Command.EXIT.apply(inputDataHolder, executorService, controller);
-//        BufferedWriter writer = controller.getWriter();
-//    }
+    @AfterTest(groups = { "all-tests" })
+    public void deleteFiles(){
+        File deleteFile;
+        int count = (int) (file.length()/1000000L);
+        for (int index = 0; index <=count; index++ ){
+            deleteFile = new File(file.getPath()+prefix+index);
+            deleteFile.delete();
+        }
+        file.delete();
+    }
 }
