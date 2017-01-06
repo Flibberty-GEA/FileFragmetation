@@ -1,40 +1,22 @@
-2017-01-06 12:46:07 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 12:46:17 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-06 12:46:18 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 12:46:18 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 12:46:21 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c dfv".
-2017-01-06 12:46:21 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'dfv' is not supported".
-2017-01-06 12:46:21 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 12:46:23 INFO  main StreamController:getMessage:52 - Get message from user. Message: "dfgsd".
-2017-01-06 12:46:23 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command is not supported. 
+2017-01-06 17:56:51 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 17:56:53 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-06 17:56:54 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 82%, pool-1-thread-1: 93%, pool-1-thread-2: 15%, time remaining: 0.0s.".
+2017-01-06 17:56:55 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-06 17:56:55 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 17:58:38 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M".
+2017-01-06 17:58:39 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-06 17:58:39 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 17:59:10 INFO  main StreamController:getMessage:52 - Get message from user. Message: "- sdf".
+2017-01-06 17:59:10 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"".
-2017-01-06 12:46:23 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 12:46:29 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M".
-2017-01-06 12:46:30 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 12:46:30 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 12:46:35 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
-2017-01-06 12:46:35 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
-2017-01-06 12:46:35 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
-2017-01-06 13:30:04 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 13:30:53 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 13:31:09 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-06 13:31:10 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 53%, pool-1-thread-1: 4%, pool-1-thread-2: 6%, time remaining: 1.0s.".
-2017-01-06 13:31:11 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 13:31:11 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 13:32:41 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 13:32:44 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-06 13:32:45 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 50%, pool-1-thread-1: 19%, pool-1-thread-2: 65%, time remaining: 1.0s.".
-2017-01-06 13:32:46 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 13:32:46 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 13:34:22 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 13:34:33 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-06 13:34:34 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 59%, pool-1-thread-1: 23%, pool-1-thread-2: 12%, time remaining: 1.0s.".
-2017-01-06 13:34:35 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 13:34:35 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 13:37:06 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M".
-2017-01-06 13:37:07 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 70%, pool-1-thread-1: 32%, pool-1-thread-2: 49%, time remaining: 0.0s.".
-2017-01-06 13:37:08 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 13:37:08 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 13:37:38 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
-2017-01-06 13:37:38 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
-2017-01-06 13:37:38 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
+2017-01-06 17:59:10 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 17:59:31 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c sdf".
+2017-01-06 17:59:31 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'sdf' is not supported".
+2017-01-06 17:59:31 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 17:59:42 INFO  main StreamController:getMessage:52 - Get message from user. Message: "dsfsdf".
+2017-01-06 17:59:42 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command is not supported. 
+Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"".
+2017-01-06 17:59:42 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-06 17:59:46 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
+2017-01-06 17:59:46 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
+2017-01-06 17:59:46 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.

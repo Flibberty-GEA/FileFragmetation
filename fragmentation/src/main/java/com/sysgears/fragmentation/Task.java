@@ -58,13 +58,13 @@ public class Task implements Runnable {
      * destination file, position in destination file, object statistic and
      * bytes buffer size.
      *
-     * @param originalFile              file from which need to read bytes.
-     * @param positionFromOriginalFile  position of bytes which need to read in source file.
-     * @param partSize                  length of bytes which need to read in source file.
-     * @param resultFile                file into which need to write bytes.
-     * @param positionIntoResultFile    position in file destination where need to write bytes.
-     * @param statistic                 object which stored statistic of work.
-     * @param bufferSize                size of buffer for reading and writing bytes.
+     * @param originalFile              file from which need to read bytes
+     * @param positionFromOriginalFile  position of bytes which need to read in source file
+     * @param partSize                  length of bytes which need to read in source file
+     * @param resultFile                file into which need to write bytes
+     * @param positionIntoResultFile    position in file destination where need to write bytes
+     * @param statistic                 object which stored statistic of work
+     * @param bufferSize                size of buffer for reading and writing bytes
      */
     public Task(final File originalFile, final long positionFromOriginalFile, final long partSize,
                 final File resultFile, final long positionIntoResultFile,
@@ -77,6 +77,14 @@ public class Task implements Runnable {
         this.positionIntoResultFile = positionIntoResultFile;
         this.statistic = statistic;
         this.bufferForBytes = new byte[bufferSize];
+        log.trace("Initialize Task "+this.toString()+" with next param:\n" +
+                "\t\t- file from which need to read bytes "+originalFile.getPath() + ";\n" +
+                "\t\t- position of bytes which need to read in source file "+positionFromOriginalFile+";\n" +
+                "\t\t- length of bytes which need to read in source file "+partSize+";\n" +
+                "\t\t- file into which need to write bytes "+resultFile.getPath()+";\n" +
+                "\t\t- position in file destination where need to write bytes "+positionIntoResultFile+";\n" +
+                "\t\t- object which stored statistic of work "+statistic.getClass()+";\n" +
+                "\t\t- buffer for reading and writing bytes with size "+bufferForBytes.length+".");
     }
 
     /**
@@ -87,7 +95,7 @@ public class Task implements Runnable {
         /* Initialize name of current thread. */
         String threadName = Thread.currentThread().getName();
 
-//        log.debug("Starts run() in Thread " + threadName);
+        log.trace("Starts run() for Task "+this.toString()+" in Thread " + threadName);
 
         /* Initialize size of expected work for current worker. */
         statistic.setExpected(threadName, currentPartSize);

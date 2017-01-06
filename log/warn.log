@@ -1,4 +1,6 @@
-2017-01-06 12:46:21 WARN  main InputDataHolder:<init>:39 - Command 'dfv' is not supported
-2017-01-06 12:46:21 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'dfv' is not supported
-2017-01-06 12:46:23 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
+2017-01-06 17:59:10 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
+Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"
+2017-01-06 17:59:31 WARN  main InputDataHolder:<init>:39 - Command 'sdf' is not supported
+2017-01-06 17:59:31 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'sdf' is not supported
+2017-01-06 17:59:42 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"

@@ -1,108 +1,44 @@
-2017-01-06 12:46:07 INFO  main MainClass:main:33 - Start program.
-2017-01-06 12:46:07 DEBUG main AppExecutor:<init>:63 - Initialize AppExecutor with next params:
+2017-01-06 17:56:51 INFO  main MainClass:main:33 - Start program.
+2017-01-06 17:56:51 DEBUG main AppExecutor:<init>:63 - Initialize AppExecutor with next params:
 		- streamController to contact with user;
 		- inputDataParser to parse input messages from user;
 		- executorService with ThreadPoolExecutor with users thread pool size = 2
-2017-01-06 12:46:07 DEBUG main AppExecutor:execute:73 - Starts to execute full cycle of applications work.
-2017-01-06 12:46:17 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
-2017-01-06 12:46:17 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 12:46:17 DEBUG main InputDataHolder:<init>:67 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-06 12:46:17 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
-2017-01-06 12:46:17 DEBUG main Command:getCommandByValue:127 - Create Command "split".
-2017-01-06 12:46:17 DEBUG main Command:apply:29 - Starts with parameters:
+2017-01-06 17:56:51 DEBUG main AppExecutor:execute:73 - Starts to execute full cycle of applications work.
+2017-01-06 17:56:53 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
+2017-01-06 17:56:53 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 17:56:53 DEBUG main InputDataHolder:<init>:67 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-06 17:56:53 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-06 17:56:53 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-06 17:56:53 DEBUG main Command:apply:29 - Starts with parameters:
 		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
 		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
 		- class com.sysgears.controller.StreamController
-2017-01-06 12:46:21 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, dfv]
-2017-01-06 12:46:21 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 12:46:21 WARN  main InputDataHolder:<init>:39 - Command 'dfv' is not supported
-2017-01-06 12:46:21 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'dfv' is not supported
-2017-01-06 12:46:23 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [dfgsd]
-2017-01-06 12:46:23 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 12:46:23 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
+2017-01-06 17:58:38 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0, -s, 1M]
+2017-01-06 17:58:38 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 17:58:38 DEBUG main InputDataHolder:<init>:67 - User command "join". User's file object "file.bmp_part_0". Size of file part = 1000000 bytes.
+2017-01-06 17:58:38 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-06 17:58:38 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-06 17:58:38 DEBUG main Command:apply:53 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder which includes Command "join", file object  "file.bmp_part_0", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController
+2017-01-06 17:58:38 DEBUG main Command:apply:62 - Initialize StatisticService and Joiner.
+2017-01-06 17:59:10 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-, sdf]
+2017-01-06 17:59:10 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 17:59:10 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"
-2017-01-06 12:46:29 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0, -s, 1M]
-2017-01-06 12:46:29 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 12:46:29 DEBUG main InputDataHolder:<init>:67 - User command "join". User's file object "file.bmp_part_0". Size of file part = 1000000 bytes.
-2017-01-06 12:46:29 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
-2017-01-06 12:46:29 DEBUG main Command:getCommandByValue:127 - Create Command "join".
-2017-01-06 12:46:29 DEBUG main Command:apply:53 - Starts with parameters:
-		- class com.sysgears.core.input.InputDataHolder which includes Command "join", file object  "file.bmp_part_0", size of file part 1000000 bytes;
-		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
-		- class com.sysgears.controller.StreamController
-2017-01-06 12:46:29 DEBUG main Command:apply:62 - Initialize StatisticService and Joiner.
-2017-01-06 12:46:35 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-06 12:46:35 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 12:46:35 DEBUG main InputDataHolder:<init>:73 - User command "exit".
-2017-01-06 12:46:35 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
-2017-01-06 12:46:35 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
-2017-01-06 12:46:35 INFO  main Command:apply:78 - Starts Command "exit"
-2017-01-06 12:46:35 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2017-01-06 13:30:04 INFO  main MainClass:main:33 - Start program.
-2017-01-06 13:30:04 DEBUG main AppExecutor:<init>:63 - Initialize AppExecutor with next params:
-		- streamController to contact with user;
-		- inputDataParser to parse input messages from user;
-		- executorService with ThreadPoolExecutor with users thread pool size = 2
-2017-01-06 13:30:04 DEBUG main AppExecutor:execute:73 - Starts to execute full cycle of applications work.
-2017-01-06 13:30:53 INFO  main MainClass:main:33 - Start program.
-2017-01-06 13:30:53 DEBUG main AppExecutor:<init>:63 - Initialize AppExecutor with next params:
-		- streamController to contact with user;
-		- inputDataParser to parse input messages from user;
-		- executorService with ThreadPoolExecutor with users thread pool size = 2
-2017-01-06 13:30:53 DEBUG main AppExecutor:execute:73 - Starts to execute full cycle of applications work.
-2017-01-06 13:31:09 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
-2017-01-06 13:31:09 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 13:31:09 DEBUG main InputDataHolder:<init>:67 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-06 13:31:09 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
-2017-01-06 13:31:09 DEBUG main Command:getCommandByValue:127 - Create Command "split".
-2017-01-06 13:31:09 DEBUG main Command:apply:29 - Starts with parameters:
-		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
-		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
-		- class com.sysgears.controller.StreamController
-2017-01-06 13:32:41 INFO  main MainClass:main:33 - Start program.
-2017-01-06 13:32:41 DEBUG main AppExecutor:<init>:63 - Initialize AppExecutor with next params:
-		- streamController to contact with user;
-		- inputDataParser to parse input messages from user;
-		- executorService with ThreadPoolExecutor with users thread pool size = 2
-2017-01-06 13:32:41 DEBUG main AppExecutor:execute:73 - Starts to execute full cycle of applications work.
-2017-01-06 13:32:44 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
-2017-01-06 13:32:44 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 13:32:44 DEBUG main InputDataHolder:<init>:67 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-06 13:32:44 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
-2017-01-06 13:32:44 DEBUG main Command:getCommandByValue:127 - Create Command "split".
-2017-01-06 13:32:44 DEBUG main Command:apply:29 - Starts with parameters:
-		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
-		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
-		- class com.sysgears.controller.StreamController
-2017-01-06 13:34:22 INFO  main MainClass:main:33 - Start program.
-2017-01-06 13:34:22 DEBUG main AppExecutor:<init>:63 - Initialize AppExecutor with next params:
-		- streamController to contact with user;
-		- inputDataParser to parse input messages from user;
-		- executorService with ThreadPoolExecutor with users thread pool size = 2
-2017-01-06 13:34:22 DEBUG main AppExecutor:execute:73 - Starts to execute full cycle of applications work.
-2017-01-06 13:34:33 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp, -s, 1M]
-2017-01-06 13:34:33 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 13:34:33 DEBUG main InputDataHolder:<init>:67 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
-2017-01-06 13:34:33 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
-2017-01-06 13:34:33 DEBUG main Command:getCommandByValue:127 - Create Command "split".
-2017-01-06 13:34:33 DEBUG main Command:apply:29 - Starts with parameters:
-		- class com.sysgears.core.input.InputDataHolder which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
-		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
-		- class com.sysgears.controller.StreamController
-2017-01-06 13:37:06 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0, -s, 1M]
-2017-01-06 13:37:06 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 13:37:06 DEBUG main InputDataHolder:<init>:67 - User command "join". User's file object "file.bmp_part_0". Size of file part = 1000000 bytes.
-2017-01-06 13:37:06 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
-2017-01-06 13:37:06 DEBUG main Command:getCommandByValue:127 - Create Command "join".
-2017-01-06 13:37:06 DEBUG main Command:apply:53 - Starts with parameters:
-		- class com.sysgears.core.input.InputDataHolder which includes Command "join", file object  "file.bmp_part_0", size of file part 1000000 bytes;
-		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
-		- class com.sysgears.controller.StreamController
-2017-01-06 13:37:06 DEBUG main Command:apply:62 - Initialize StatisticService and Joiner.
-2017-01-06 13:37:38 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
-2017-01-06 13:37:38 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
-2017-01-06 13:37:38 DEBUG main InputDataHolder:<init>:73 - User command "exit".
-2017-01-06 13:37:38 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
-2017-01-06 13:37:38 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
-2017-01-06 13:37:38 INFO  main Command:apply:78 - Starts Command "exit"
-2017-01-06 13:37:38 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-06 17:59:31 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, sdf]
+2017-01-06 17:59:31 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 17:59:31 WARN  main InputDataHolder:<init>:39 - Command 'sdf' is not supported
+2017-01-06 17:59:31 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'sdf' is not supported
+2017-01-06 17:59:42 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [dsfsdf]
+2017-01-06 17:59:42 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 17:59:42 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
+Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"
+2017-01-06 17:59:46 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-06 17:59:46 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 17:59:46 DEBUG main InputDataHolder:<init>:73 - User command "exit".
+2017-01-06 17:59:46 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-06 17:59:46 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-06 17:59:46 INFO  main Command:apply:78 - Starts Command "exit"
+2017-01-06 17:59:46 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
