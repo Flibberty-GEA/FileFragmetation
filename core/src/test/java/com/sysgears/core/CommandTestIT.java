@@ -1,4 +1,4 @@
-package com.sysgears.core.unit;
+package com.sysgears.core;
 
 import com.sysgears.controller.Controller;
 import com.sysgears.controller.StreamController;
@@ -24,7 +24,7 @@ import static org.easymock.EasyMock.*;
 /**
  * @author Yevgen Goliuk
  */
-public class CommandTest {
+public class CommandTestIT {
     private final String STATISTIC_INFO_PATTERN = "Total progress: (100|[1-9]?[0-9]{1})%, " +
             "pool-\\d+-thread-[12]: (100|[1-9]?[0-9]{1})%, " +
             "pool-\\d+-thread-[12]: (100|[1-9]?[0-9]{1})%, " +

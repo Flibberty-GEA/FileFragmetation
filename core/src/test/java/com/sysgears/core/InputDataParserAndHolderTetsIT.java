@@ -1,4 +1,4 @@
-package com.sysgears.core.integratively;
+package com.sysgears.core;
 
 import com.sysgears.core.input.InputException;
 import com.sysgears.core.input.ApacheCliParser;
@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 /**
  * @author Yevgen Goliuk
  */
-public class InputDataParserAndHolderTets {
+public class InputDataParserAndHolderTetsIT {
     String commandForExit = "-c exit";
     String correctCommandForSplitFile = "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1M";
     String correctCommandForJoinFile = "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp -s 1K";

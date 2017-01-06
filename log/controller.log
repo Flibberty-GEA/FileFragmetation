@@ -1,16 +1,11 @@
-2017-01-06 12:46:07 INFO  main MainClass:main:33 - Start program.
 2017-01-06 12:46:07 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
 2017-01-06 12:46:17 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
 2017-01-06 12:46:18 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
 2017-01-06 12:46:18 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
 2017-01-06 12:46:21 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c dfv".
-2017-01-06 12:46:21 WARN  main InputDataHolder:<init>:39 - Command 'dfv' is not supported
-2017-01-06 12:46:21 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'dfv' is not supported
 2017-01-06 12:46:21 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'dfv' is not supported".
 2017-01-06 12:46:21 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
 2017-01-06 12:46:23 INFO  main StreamController:getMessage:52 - Get message from user. Message: "dfgsd".
-2017-01-06 12:46:23 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
-Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"
 2017-01-06 12:46:23 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"".
 2017-01-06 12:46:23 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
@@ -18,7 +13,5 @@ Please enter correct command like this "-c split -p /file_path.file_name -s size
 2017-01-06 12:46:30 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
 2017-01-06 12:46:30 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
 2017-01-06 12:46:35 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
-2017-01-06 12:46:35 INFO  main Command:apply:78 - Starts Command "exit"
-2017-01-06 12:46:35 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
 2017-01-06 12:46:35 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
 2017-01-06 12:46:35 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.

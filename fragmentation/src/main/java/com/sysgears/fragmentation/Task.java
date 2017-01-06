@@ -3,7 +3,6 @@ package com.sysgears.fragmentation;
 import com.sysgears.statistic.StatisticService;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
