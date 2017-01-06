@@ -25,3 +25,6 @@
 2017-01-06 12:38:44 DEBUG main StatisticServiceImpl:<init>:19 - Initialize without params.
 2017-01-06 12:38:45 DEBUG main StatisticServiceImpl:get:82 - call to method get()
 2017-01-06 12:38:45 DEBUG main StatisticServiceImpl:get:111 - Return string with statistic for all threads:"Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.'
+2017-01-06 13:20:55 DEBUG main StatisticServiceImpl:<init>:20 - Initialize without params.
+2017-01-06 13:20:56 DEBUG main StatisticServiceImpl:get:83 - call to method get()
+2017-01-06 13:20:56 DEBUG main StatisticServiceImpl:get:112 - Return string with statistic for all threads:"Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.'

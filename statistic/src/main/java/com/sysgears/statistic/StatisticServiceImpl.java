@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
  * Service for storages and accesses to statistical data of work for all threads.
  */
 public class StatisticServiceImpl implements StatisticService {
+
     public static final Logger log = LogManager.getLogger(StatisticServiceImpl.class);
 
     private final StatisticRepository repository = new StatisticRepository();

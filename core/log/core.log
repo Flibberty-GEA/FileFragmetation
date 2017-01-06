@@ -226,3 +226,33 @@
 2017-01-06 12:38:45 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
 2017-01-06 12:38:45 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
 2017-01-06 12:38:45 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-06 13:20:54 DEBUG main Command:getCommandByValue:127 - Create Command "exit".
+2017-01-06 13:20:54 DEBUG main Command:getCommandByValue:127 - Create Command "eXiT".
+2017-01-06 13:20:54 DEBUG main Command:getCommandByValue:127 - Create Command "split".
+2017-01-06 13:20:54 DEBUG main Command:getCommandByValue:127 - Create Command "join".
+2017-01-06 13:20:54 DEBUG main Command:getCommandByValue:127 - Create Command "x".
+2017-01-06 13:20:55 DEBUG main Command:apply:29 - Starts with parameters:
+		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$5943955f which includes Command "split", file object  "file.bmp", size of file part 1000000 bytes;
+		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
+		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$6a2fa1fe
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:73 - User command "exit".
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:67 - User command "split". User's file object "file.bmp". Size of file part = 1000000 bytes.
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1K]
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:67 - User command "join". User's file object "file.bmp". Size of file part = 1000 bytes.
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, sffsdf, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1M]
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 13:20:56 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/testFile.bmp, -s, 1M]
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 13:20:56 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-06 13:20:56 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/src/test/resources/file.bmp, -s, 1B]
+2017-01-06 13:20:56 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-06 13:20:56 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
