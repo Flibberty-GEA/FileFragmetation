@@ -38,9 +38,9 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public synchronized void setExpected(final String threadName, final Long expectedSize) {
-//        log.debug("Starts with params:\n" +
-//        "\t\t- name of current thread \"" + threadName + "\";\n" +
-//        "\t\t- full size of work for current thread = " + expectedSize + "bytes.");
+        log.trace("Starts with params:\n" +
+        "\t\t- name of current thread \"" + threadName + "\";\n" +
+        "\t\t- full size of work for current thread = " + expectedSize + "bytes.");
         repository.setExpected(threadName, expectedSize);
     }
 
@@ -52,9 +52,9 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public synchronized void setActual(final String threadName, final Long actualSize) {
-//        log.debug("Starts with params:\n" +
-//        "\t\t- name of current thread \"" + threadName + "\";\n" +
-//        "\t\t- size of work done for current thread = " + actualSize + "bytes.");
+        log.trace("Starts with params:\n" +
+        "\t\t- name of current thread \"" + threadName + "\";\n" +
+        "\t\t- size of work done for current thread = " + actualSize + "bytes.");
         repository.setActual(threadName, actualSize);
     }
 
@@ -66,9 +66,9 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public synchronized void increaseActual(final String threadName, final long size) {
-//        log.debug("Starts with params:\n" +
-//                "\t\t- name of current thread \"" + threadName + "\";\n" +
-//                "\t\t- count of bytes which need to increase actual size on = " + size + "bytes.");
+        log.trace("Starts with params:\n" +
+                "\t\t- name of current thread \"" + threadName + "\";\n" +
+                "\t\t- count of bytes which need to increase actual size on = " + size + "bytes.");
         repository.increaseActual(threadName, size);
     }
 

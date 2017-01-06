@@ -17,7 +17,10 @@ import java.util.concurrent.TimeUnit;
  * @author yevgen
  */
 public class CompareSplittingAndJoinningTestIT {
+    CreateFile creator = new CreateFile();
     String prefix = "_part_";
+    File fileOne = creator.createFile("fileOne.txt", 37472054);
+    File fileTwo = creator.createFile("fileTwo.txt", 37472054);
     String testFileName = "/home/yevgen/IdeaProjects/FileFragmetation/fragmentation/src/test/resources/fileForJoining.bmp";
     String wrongFileName = "/home/yevgen/IdeaProjects/FileFragmetation/fragmentation/src/test/resources/wrongFile.bmp";
     File originFile = new File("/home/yevgen/IdeaProjects/FileFragmetation/fragmentation/src/test/resources/file.bmp");
@@ -31,6 +34,13 @@ public class CompareSplittingAndJoinningTestIT {
 
     @Test(groups = { "all-tests" })
     public void splitBeforeJoining(){
+        File newFile = creator.copyFile(fileOne, "fileThree.txt");
+
+        Assert.assertTrue(fileOne.isFile());
+        Assert.assertTrue(fileOne.length() == fileTwo.length());
+        Assert.assertFalse(fileOne.equals(newFile));
+        Assert.assertTrue(compareFiles(fileOne, newFile));
+
         splitter.split(statistic, this.deleteFile, maxPartSize);
         while (((ThreadPoolExecutor) service).getActiveCount() > 0) {
         }

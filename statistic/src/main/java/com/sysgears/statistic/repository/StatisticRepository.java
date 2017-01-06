@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class StatisticRepository {
-//    public static final Logger log = LogManager.getLogger(StatisticRepository.class);
+    public static final Logger log = LogManager.getLogger(StatisticRepository.class);
 
     /**
      * Map where key is a thread name and value is expected count of
@@ -73,9 +73,9 @@ public class StatisticRepository {
      * @param size       count of bytes which need to increase actual size on
      */
     public synchronized void increaseActual(final String threadName, final long size) {
-//        log.debug("Starts with params: thread name \""+threadName+
-//                "\", count of bytes which need to increase actual size on = "+size);
-//        log.debug("Old size = "+actualByThread.get(threadName));
+        log.trace("Starts with params: thread name \""+threadName+
+                "\", count of bytes which need to increase actual size on = "+size);
+        log.trace("Old size = "+actualByThread.get(threadName));
 
         /* Increase size of work done for current thread. */
         actualByThread.put(threadName, size + actualByThread.get(threadName));
