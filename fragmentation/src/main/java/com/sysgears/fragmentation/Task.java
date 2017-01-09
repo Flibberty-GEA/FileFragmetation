@@ -77,14 +77,10 @@ public class Task implements Runnable {
         this.positionIntoResultFile = positionIntoResultFile;
         this.statistic = statistic;
         this.bufferForBytes = new byte[bufferSize];
-        log.trace("Initialize Task "+this.toString()+" with next param:\n" +
-                "\t\t- file from which need to read bytes "+originalFile.getPath() + ";\n" +
-                "\t\t- position of bytes which need to read in source file "+positionFromOriginalFile+";\n" +
-                "\t\t- length of bytes which need to read in source file "+partSize+";\n" +
-                "\t\t- file into which need to write bytes "+resultFile.getPath()+";\n" +
-                "\t\t- position in file destination where need to write bytes "+positionIntoResultFile+";\n" +
-                "\t\t- object which stored statistic of work "+statistic.getClass()+";\n" +
-                "\t\t- buffer for reading and writing bytes with size "+bufferForBytes.length+".");
+        log.trace("Initialize Task "+this.toString()+" with next param: file to read "+originalFile.getPath() + ", " +
+                "position to read "+positionFromOriginalFile+", length of bytes to read "+partSize+", " +
+                "file to write "+resultFile.getName()+", position to write "+positionIntoResultFile+", " +
+                "statistic service "+statistic.getClass().getSimpleName()+", buffer size "+bufferForBytes.length+".");
     }
 
     /**

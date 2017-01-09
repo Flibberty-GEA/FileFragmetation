@@ -43,10 +43,9 @@ public class Joiner {
     public Joiner(final ExecutorService executorService) {
         this.executorService = executorService;
         this.bufferSize = DEFAULT_BUFFER_SIZE;
-        log.debug("Initialize Joiner with next params:\n" +
-                "\t\t- executorService with " + this.executorService.getClass().getSimpleName() +
-                " with maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + ";\n" +
-                "\t\t- size of buffer for reading and writing is default = " + this.bufferSize + " bytes.");
+        log.debug("Initialize Joiner with next params: " + this.executorService.getClass().getSimpleName() +
+                " maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + "; " +
+                "default size of buffer = " + this.bufferSize + " bytes.");
     }
 
     /**
@@ -58,10 +57,9 @@ public class Joiner {
     public Joiner(final ExecutorService executorService, final int bufferSize) {
         this.executorService = executorService;
         this.bufferSize = bufferSize;
-        log.debug("Initialize Joiner with next params:\n" +
-                "\t\t- executorService with " + this.executorService.getClass().getSimpleName() +
-                " with maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + ";\n" +
-                "\t\t- size of buffer for reading and writing = " + this.bufferSize + " bytes.");
+        log.debug("Initialize Joiner with next params: " + this.executorService.getClass().getSimpleName() +
+                " maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + "; " +
+                "size of buffer = " + this.bufferSize + " bytes.");
     }
 
 

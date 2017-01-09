@@ -21,6 +21,9 @@ public class MainClass {
 //        -c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M
 //        -c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M
 
+//        -c split -p C:\Users\yevge_000\IdeaProjects\FileFragmetation\core\src\main\resources\file.bmp -s 1M
+//        -c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M
+
     public static final Logger log = LogManager.getLogger(MainClass.class);
 
     /**

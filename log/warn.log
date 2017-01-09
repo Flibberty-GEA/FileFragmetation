@@ -9,3 +9,5 @@ Method parse(options, args) takes next params:
 		- options (org.apache.commons.cli.Options): [[[ option: c command  [ARG] :: It's a user command :: class java.lang.String ], [ option: p path  [ARG] :: It's a path to file :: class java.lang.String ], [ option: s size  [ARG] :: It's a size of file part :: class java.lang.String ]]]
 		- String[] args: [-с, учше]
 2017-01-06 18:32:06 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Could not parse input arguments. 
+2017-01-07 21:09:37 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp".
+2017-01-07 21:09:37 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Incorrect path name

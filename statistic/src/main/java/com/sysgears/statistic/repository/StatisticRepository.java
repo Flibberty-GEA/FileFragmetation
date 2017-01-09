@@ -73,9 +73,9 @@ public class StatisticRepository {
      * @param size       count of bytes which need to increase actual size on
      */
     public synchronized void increaseActual(final String threadName, final long size) {
-        log.trace("Starts with params: thread name \""+threadName+
-                "\", count of bytes which need to increase actual size on = "+size);
-        log.trace("Old size = "+actualByThread.get(threadName));
+        log.trace("StatisticRepository.increaseActual() starts with params: " +
+                "thread name \""+threadName+ "\", count to increase actual size on = "+size +
+                ". Old size = "+actualByThread.get(threadName));
 
         /* Increase size of work done for current thread. */
         actualByThread.put(threadName, size + actualByThread.get(threadName));

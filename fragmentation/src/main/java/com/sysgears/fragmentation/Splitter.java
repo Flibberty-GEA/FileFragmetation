@@ -1,12 +1,16 @@
 package com.sysgears.fragmentation;
 
+import com.sun.corba.se.impl.orbutil.closure.Future;
 import com.sysgears.statistic.StatisticService;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Class that splits file into parts.
@@ -43,10 +47,9 @@ public class Splitter {
     public Splitter(final ExecutorService executorService) {
         this.executorService = executorService;
         this.bufferSize = DEFAULT_BUFFER_SIZE;
-        log.debug("Initialize Splitter with next params:\n" +
-                "\t\t- executorService with " + this.executorService.getClass().getSimpleName() +
-                " with maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + ";\n" +
-                "\t\t- size of buffer for reading and writing is default = " + this.bufferSize + " bytes.");
+        log.debug("Initialize Splitter with next params: " + this.executorService.getClass().getSimpleName() +
+                " maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + "; " +
+                "default size of buffer = " + this.bufferSize + " bytes.");
     }
 
     /**
@@ -58,10 +61,9 @@ public class Splitter {
     public Splitter(final ExecutorService executorService, final int bufferSize) {
         this.executorService = executorService;
         this.bufferSize = bufferSize;
-        log.debug("Initialize Splitter with next params:\n" +
-                "\t\t- executorService with " + this.executorService.getClass().getSimpleName() +
-                " with maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + ";\n" +
-                "\t\t- size of buffer for reading and writing = " + this.bufferSize + " bytes.");
+        log.debug("Initialize Splitter with next params: " + this.executorService.getClass().getSimpleName() +
+                " maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + "; " +
+                "size of buffer = " + this.bufferSize + " bytes.");
     }
 
     /**
@@ -78,7 +80,6 @@ public class Splitter {
         statistic.setFullExpectedSize(fullSize);
         int partCounter = 0;
         long currentRealPartSize = maxPartSize;
-
         /* While reading position in source file is less than source file size. */
         for (long positionSrc = 0; positionSrc < fullSize; positionSrc += currentRealPartSize) {
             /* Decrease current part size if file ending size is less than part size. */
@@ -92,6 +93,5 @@ public class Splitter {
             executorService.execute(task);
             partCounter++;
         }
-//        executorService.shutdownNow();
     }
 }

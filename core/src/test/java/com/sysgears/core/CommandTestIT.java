@@ -5,6 +5,7 @@ import com.sysgears.controller.StreamController;
 import com.sysgears.core.input.Command;
 import com.sysgears.core.input.InputDataHolder;
 import com.sysgears.core.input.InputException;
+import com.sysgears.fragmentation.Splitter;
 import jdk.nashorn.internal.runtime.regexp.RegExp;
 import jdk.nashorn.internal.runtime.regexp.RegExpMatcher;
 import org.easymock.EasyMock;
