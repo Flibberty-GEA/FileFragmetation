@@ -1,66 +1,31 @@
-2017-01-06 17:56:51 INFO  main MainClass:main:33 - Start program.
-2017-01-06 17:56:51 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 17:56:53 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-06 17:56:54 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 82%, pool-1-thread-1: 93%, pool-1-thread-2: 15%, time remaining: 0.0s.".
-2017-01-06 17:56:55 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 17:56:55 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 17:58:38 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M".
-2017-01-06 17:58:39 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 17:58:39 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 17:59:10 INFO  main StreamController:getMessage:52 - Get message from user. Message: "- sdf".
-2017-01-06 17:59:10 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
+2017-01-10 16:08:44 INFO  main MainClass:main:36 - Start program.
+2017-01-10 16:08:44 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-10 16:08:52 INFO  main StreamController:getMessage:47 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
+2017-01-10 16:08:53 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Total progress: 80%, pool-1-thread-1: 33%, pool-1-thread-2: 99%, time remaining: 0.0s.".
+2017-01-10 16:08:54 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-10 16:08:54 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-10 16:09:03 INFO  main StreamController:getMessage:47 - Get message from user. Message: "-c join -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp_part_0 -s 1M".
+2017-01-10 16:09:04 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Total progress: 98%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
+2017-01-10 16:09:04 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-10 16:09:22 INFO  main StreamController:getMessage:47 - Get message from user. Message: "help".
+2017-01-10 16:09:22 WARN  main AppExecutor:execute:82 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"
-2017-01-06 17:59:10 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command is not supported. 
+2017-01-10 16:09:22 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"".
-2017-01-06 17:59:10 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 17:59:31 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c sdf".
-2017-01-06 17:59:31 WARN  main InputDataHolder:<init>:39 - Command 'sdf' is not supported
-2017-01-06 17:59:31 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'sdf' is not supported
-2017-01-06 17:59:31 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command 'sdf' is not supported".
-2017-01-06 17:59:31 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 17:59:42 INFO  main StreamController:getMessage:52 - Get message from user. Message: "dsfsdf".
-2017-01-06 17:59:42 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
+2017-01-10 16:09:22 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-10 16:09:32 INFO  main StreamController:getMessage:47 - Get message from user. Message: "-c fds ds".
+2017-01-10 16:09:32 WARN  main InputDataHolder:<init>:41 - Command 'fds' is not supported
+2017-01-10 16:09:32 WARN  main AppExecutor:execute:82 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'fds' is not supported
+2017-01-10 16:09:32 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Input arguments are incorrect. Command 'fds' is not supported".
+2017-01-10 16:09:32 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-10 16:09:39 INFO  main StreamController:getMessage:47 - Get message from user. Message: "exit".
+2017-01-10 16:09:39 WARN  main AppExecutor:execute:82 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"
-2017-01-06 17:59:42 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Command is not supported. 
+2017-01-10 16:09:39 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"".
-2017-01-06 17:59:42 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 17:59:46 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
-2017-01-06 17:59:46 INFO  main Command:apply:78 - Starts Command "exit"
-2017-01-06 17:59:46 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2017-01-06 17:59:46 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
-2017-01-06 17:59:46 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
-2017-01-06 18:26:12 INFO  main MainClass:main:33 - Start program.
-2017-01-06 18:26:12 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 18:26:30 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-06 18:26:31 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 93%, pool-1-thread-1: 20%, pool-1-thread-2: 65%, time remaining: 0.0s.".
-2017-01-06 18:26:32 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Total progress: 100%, pool-1-thread-1: 100%, pool-1-thread-2: 100%, time remaining: 0.0s.".
-2017-01-06 18:26:32 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 18:32:06 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-с учше".
-2017-01-06 18:32:06 WARN  main ApacheCliParser:parse:39 - CommandLineParser could not parse input arguments. 
-Method parse(options, args) takes next params:
-		- options (org.apache.commons.cli.Options): [[[ option: c command  [ARG] :: It's a user command :: class java.lang.String ], [ option: p path  [ARG] :: It's a path to file :: class java.lang.String ], [ option: s size  [ARG] :: It's a size of file part :: class java.lang.String ]]]
-		- String[] args: [-с, учше]
-2017-01-06 18:32:06 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Could not parse input arguments. 
-2017-01-06 18:32:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Could not parse input arguments. ".
-2017-01-06 18:32:06 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-06 18:32:13 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
-2017-01-06 18:32:13 INFO  main Command:apply:78 - Starts Command "exit"
-2017-01-06 18:32:13 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2017-01-06 18:32:13 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
-2017-01-06 18:32:13 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
-2017-01-07 21:09:35 INFO  main MainClass:main:33 - Start program.
-2017-01-07 21:09:35 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-07 21:09:36 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p /home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp -s 1M".
-2017-01-07 21:09:37 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp".
-2017-01-07 21:09:37 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Incorrect path name
-2017-01-07 21:09:37 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Input arguments are incorrect. Incorrect path name".
-2017-01-07 21:09:37 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-07 21:10:28 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c split -p C:\Users\yevge_000\IdeaProjects\FileFragmetation\core\src\main\resources\file.bmp -s 1M".
-2017-01-07 21:11:23 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
-2017-01-07 21:12:43 INFO  main StreamController:getMessage:52 - Get message from user. Message: "-c exit".
-2017-01-07 21:12:43 INFO  main Command:apply:78 - Starts Command "exit"
-2017-01-07 21:12:43 INFO  main Command:apply:80 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
-2017-01-07 21:12:43 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Good by!".
-2017-01-07 21:12:43 INFO  main StreamController:closeController:101 - Close BufferedReader and BufferedWriter of stream Controller.
-2017-01-07 21:13:33 INFO  main MainClass:main:36 - Start program.
-2017-01-07 21:13:33 INFO  main StreamController:sendMessage:68 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-10 16:09:39 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Enter parameters OR 'exit' to quit program".
+2017-01-10 16:11:34 INFO  main StreamController:getMessage:47 - Get message from user. Message: "-c exit".
+2017-01-10 16:11:34 INFO  main Command:apply:77 - Starts Command "exit"
+2017-01-10 16:11:34 INFO  main Command:apply:79 - Attempts to stop all actively executing tasks, halts the processing of waiting tasks.
+2017-01-10 16:11:34 INFO  main StreamController:sendMessage:63 - Send message to user. Message: "Good by!".
+2017-01-10 16:11:34 INFO  main StreamController:closeController:96 - Close BufferedReader and BufferedWriter of stream Controller.

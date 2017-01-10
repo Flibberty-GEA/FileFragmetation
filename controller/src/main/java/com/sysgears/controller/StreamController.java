@@ -29,11 +29,6 @@ public class StreamController implements Controller {
         this.isOpen = true;
     }
 
-    @Override
-    public BufferedWriter getWriter() {
-        return writer;
-    }
-
     /**
      * Gets message from user.
      *

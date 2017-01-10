@@ -24,8 +24,6 @@ public interface Controller {
      */
     void sendMessage(String message) ;
 
-    BufferedWriter getWriter();
-
     /**
      * Check is Controller open.
      *

@@ -1,19 +1,18 @@
 package com.sysgears.fragmentation;
 
-import com.sun.corba.se.impl.orbutil.closure.Future;
 import com.sysgears.statistic.StatisticService;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+
 
 /**
- * Class that splits file into parts.
+ * Split file into parts.
+ *
+ * @author Yevgen Goliuk
  */
 public class Splitter {
     public static final Logger log = LogManager.getLogger(Splitter.class);
@@ -47,7 +46,7 @@ public class Splitter {
     public Splitter(final ExecutorService executorService) {
         this.executorService = executorService;
         this.bufferSize = DEFAULT_BUFFER_SIZE;
-        log.debug("Initialize Splitter with next params: " + this.executorService.getClass().getSimpleName() +
+        log.debug("Initialize Splitter with params: " + this.executorService.getClass().getSimpleName() +
                 " maximum pool size = " + ((ThreadPoolExecutor) this.executorService).getMaximumPoolSize() + "; " +
                 "default size of buffer = " + this.bufferSize + " bytes.");
     }
@@ -69,14 +68,16 @@ public class Splitter {
     /**
      * Splits file into parts.
      *
-     * @param statistic statistic object.
-     * @param originalFile       source file than need to split
+     * @param statistic    statistic object.
+     * @param originalFile source file than need to split
      * @param maxPartSize  size of parts that need to split a file
      */
     public void split(final StatisticService statistic, final File originalFile, final long maxPartSize) {
+        log.debug("params: " + statistic.getClass().getSimpleName() + "; " +
+                " file " + originalFile.getPath() + "; " +
+                "max part size = " + maxPartSize + " bytes.");
 
         long fullSize = originalFile.length();
-        log.debug("Set full size of work for statistic. Size = " + fullSize);
         statistic.setFullExpectedSize(fullSize);
         int partCounter = 0;
         long currentRealPartSize = maxPartSize;
@@ -89,7 +90,7 @@ public class Splitter {
 
             File resultFile = new File(originalFile.getAbsolutePath() + partNamePostfix + partCounter);
             Task task = new Task(originalFile, positionSrc, currentRealPartSize, resultFile, 0, statistic, bufferSize);
-            log.debug("Initialize and execute task number " + (partCounter + 1));
+            log.debug("Execute task number " + (partCounter + 1));
             executorService.execute(task);
             partCounter++;
         }

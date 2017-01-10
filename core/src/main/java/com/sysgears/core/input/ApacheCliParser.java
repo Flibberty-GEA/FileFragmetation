@@ -23,8 +23,7 @@ public class ApacheCliParser implements InputDataParser {
      *                        could not parse input arguments
      */
     public InputDataHolder parse(final String[] args) {
-        log.debug("Starts with parameter " + args.getClass().getTypeName() +
-                " which includes " + Arrays.toString(args));
+        log.debug("Starts with args " + Arrays.toString(args));
         final Options options = new Options();
 
         options.addOption("c", "command", true, "It's a user command");
@@ -37,10 +36,10 @@ public class ApacheCliParser implements InputDataParser {
             cmd = parser.parse(options, args);
         } catch (ParseException e) {
             log.warn("CommandLineParser could not parse input arguments. \n" +
-                    "Method parse(options, args) takes next params:\n" +
-                    "\t\t- options (org.apache.commons.cli.Options): " +
-                    Arrays.toString(new Object[]{options.getOptions()}) + "\n" +
-                    "\t\t- String[] args: " + Arrays.toString(args)); // add info param
+                    "Method parse(options, args) takes next params: " +
+                    "org.apache.commons.cli.Options " +
+                    Arrays.toString(new Object[]{options.getOptions()}) + "; " +
+                    "args " + Arrays.toString(args)); // add info param
             throw new InputException("Could not parse input arguments. ");
         }
         InputDataHolder result = new InputDataHolder(cmd);

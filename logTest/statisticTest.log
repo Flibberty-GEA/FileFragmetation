@@ -1,66 +1,18 @@
-2017-01-06 13:21:35 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
-2017-01-06 13:21:35 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 13:21:35 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 16:55:40 WARN  main InputDataHolder:<init>:39 - Command 'sffsdf' is not supported
-2017-01-06 16:55:40 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 16:55:40 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:22:36 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:22:36 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:22:36 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:23:13 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:23:13 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:23:13 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:24:21 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:24:21 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:24:21 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:25:01 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:25:01 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:25:01 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:25:55 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:25:55 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:25:55 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:26:09 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:26:09 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:26:09 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:26:47 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:26:47 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:26:47 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:49:19 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:49:19 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:49:19 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 17:50:07 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 17:50:07 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 17:50:07 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 18:08:58 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 18:08:58 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 18:08:58 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-06 18:14:33 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-06 18:14:33 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-06 18:14:33 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-07 18:39:30 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-07 18:39:30 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-07 18:39:30 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-10 13:14:29 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-10 13:14:29 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-10 13:14:29 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-10 13:15:56 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-10 13:15:56 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-10 13:15:56 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-10 13:16:55 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-10 13:16:55 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-10 13:16:55 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-10 13:26:36 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-10 13:26:36 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-10 13:26:36 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-10 13:27:45 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-10 13:27:45 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-10 13:27:45 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-10 13:28:43 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-10 13:28:43 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-10 13:28:43 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-10 13:30:39 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-10 13:30:39 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-10 13:30:39 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
-2017-01-10 13:32:24 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
-2017-01-10 13:32:24 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
-2017-01-10 13:32:24 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-10 15:38:14 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
+2017-01-10 15:38:14 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-10 15:38:14 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".
+2017-01-10 15:56:32 WARN  main Command:getCommandByValue:128 - Command "null" is not supported. Throw InputException.
+2017-01-10 15:56:32 WARN  main Command:getCommandByValue:134 - Command is empty. Throw InputException.
+2017-01-10 15:56:35 WARN  main InputDataHolder:<init>:41 - Command 'lol' is not supported
+2017-01-10 15:56:35 WARN  main InputDataHolder:<init>:48 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-10 15:56:35 WARN  main InputDataHolder:<init>:63 - Incorrect number format "1B".
+2017-01-10 16:19:26 WARN  main Command:getCommandByValue:128 - Command "null" is not supported. Throw InputException.
+2017-01-10 16:19:26 WARN  main Command:getCommandByValue:134 - Command is empty. Throw InputException.
+2017-01-10 16:19:29 WARN  main InputDataHolder:<init>:41 - Command 'lol' is not supported
+2017-01-10 16:19:29 WARN  main InputDataHolder:<init>:48 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-10 16:19:29 WARN  main InputDataHolder:<init>:63 - Incorrect number format "1B".
+2017-01-10 18:04:22 WARN  main Command:getCommandByValue:128 - Command "null" is not supported. Throw InputException.
+2017-01-10 18:04:22 WARN  main Command:getCommandByValue:134 - Command is empty. Throw InputException.
+2017-01-10 18:04:25 WARN  main InputDataHolder:<init>:41 - Command 'lol' is not supported
+2017-01-10 18:04:25 WARN  main InputDataHolder:<init>:48 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-10 18:04:25 WARN  main InputDataHolder:<init>:63 - Incorrect number format "1B".

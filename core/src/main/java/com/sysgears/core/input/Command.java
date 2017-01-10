@@ -12,7 +12,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
 
 /**
  * Enumeration of users command.
@@ -21,19 +20,20 @@ public enum Command {
     /**
      * Command to split file into parts.
      */
-    SPLIT("split"){
+    SPLIT("split") {
         public void apply(final InputDataHolder inputDataHolder,
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
 
-            log.debug("Starts with parameters:\n" + "\t\t- " + inputDataHolder.getClass() +
-                    " which includes Command \"" + inputDataHolder.getCommand() +
+            log.debug("Starts with params: " + inputDataHolder.getClass().getSimpleName() +
+                    " (Command \"" + inputDataHolder.getCommand() +
                     "\", file object  \"" + inputDataHolder.getFile().getName() +
-                    "\", size of file part " + inputDataHolder.getSize() + " bytes;\n" +
-                    "\t\t- " + executorService.getClass() +
-                    ((executorService instanceof ThreadPoolExecutor)? " with maximum allowed number of threads = "
-                            + ((ThreadPoolExecutor)executorService).getMaximumPoolSize() : "") + "\n" +
-                    "\t\t- " + controller.getClass());
+                    "\", size of file part " + inputDataHolder.getSize() + " bytes); " +
+                    executorService.getClass().getSimpleName() +
+                    " with maximum allowed number of threads = " +
+                    ((ThreadPoolExecutor) executorService).getMaximumPoolSize() + "; " +
+                    controller.getClass().getSimpleName());
+
             StatisticService statistic = new StatisticServiceImpl();
             Splitter splitter = new Splitter(executorService);
             File fileIn = inputDataHolder.getFile();
@@ -46,20 +46,19 @@ public enum Command {
     /**
      * Command to join parts of file.
      */
-    JOIN("join"){
+    JOIN("join") {
         public void apply(final InputDataHolder inputDataHolder,
                           final ExecutorService executorService,
                           final Controller controller) throws IOException {
-            log.debug("Starts with parameters:\n" + "\t\t- " + inputDataHolder.getClass() +
-                    " which includes Command \"" + inputDataHolder.getCommand() +
+            log.debug("Starts with parameters: " + inputDataHolder.getClass().getSimpleName() +
+                    " (Command \"" + inputDataHolder.getCommand() +
                     "\", file object  \"" + inputDataHolder.getFile().getName() +
-                    "\", size of file part " + inputDataHolder.getSize() + " bytes;\n" +
-                    "\t\t- " + executorService.getClass() +
-                    ((executorService instanceof ThreadPoolExecutor)? " with maximum allowed number of threads = "
-                            + ((ThreadPoolExecutor)executorService).getMaximumPoolSize() : "") + "\n" +
-                    "\t\t- " + controller.getClass());
+                    "\", size of file part " + inputDataHolder.getSize() + " bytes); " +
+                    executorService.getClass().getSimpleName() +
+                    " with maximum allowed number of threads = " +
+                    ((ThreadPoolExecutor) executorService).getMaximumPoolSize() + "; " +
+                    controller.getClass().getSimpleName());
 
-            log.debug("Initialize StatisticService and Joiner.");
             StatisticService statistic = new StatisticServiceImpl();
             Joiner joiner = new Joiner(executorService);
             File anyPart = inputDataHolder.getFile();
@@ -126,12 +125,16 @@ public enum Command {
             }
             log.debug("Create Command \"" + value + "\".");
         } catch (NullPointerException e) {
+            log.warn("Command \"" + value + "\" is not supported. Throw InputException.");
             throw new InputException("Command is not supported.\nPlease enter correct command " +
                     "like this \"-c split -p /file_path.file_name -s size_of_part\"");
         }
         if (command != null) return command;
-        else throw new InputException("Command is not supported.\nPlease enter correct command " +
-                "like this \"-c split -p /file_path.file_name -s size_of_part\"");
+        else {
+            log.warn("Command is empty. Throw InputException.");
+            throw new InputException("Command is not supported.\nPlease enter correct command " +
+                    "like this \"-c split -p /file_path.file_name -s size_of_part\"");
+        }
     }
 
     /**
@@ -140,13 +143,14 @@ public enum Command {
      * @param inputCommand string user's command
      * @return true if command is correct
      */
-    public static boolean isCommandCorrect(final String inputCommand){
+    public static boolean isCommandCorrect(final String inputCommand) {
         String userCommand = inputCommand.toLowerCase();
-        for (Command comm: Command.values()) {
-            if(comm.toString().equals(userCommand)){
+        for (Command comm : Command.values()) {
+            if (comm.toString().equals(userCommand)) {
                 return true;
             }
-        } return false;
+        }
+        return false;
     }
 
     /**
@@ -155,7 +159,7 @@ public enum Command {
      * @param inputDataHolder specified objects with data from user's command:
      *                        command name, file for splitting or joining, size of file part
      * @param executorService
-     * @param controller for input and output streams
+     * @param controller      for input and output streams
      * @throws IOException
      */
     public abstract void apply(final InputDataHolder inputDataHolder,
@@ -166,12 +170,12 @@ public enum Command {
      * Print statistic info.
      *
      * @param executorService
-     * @param statistic service for storages and accesses to statistical data
-     * @param controller for input and output streams
+     * @param statistic       service for storages and accesses to statistical data
+     * @param controller      for input and output streams
      */
     protected void printStatistic(final ExecutorService executorService,
                                   final StatisticService statistic,
-                                  final Controller controller){
+                                  final Controller controller) {
         while (((ThreadPoolExecutor) executorService).getActiveCount() > 0) {
             String statisticMessage = statistic.getInfoByTimer(statistic.STATISTIC_SHOW_TIMEOUT);
             controller.sendMessage(statisticMessage);

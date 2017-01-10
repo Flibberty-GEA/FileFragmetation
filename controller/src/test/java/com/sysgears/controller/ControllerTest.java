@@ -8,6 +8,8 @@ import static org.easymock.EasyMock.expect;
 
 
 /**
+ * Unit test for Maven.
+ *
  * @author yevgen
  */
 public class ControllerTest {
@@ -25,12 +27,4 @@ public class ControllerTest {
     public void testUnit(){
         Assert.assertTrue(controller.isOpen());
     }
-
-//    @Test(groups = {"all-tests"})
-//    public void testExceptionInSendMessage(){
-//        Controller controller = new StreamController(System.in, System.out);
-//        Assert.assertTrue(controller.isOpen());
-////        controller.closeController();
-////        Assert.assertFalse(controller.isOpen());
-//    }
 }

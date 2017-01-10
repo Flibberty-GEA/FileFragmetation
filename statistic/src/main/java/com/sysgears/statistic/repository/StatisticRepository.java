@@ -53,6 +53,8 @@ public class StatisticRepository {
      * @param expectedSize full size of work for current thread
      */
     public synchronized void setExpected(final String threadName, final Long expectedSize) {
+        log.trace("StatisticRepository:setExpected with params: " +
+                "thread name \""+threadName+ "\"; size of work = "+ expectedSize);
         expectedByThread.put(threadName, expectedSize);
     }
 
@@ -63,6 +65,8 @@ public class StatisticRepository {
      * @param actualSize size of work done for current thread
      */
     public synchronized void setActual(final String threadName, final Long actualSize) {
+        log.trace("StatisticRepository:setActual with params: " +
+                "thread name \""+threadName+ "\"; size of work done = "+ actualSize);
         actualByThread.put(threadName, actualSize);
     }
 
@@ -73,8 +77,8 @@ public class StatisticRepository {
      * @param size       count of bytes which need to increase actual size on
      */
     public synchronized void increaseActual(final String threadName, final long size) {
-        log.trace("StatisticRepository.increaseActual() starts with params: " +
-                "thread name \""+threadName+ "\", count to increase actual size on = "+size +
+        log.trace("StatisticRepository:increaseActual with params: " +
+                "thread name \""+threadName+ "\"; increase actual size on = "+size +
                 ". Old size = "+actualByThread.get(threadName));
 
         /* Increase size of work done for current thread. */

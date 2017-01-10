@@ -5,16 +5,12 @@ import com.sysgears.controller.StreamController;
 import com.sysgears.core.input.Command;
 import com.sysgears.core.input.InputDataHolder;
 import com.sysgears.core.input.InputException;
-import com.sysgears.fragmentation.Splitter;
-import jdk.nashorn.internal.runtime.regexp.RegExp;
-import jdk.nashorn.internal.runtime.regexp.RegExpMatcher;
 import org.easymock.EasyMock;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;
@@ -24,6 +20,8 @@ import static org.easymock.EasyMock.*;
 
 
 /**
+ * Integration tests for Command.
+ *
  * @author Yevgen Goliuk
  */
 public class CommandTestIT {
@@ -31,12 +29,12 @@ public class CommandTestIT {
             "pool-\\d+-thread-[12]: (100|[1-9]?[0-9]{1})%, " +
             "pool-\\d+-thread-[12]: (100|[1-9]?[0-9]{1})%, " +
             "time remaining: \\d+\\.\\d+s\\.";
-    final FileUtil fileUtil = new FileUtil();
+    final FileCreator fileCreator = new FileCreator();
     File file;
     String prefix = "_part_";
 
     @DataProvider
-    public Object[][] parseCommand() {
+    public Object[][] correctCommand() {
         return new Object[][]{
                 {"exit", Command.EXIT},
                 {"eXiT", Command.EXIT},
@@ -46,30 +44,30 @@ public class CommandTestIT {
     }
 
     @DataProvider
-    public Object[][] parseWrongCommand() {
+    public Object[][] wrongCommand() {
         return new Object[][]{
                 {null, null},
                 {"x", null}
         };
     }
 
-    @Test(dataProvider = "parseCommand", groups = { "all-tests" })
+    @Test(dataProvider = "correctCommand", groups = { "all-tests" })
     public void testCommandCreatorByCorrectValue(String command, Command expected) {
         final Command actual = Command.getCommandByValue(command);
         Assert.assertEquals(actual, expected);
     }
 
-    @Test(dataProvider = "parseWrongCommand", expectedExceptions = InputException.class, groups = { "all-tests" })
+    @Test(dataProvider = "wrongCommand", expectedExceptions = InputException.class, groups = { "all-tests" })
     public void testCommandCreatorByWrongValue(String command, Command expected) {
         final Command actual = Command.getCommandByValue(command);
         Assert.assertEquals(actual, expected);
     }
 
 
-    @Test(/*expectedExceptions = IOException.class, */groups = { "all-tests" })
+    @Test(groups = { "all-tests" })
     public void testCommandSplitApply() throws IOException {
         final InputDataHolder inputDataHolder = EasyMock.createMock(InputDataHolder.class);
-        file = fileUtil.createFile("commandTest.txt", 35700034);
+        file = fileCreator.createFile("commandTest.txt", 35700034);
 
         expect(inputDataHolder.getCommand()).andReturn("split").anyTimes();
         expect(inputDataHolder.getSize()).andReturn(1000000L).anyTimes();

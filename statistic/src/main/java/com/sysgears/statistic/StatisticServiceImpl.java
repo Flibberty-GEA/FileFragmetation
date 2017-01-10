@@ -27,6 +27,7 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public void setFullExpectedSize(long expectedSize) {
+        log.trace("StatisticServiceImpl:setFullExpectedSize with expected size = " + expectedSize + "bytes.");
         repository.setFullExpectedSize(expectedSize);
     }
 
@@ -38,7 +39,7 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public synchronized void setExpected(final String threadName, final Long expectedSize) {
-        log.trace("StatisticServiceImpl.setExpected() starts with params: " +
+        log.trace("StatisticServiceImpl:setExpected with params: " +
                 "thread name \"" + threadName + "\"; expected size = " + expectedSize + "bytes.");
         repository.setExpected(threadName, expectedSize);
     }
@@ -51,7 +52,7 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public synchronized void setActual(final String threadName, final Long actualSize) {
-        log.trace("StatisticServiceImpl.setActual() starts with params: " +
+        log.trace("StatisticServiceImpl:setActual with params: " +
                 "thread name \"" + threadName + "\"; actual size = " + actualSize + "bytes.");
         repository.setActual(threadName, actualSize);
     }
@@ -64,7 +65,7 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public synchronized void increaseActual(final String threadName, final long size) {
-        log.trace("StatisticServiceImpl.increaseActual() starts with params: " +
+        log.trace("StatisticServiceImpl:increaseActual starts with params: " +
                 "thread name \"" + threadName + "\"; " + "count to increase size on = " + size + "bytes.");
         repository.increaseActual(threadName, size);
     }
@@ -76,8 +77,6 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public synchronized String get() {
-
-        log.debug("call to method get()");
 
         /* Calculate total percent of work done. */
         final long totalPercent = 100 * repository.getActualSize() / repository.getExpectedSize();
@@ -106,7 +105,7 @@ public class StatisticServiceImpl implements StatisticService {
         /* Append time remaining into statistic string. */
         statistic.append("time remaining: ").append(timeRemainingSec).append("s.");
 
-        log.debug("Return string with statistic for all threads:\"" + statistic.toString() + "\'");
+        log.debug("Return statistic for all threads:\"" + statistic.toString() + "\'");
 
         return statistic.toString();
     }
@@ -119,6 +118,7 @@ public class StatisticServiceImpl implements StatisticService {
      */
     @Override
     public String getInfoByTimer(final long timeout) {
+        log.debug("call to method. timeout = "+timeout);
         final long correctTimeout;
         if(timeout<STATISTIC_SHOW_TIMEOUT) correctTimeout = STATISTIC_SHOW_TIMEOUT;
         else correctTimeout=timeout;

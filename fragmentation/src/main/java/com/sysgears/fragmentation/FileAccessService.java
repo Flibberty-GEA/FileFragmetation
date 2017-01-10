@@ -27,6 +27,8 @@ public class FileAccessService {
                     byte[] buffer,
                     final long position,
                     final int limitBytesRead) throws IOException {
+        log.trace("FileAccessService:red with param: file to read "+originalFile.getPath() + ", " +
+                "buffer size "+buffer.length+", position to read "+position+", length of bytes to read "+limitBytesRead);
 
         /* Lock file before reading. */
         synchronized (originalFile) {
@@ -58,6 +60,8 @@ public class FileAccessService {
                       final byte[] buff,
                       final long position,
                       final int len) throws IOException {
+        log.trace("FileAccessService:red with param: file to write "+resultFile.getPath() + ", " +
+                "buffer size "+buff.length+", position to write "+position+", length of bytes to write "+len);
 
         /* Lock file before writing. */
         synchronized (resultFile) {

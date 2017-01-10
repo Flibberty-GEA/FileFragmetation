@@ -13,11 +13,13 @@ import java.io.File;
 
 
 /**
+ * Integration tests for InputDataHolder and InputDataParser.
+ *
  * @author Yevgen Goliuk
  */
 public class InputDataParserAndHolderTetsIT {
-    FileUtil fileUtil = new FileUtil();
-    File file = fileUtil.createFile("parseAndHolderTest.txt", 35700034);
+    FileCreator fileCreator = new FileCreator();
+    File file = fileCreator.createFile("parseAndHolderTest.txt", 35700034);
 
     String commandForExit = "-c exit";
     String correctCommandForSplitFile = "-c split -p "+file.getPath()+" -s 1M";

@@ -30,7 +30,9 @@ public class InputDataHolder {
         try {
             inputCommand.isEmpty();
         } catch (NullPointerException n){
-            throw new InputException("Command is not supported. \nPlease enter correct command like this \"-c split -p /file_path.file_name -s size_of_part\"");
+            throw new InputException("Command is not supported. \n" +
+                    "Please enter correct command like this " +
+                    "\"-c split -p /file_path.file_name -s size_of_part\"");
         }
 
         if (Command.isCommandCorrect(inputCommand)) {
@@ -80,7 +82,6 @@ public class InputDataHolder {
      * @return string with user command
      */
     public String getCommand() {
-//        log.debug("User command \"" + command + "\".");
         return command;
     }
 
@@ -91,7 +92,6 @@ public class InputDataHolder {
      * @return the users file object
      */
     public File getFile() {
-//        log.debug("Users file object \"" + file.getName() + "\".");
         return file;
     }
 
@@ -101,7 +101,6 @@ public class InputDataHolder {
      * @return size of file part
      */
     public long getSize() {
-//        log.debug("Size of file part = " + size + " bytes.");
         return size;
     }
 }

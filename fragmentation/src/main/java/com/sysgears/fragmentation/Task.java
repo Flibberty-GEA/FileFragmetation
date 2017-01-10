@@ -77,7 +77,7 @@ public class Task implements Runnable {
         this.positionIntoResultFile = positionIntoResultFile;
         this.statistic = statistic;
         this.bufferForBytes = new byte[bufferSize];
-        log.trace("Initialize Task "+this.toString()+" with next param: file to read "+originalFile.getPath() + ", " +
+        log.trace("Initialize Task "+this.toString()+" with param: file to read "+originalFile.getPath() + ", " +
                 "position to read "+positionFromOriginalFile+", length of bytes to read "+partSize+", " +
                 "file to write "+resultFile.getName()+", position to write "+positionIntoResultFile+", " +
                 "statistic service "+statistic.getClass().getSimpleName()+", buffer size "+bufferForBytes.length+".");
@@ -91,7 +91,7 @@ public class Task implements Runnable {
         /* Initialize name of current thread. */
         String threadName = Thread.currentThread().getName();
 
-        log.trace("Starts run() for Task "+this.toString()+" in Thread " + threadName);
+        log.trace("Task:run start "+this.toString()+" in Thread " + threadName);
 
         /* Initialize size of expected work for current worker. */
         statistic.setExpected(threadName, currentPartSize);
@@ -116,13 +116,12 @@ public class Task implements Runnable {
 
                 /* Write data into destination file. */
                 fileAccessService.write(resultFile, bufferForBytes, positionIntoResultFile + doneSize, size);
-            } catch (IOException ignore) {
-                log.warn("Writing error.", ignore);
+            } catch (IOException i) {
+                log.warn("Writing error.", i);
             }
 
             /* Increment actual size of done work. */
             statistic.increaseActual(threadName, bufferLength);
         }
-//        log.debug("Finishes run() in Thread " + threadName);
     }
 }

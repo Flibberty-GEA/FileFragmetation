@@ -1,7 +1,5 @@
 package com.sysgears.statistic;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
 
 /**
  * Service for storages and accesses to statistical data.

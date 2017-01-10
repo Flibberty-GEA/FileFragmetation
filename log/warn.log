@@ -1,13 +1,6 @@
-2017-01-06 17:59:10 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
+2017-01-10 16:09:22 WARN  main AppExecutor:execute:82 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"
-2017-01-06 17:59:31 WARN  main InputDataHolder:<init>:39 - Command 'sdf' is not supported
-2017-01-06 17:59:31 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'sdf' is not supported
-2017-01-06 17:59:42 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
+2017-01-10 16:09:32 WARN  main InputDataHolder:<init>:41 - Command 'fds' is not supported
+2017-01-10 16:09:32 WARN  main AppExecutor:execute:82 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command 'fds' is not supported
+2017-01-10 16:09:39 WARN  main AppExecutor:execute:82 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Command is not supported. 
 Please enter correct command like this "-c split -p /file_path.file_name -s size_of_part"
-2017-01-06 18:32:06 WARN  main ApacheCliParser:parse:39 - CommandLineParser could not parse input arguments. 
-Method parse(options, args) takes next params:
-		- options (org.apache.commons.cli.Options): [[[ option: c command  [ARG] :: It's a user command :: class java.lang.String ], [ option: p path  [ARG] :: It's a path to file :: class java.lang.String ], [ option: s size  [ARG] :: It's a size of file part :: class java.lang.String ]]]
-		- String[] args: [-с, учше]
-2017-01-06 18:32:06 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Could not parse input arguments. 
-2017-01-07 21:09:37 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/home/yevgen/IdeaProjects/FileFragmetation/core/src/main/resources/file.bmp".
-2017-01-07 21:09:37 WARN  main AppExecutor:execute:86 - InputException com.sysgears.core.input.InputException: Input arguments are incorrect. Incorrect path name

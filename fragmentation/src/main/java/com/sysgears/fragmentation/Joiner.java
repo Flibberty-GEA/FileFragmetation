@@ -1,7 +1,6 @@
 package com.sysgears.fragmentation;
 
 import com.sysgears.statistic.StatisticService;
-import com.sysgears.statistic.repository.StatisticRepository;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -10,6 +9,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
+ * Join file parts into one file.
+ *
  * @author Yevgen Goliuk
  */
 public class Joiner {
@@ -38,7 +39,7 @@ public class Joiner {
     /**
      * Construct Joiner with executor service and default buffer size.
      *
-     * @param executorService executor that executes workers.
+     * @param executorService executor that executes workers
      */
     public Joiner(final ExecutorService executorService) {
         this.executorService = executorService;
@@ -51,8 +52,8 @@ public class Joiner {
     /**
      * Construct Joiner with executor service and bytes buffer.
      *
-     * @param executorService executor that executes workers.
-     * @param bufferSize      size of buffer for reading and writing bytes.
+     * @param executorService executor that executes workers
+     * @param bufferSize      size of buffer for reading and writing bytes
      */
     public Joiner(final ExecutorService executorService, final int bufferSize) {
         this.executorService = executorService;
@@ -66,10 +67,12 @@ public class Joiner {
     /**
      * Joins parts of the file.
      *
-     * @param statistic statistic object.
-     * @param anyPart   any part of file which needs to join.
+     * @param statistic statistic object
+     * @param anyPart   any part of file which needs to join
      */
     public void join(final StatisticService statistic, final File anyPart) {
+        log.debug("params: " + statistic.getClass().getSimpleName() + "; " +
+                " file " + anyPart.getPath() + ".");
 
         String partWithNumbRegex = partNamePostfix + "\\d+$";
         String originalFilePath = anyPart.getAbsolutePath().replaceAll(partWithNumbRegex, "");
@@ -79,11 +82,10 @@ public class Joiner {
         for (int counter = 0; new File(originalFilePath + partNamePostfix + counter).exists(); counter++) {
             File originalFile = new File(originalFilePath + partNamePostfix + counter);
             Task task = new Task(originalFile, 0, originalFile.length(), resultFile, positionReultFiel, statistic, bufferSize);
-            log.debug("Initialize and execute task number " + (counter + 1));
+            log.debug("Execute task number " + (counter + 1));
             executorService.execute(task);
             positionReultFiel += anyPart.length();
         }
-        log.debug("Set full size of work for statistic. Size = " + positionReultFiel);
         statistic.setFullExpectedSize(positionReultFiel);
     }
 }

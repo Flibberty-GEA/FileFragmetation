@@ -39,10 +39,8 @@ public class AppExecutor {
         this.streamController = streamController;
         this.inputDataParser = inputDataParser;
         this.executorService = Executors.newFixedThreadPool(threadPoolSize);
-        log.debug("Initialize AppExecutor with next params:\n" +
-                "\t\t- streamController to contact with user;\n" +
-                "\t\t- inputDataParser to parse input messages from user;\n" +
-                "\t\t- executorService with ThreadPoolExecutor with default thread pool size = " + threadPoolSize);
+        log.debug("Initialize AppExecutor with params: " +
+                "StreamController, InputDataParser, ThreadPoolExecutor with default pool size = " + threadPoolSize);
     }
 
     /**
@@ -60,10 +58,8 @@ public class AppExecutor {
         this.streamController = streamController;
         this.inputDataParser = inputDataParser;
         this.executorService = Executors.newFixedThreadPool(nThreads);
-        log.debug("Initialize AppExecutor with next params:\n" +
-                "\t\t- streamController to contact with user;\n" +
-                "\t\t- inputDataParser to parse input messages from user;\n" +
-                "\t\t- executorService with ThreadPoolExecutor with users thread pool size = " + nThreads);
+        log.debug("Initialize AppExecutor with params: " +
+                "StreamController, InputDataParser, ThreadPoolExecutor with pool size = " + nThreads);
     }
 
     /**
