@@ -1,12 +1,13 @@
 package com.sysgears.fragmentation.integratively;
 
 import org.apache.commons.codec.digest.DigestUtils;
-import org.testng.annotations.Test;
 
 import java.io.*;
-import java.nio.file.Files;
+
 
 /**
+ * Utility for work with File.
+ *
  * @author yevgen
  */
 public class FileUtil {
@@ -70,24 +71,20 @@ public class FileUtil {
 
     public File createFile(final String fileName, final int fileSize) {
         File file = new File(absoluteResorsePath + fileName);
+        byte[] data = new byte[fileSize];
         try {
-            byte[] data = new byte[fileSize];
             for (int i = 0; i < data.length; i++) {
                 data[i] = (byte) (Math.random() * 2);
             }
-            RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
-            randomAccessFile.seek(0L);
-            randomAccessFile.write(data);
-            randomAccessFile.close();
+            RandomAccessFile accessFile = new RandomAccessFile(file, "rw");
+            accessFile.seek(0L);
+            accessFile.write(data);
+            accessFile.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (IOException e) {
-
+        } catch (IOException i) {
+            i.printStackTrace();
         }
         return file;
-    }
-
-    public String getAbsoluteResorsePath() {
-        return absoluteResorsePath;
     }
 }

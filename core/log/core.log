@@ -628,3 +628,24 @@
 		- class com.sysgears.core.input.InputDataHolder$$EnhancerByCGLIB$$a0621456 which includes Command "split", file object  "commandTest.txt", size of file part 1000000 bytes;
 		- class java.util.concurrent.ThreadPoolExecutor with maximum allowed number of threads = 2
 		- class com.sysgears.controller.StreamController$$EnhancerByCGLIB$$b14e20f5
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, exit]
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:73 - User command "exit".
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/parseAndHolderTest.txt, -s, 1M]
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:67 - User command "split". User's file object "parseAndHolderTest.txt". Size of file part = 1000000 bytes.
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, join, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/parseAndHolderTest.txt, -s, 1K]
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:67 - User command "join". User's file object "parseAndHolderTest.txt". Size of file part = 1000 bytes.
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:47 - Return com.sysgears.core.input.InputDataHolder
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, lol, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/parseAndHolderTest.txt, -s, 1M]
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-10 13:13:41 WARN  main InputDataHolder:<init>:39 - Command 'lol' is not supported
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /wrong_file_path/testFile.bmp, -s, 1M]
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-10 13:13:41 WARN  main InputDataHolder:<init>:46 - Incorrect path name "/wrong_file_path/testFile.bmp".
+2017-01-10 13:13:41 DEBUG main ApacheCliParser:parse:26 - Starts with parameter java.lang.String[] which includes [-c, split, -p, /home/yevgen/IdeaProjects/FileFragmetation/core/target/test-classes/../../src/test/resources/parseAndHolderTest.txt, -s, 1B]
+2017-01-10 13:13:41 DEBUG main InputDataHolder:<init>:28 - Create InputDataHolder with param class org.apache.commons.cli.CommandLine.
+2017-01-10 13:13:41 WARN  main InputDataHolder:<init>:61 - Incorrect number format "1B".

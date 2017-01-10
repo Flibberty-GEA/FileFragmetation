@@ -12,15 +12,14 @@ import java.util.Currency;
 import java.util.concurrent.*;
 
 /**
+ * Compare results files after splitting and joining.
+ *
  * @author yevgen
  */
 public class CompareSplittingAndJoinningTestIT {
     ExecutorService service;
     StatisticService statistic = new StatisticServiceImpl();
-    Splitter splitter;
-    Joiner joiner;
     FileUtil fileUtil = new FileUtil();
-
 
     File originalFile = fileUtil.createFile("original.txt", 37472054);
     File copyFile = fileUtil.copyFile(originalFile, "copy.txt");
@@ -33,24 +32,25 @@ public class CompareSplittingAndJoinningTestIT {
     long maxPartSize = 1000000L;
     int count = (int) (copyFile.length() / maxPartSize);
 
-    @BeforeMethod
+    @BeforeMethod(groups = {"all-tests"})
     public void createExecutorService(){
         service = Executors.newFixedThreadPool(2);
     }
 
+    /**
+     * Is the splitting correct?
+     */
     @Test(groups = {"all-tests"})
     public void splitBeforeJoining() {
-
-        splitter = new Splitter(service);
 
         Assert.assertTrue(originalFile.length() == copyFile.length());
         Assert.assertFalse(originalFile.equals(copyFile));
         Assert.assertTrue(fileUtil.compareFilesByHash(originalFile, copyFile));
 
-        splitter.split(statistic, this.copyFile, maxPartSize);
+        new Splitter(service).split(statistic, this.copyFile, maxPartSize);
         service.shutdown();
         try {
-            service.awaitTermination(100, TimeUnit.SECONDS);
+            service.awaitTermination(2, TimeUnit.MINUTES);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -75,15 +75,18 @@ public class CompareSplittingAndJoinningTestIT {
         this.copyFile.delete();
     }
 
+    /**
+     * Is the joining correct?
+     *
+     * Join has to joining all parts in the same file, which was splitting before.
+     */
     @Test(groups = {"all-tests"}, dependsOnMethods = {"splitBeforeJoining"})
-    public void testMain() {
-
-        joiner = new Joiner(service);
-        joiner.join(statistic, new File(testFileName + prefix + 0));
+    public void joinAfterSplitting() {
+        new Joiner(service).join(statistic, new File(testFileName + prefix + 0));
 
         service.shutdown();
         try {
-            service.awaitTermination(100, TimeUnit.SECONDS);
+            service.awaitTermination(2, TimeUnit.MINUTES);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -105,6 +108,5 @@ public class CompareSplittingAndJoinningTestIT {
             deleteFile = new File(testFileName + prefix + index);
             deleteFile.delete();
         }
-//        new File(testFileName).delete();
     }
 }
